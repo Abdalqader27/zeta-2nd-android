@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="ltr"
+    android:orientation="vertical">
+
+    <include layout="@layout/separator_layout_sample" />
+
+    <TextView
+        android:id="@+id/quiz_2017"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/muli_regular"
+        android:gravity="start"
+        android:text="1 ) The Main Idea in The paragraph is  : "
+        android:textColor="@color/backber"
+        android:textDirection="ltr"
+        android:textSize="16sp"
+
+        android:textStyle="bold" />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/cardborder"
+            android:orientation="vertical">
+
+
+            <RadioGroup
+                android:id="@+id/RG1_2017"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="ltr">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+
+                            android:id="@+id/rb1_2017"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|center"
+                            android:layout_margin="5dp"
+                            android:fontFamily="@font/muli_light"
+                            android:freezesText="true"
+                            android:gravity="start|center"
+                            android:maxWidth="280sp"
+                            android:padding="4dp"
+                            android:textSize="16sp"
+                            android:text="A. aDoctor"
+                            android:textColor="#5e5d5d"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/r1_right"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_check_green"
+
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/r1_wrong"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_cancel_mark"
+
+                            android:visibility="gone" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/rb2_2017"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center|start"
+                            android:layout_margin="5dp"
+                            android:textSize="16sp"
+
+                            android:fontFamily="@font/muli_light"
+                            android:freezesText="true"
+                            android:gravity="start|center"
+                            android:maxWidth="280sp"
+                            android:padding="4dp"
+
+                            android:text="B. patients’ personal details"
+                            android:textColor="#5e5d5d"
+
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/r2_right"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_check_green"
+
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/r2_wrong"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_cancel_mark"
+
+                            android:visibility="gone" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/rb3_2017"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|center"
+                            android:layout_margin="5dp"
+                            android:fontFamily="@font/muli_light"
+                            android:freezesText="true"
+                            android:gravity="start|center"
+                            android:textSize="16sp"
+
+                            android:maxWidth="280sp"
+                            android:padding="4dp"
+
+                            android:text="C. a system’s application programs  "
+                            android:textColor="#5e5d5d"
+
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/r3_right"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_check_green"
+
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/r3_wrong"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_cancel_mark"
+
+                            android:visibility="gone" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/rb4_2017"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center|start"
+                            android:layout_margin="5dp"
+                            android:fontFamily="@font/muli_light"
+                            android:freezesText="true"
+                            android:gravity="start|center"
+                            android:maxWidth="280sp"
+                            android:padding="4dp"
+                            android:textSize="16sp"
+                            android:text="D. mangers’ and receptions"
+                            android:textColor="#5e5d5d"
+
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/r4_right"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_check_green"
+
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/r4_wrong"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_cancel_mark"
+
+                            android:visibility="gone" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RadioGroup>
+            <include layout="@layout/separator_layout_sample"/>
+            <LinearLayout
+                android:id="@+id/solve"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/bbb3"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_check_green"
+                    android:padding="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="15dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Check "/>
+
+            </LinearLayout>
+        </LinearLayout>
+</LinearLayout>

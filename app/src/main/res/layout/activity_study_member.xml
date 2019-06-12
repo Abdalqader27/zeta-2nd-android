@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Header_Elements.study_member">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:scaleType="centerCrop"
+        android:layout_margin="10dp"
+        android:src="@drawable/student" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="شكرا خاص للزملاء على المساعدة  " />
+
+    <include
+        layout="@layout/separator_layout"
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycle_member"
+        android:layout_width="match_parent"
+        android:paddingBottom="5dp"
+        android:layout_height="wrap_content">
+
+    </androidx.recyclerview.widget.RecyclerView>
+</LinearLayout>

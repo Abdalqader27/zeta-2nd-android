@@ -1,0 +1,419 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center"
+    android:layoutDirection="ltr"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/hugme"
+                android:padding="10dp"
+                android:text=" page 61" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/hugme"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:text="Understanding MP3"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="MP3  تتنافس مع تنسيق ملف سمعي آخر WAV
+الفرق الأساسي هو أن ملفات  MP3 أصغر بكثير من ملفات WAV
+يمكن لملفMP3  تخزين دقيقة من الصوت لكل ميغابايت في حين يحتاج ملف ال WAV  إلى 11  أو 12ميغابايت لحمل نفس الكمية.
+كيف الMP3  ينجز هذا الضغط؟ الأقراص المدمجة و الملفات الصوتية لا يعيدان إنتاج كل صوت الأداء.
+بدل من ذلك يختبرون الأداء ويخزنوا رمز منفصل لكل ملاحظة مختبرة، القرص المدمج أو الملف WAV  يختبران أغنية 44000  مرة بالثانية، خلق كتلة ضخمة من المعلومات.
+بالتجريد من الأصوات معظم الناس لا تسمع؟ MP3  يقلل بشكل ملحوظ من المعلومات المخزنة، على سبيل المثال،  فإن معظم الناس لا يستطيعون سماع الملاحظات فوق تردد 16 KHz  لذا يزيلهم من المزيج. وبالمثل، يزيل الأصوات الهادئة التي أخفت بواسطة الضجيج في نفس التردد. النتيجة هي أن الأصوات ملف مشابه جداً لقرص مضغوط CD ، ولكن الذي هو أصغر من ذلك بكثير . يمكن أن يحتوي ملف ال MP3  على عروض الكلمة المنطوقة مثل البرامج الإذاعية أو الكتب الصوتية وبالإضافة إلى الموسيقى، يمكن أن تزود معلومات عن نفسها في كتلة ترميز تسمى العلامة (tag), قد تتضمن اسم المؤدي ، الرسم مثل غلاف الألبوم ، كلمات الأغنية،  نوع الموسيقى، وعنوان  URL للمزيد من التفاصيل."
+                    android:textAlignment="center"
+                    />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/hugme"
+                android:padding="10dp"
+                android:text=" page 62" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="تشغيل ملفات MP3 "
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/separator_layout_sample" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="معظم الاجهزة اليوم لديهم ما يكفي من قوة المعالجة والذاكرة لتشغيل ملفات MP3 على الفور. ببساطة تحميل ملف MP3 مثل أي ملف آخر واضغط عليه في مستكشف النوافذ (Windows explorer). Windows media player يفك الملف ويوجه الإشارات إلى كرت الصوت ومن ثم إلى السماعات"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/a5"
+                android:padding="10dp"
+                android:textColor="@color/red_btn_bg_color"
+                android:text=" ميزات أخرى تشمل Mp3 " />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="Players"
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/separator_layout_sample" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="معظم المشغلات (players)المستقلين لهم ميزات كثيرة تتجاوز الافتراضي ويندوز ميديا بلاير. للسيطرة على الموسيقى التي تشغلها، يسمحوا لك المشغلات ((playersبجمع أغاني داخل قوائم التشغيل (playlist)وعشوائية الاختيارات. للسيطرة على هذه الأصوات الموسيقية، أنها توفر أجهزة تحليل الطيف، ورسم المعدلات وعروض التردد."
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="Track info  تتبع المعلومات"
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/separator_layout_sample" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="زر معلومات المسار تعطيك معلومات عن العلامة (tag) في ملف MP3 . أزرار أخرى قد يأخذك إلى مكتبة الموسيقى حيث يمكنك تنظيم ملفات MP3 الخاص بك عن كريق الأداء أو النوع."
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="Skins or themes"
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/separator_layout_sample" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="هذه البرامج مصممة لتغيير مظهر من اكثر المشغلات (players) شعبية.
+إنهم قريبين إلى ورق الجدران الذي يعدل نظرة مكتب النوافذ (Windows desktop) . مع الskin المشغل يستطيع أن يكون صندوق الموسيقى (jukebox) . لوحة قيادة (عدادات) السيارة (car dashboard) أو رحلة عبر النجوم (star trek tricorder) . اعتبرهم انهم قابلين للتبادل بسهولة think of them as easily interchangeable faceplates."
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="Rippers and encoders:"
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/separator_layout_sample" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="Ripper هو برنامج يقطع الأغاني من القرص المدمج دخل السواقة ال (CD_ROM) ويحولهم إلى ملفات WAV . المرمز يحول ملفات ال WAV إلى ملفات MP3 والعكس بالعكس. يدمج المثير من مشغلات (players) الRippers و encoders ويمكن أن يعمل كلتا الخطوتين بخطوة واحدة."
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="Recorders:"
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/separator_layout_sample" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="مع محرك CD_ROM للكتابة، المسجل هو برنامج يتيح لم بخلق الأقراص المضغوطة السمعية الخاصة بك"
+                    android:textAlignment="center" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/hugme"
+                android:padding="10dp"
+                android:text=" page 67" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/hugme"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:text="THE TRICKS TO MPEG'S SUCCESS"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="The most common system for the compression of video is MPEC. I works like this The single data stream off the CD-ROM is split into video and audio components, which are then decompressed using separate algorithms. The video is processed to produce individual frames as follows Imagine a sequence of frames depicting a bouncing ball on a plain background. The very first is called an Intra Frame (I- frame) L-frames are compressed using only information in the picture itself just like conventional bitmap compression techniques like JPEG..
+Following I-frames will be one or more predicted frames (P-frames). The difference between the P-frame and the I-frame it is based on is the only data that is stored for this P-frame
+"
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/separator_layout_sample" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="النظام الأكثر شيوعا لضغط الفيديو هو  MPEG .وهو يعمل هكذا. وخدة البيانات المتدفقة من قرص الذاكرة المدمج تقسم إلى مكونات الفيديو والصوت، والتي يتم بعد ذلك فك ضغطها باستخدام خوارزميات منفصلة.
+تتم معالجة الفيديو لإنتاج إطارات على النحو التالي، تخيل سلسلة من الإطارات التي تصور كره وثابة على خلفية بسيطة. ويطلق على أول إطار الإطار الداخل I-Frame.
+I-frame يضغط فقط باستخدام المعلومات الموجودة في الصورة نفسها مثل تقنيات ضغط خريطة البتات التقليدية ك JPEG . بالتالي الإطارات I-FRAME سيكون واحد أو أكثر من الإطارات المتنبأ بها والتي يرمز لها P-frame.
+"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="
+For example, in the case of a bouncing ball, the P picture is stored simply as a description of how the position of the ball has changed from the previous I-frame. This takes up a fraction of the space that would be used if you stored the P-frame as a picture in its own right. Shape or color changes are also stored in the P- frame. The next P-frame may also be based on this P-frame and so on. Only a few P-frames are allowed before a new I-frame is introduced into the sequence as a new reference point, since a small margin of error  creeps in with each P-frame."
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/separator_layout_sample" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="على سبيل المثال،  في حالة وجود الكرة الوثّابة، يتم تخزين P picture  ببساطة كوصف لكيفية تغير موقع الكرة من
+I-frame  السابق . هذا يستغرق جزء من المساحة التي سيتم استخدامها إذا خزنت p-frame كصورة في حد ذاتها. تغيرات الشكل واللون يتم أيضاً  تخزينها في الإطار p-frame . P-frame القادم قد يكون أيضاً يعتمد على P-frame
+الحالي وهكذا. اختلافات التخزين بين الإطارات يعطي تخفيضاً هائلاً في كمية المعلومات الضرورية لإعادة إنتاج السلسلة فقط عدد قليل من إطارات  P-frame  مسموح بها قبل إدخال إطار I-frame  جديد في السلسلة كنقطة مرجع جديدة، لأن فرق صغير من الخطأ يتسرب مع كل إطار P-frame.
+"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:padding="10dp"
+                    android:text="الفرق بين P-frame  و I-frame  يقوم على أساس البيانات الوحيدة التي يتم تخزينها في هذا ال P-frame ." />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="Between I and P-frames are bi-directional frames (B-frames), based on the nearest I or P-frames both before and after them. In our bouncing ball example. in a B-frame the picture is stored as the difference between the previous I or P- frame and the B-frame and as the difference between the B-frame and the following I or P-frame."
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/separator_layout_sample" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="بين إطارات P-frame  و إطارات I-frame يوجد إطارات ثنائية الاتجاه B-frame ،تعتمد على I-frame أو
+P-frameالاقرب إليها سواء كانت قبلها وبعدها. في مثالنا الكرة الوثّابة، في الإطار ثنائي الاتجاه B-frame الصورة تخزن كالفرق بين إطارات P-frameأو إطارات I-frame السابقة وبين إطار B-frameوبين إطارات P-frame أو إطارات I-frame اللاحقة.
+"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="To recreate the B-frame when playing back the sequence, the MPEG algorithm uses a combination of two references. There may be a number of B-frames between I or P-frames. No other frame is ever based on a B-frame so they don't propagate errors like P-frames Typically you will have two or three Bs between Is or Ps, and perhaps three to five P-frames between Is"
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/separator_layout_sample" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="
+لإعادة خلق الإطار ثنائي الاتجاه B-frame عند إعادة تشغيل السلسلة. خوارزمية MPEG تستخدم مزيج من (مرجعين/إشارتين). قد يكون هناك عدد من الإطارات ثنائية الاتجاه بين إطارات P-frame أو إطارات I-frame.ليس هناك أية إطارات أخرى تعتمد على الإطار ثنائي الاتجاه B-frame لذا فهي لا تنشر الأخطاء مثل إطارات P-frame . نموذجياً، سيكون لديك اثنين أو ثلاثة من الإطارات ثنائية الاتجاه بين إطارات P-frame أو إطارات I-frame ،ربما من ٣ إلى 5 من إطارات P-frame بين إطارات I-frame ."
+                    android:textAlignment="center" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

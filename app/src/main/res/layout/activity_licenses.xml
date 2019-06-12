@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layoutDirection="ltr"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_margin="10dp"
+            android:text="licenses"
+            />
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:background="@color/grey_Light"
+            android:textSize="20sp"
+            android:lineSpacingMultiplier="1.5"
+            android:padding="10dp"
+            android:textDirection="ltr"
+            android:text="
+DotLoadersPack-Android
+Copyright 2017 Suneet AgrawalBottomNavigationViewEx
+        MIT License
+Copyright (c) 2017 ittianyu
+
+AndroidExpandingViewLibrary
+ Copyright (c) 2016, Diego Bezerra diego.bezerra@gmail.com
+
+BlurPopupWindow
+Licensed under the Apache License, Version 2.0 (the  Licence);
+
+SmartTabLayout
+Copyright (C) 2015 ogaclejapan
+Copyright (C) 2013 The Android Open Source Project
+
+Timeline-View
+Copyright 2018 Vipul Asri
+
+Licensed under the Apache License, Version 2.0 (the  Licence);
+
+
+Licensed under the Apache License, Version 2.0 (the  Licence);
+
+MaterialSearchView
+Copyright 2015 Miguel Catalan Bañuls
+
+Licensed under the Apache License, Version 2.0 (the  Licence);
+
+
+picasso-transformations
+Copyright 2018 Wasabeef
+
+Licensed under the Apache License, Version 2.0 (the  Licence);
+
+
+
+zoomage
+Copyright 2016 Jeffrey Sibbold
+
+Licensed under the Apache License, Version 2.0 (the  Licence);
+
+
+MaterialSearchView
+Copyright 2015 Miguel Catalan Bañuls
+
+Licensed under the Apache License, Version 2.0 (the  Licence);
+
+
+lottie-android
+Lottie for Android
+
+easypermissions
+Copyright 2017 Google
+
+Licensed under the Apache License, Version 2.0 (the  Licence);
+
+
+CounterFab
+opyright 2016 André Mion
+
+Licensed under the Apache License, Version 2.0 (the  Licence);
+
+
+
+Instabug-Android
+
+
+MaterialTapTargetPrompt
+Copyright (C) 2016-2018 Samuel Wall
+
+Licensed under the Apache License, Version 2.0 (the  Licence);"/>
+
+
+
+        <include layout="@layout/separator_layout"/>
+
+
+        <include layout="@layout/separator_layout"/>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

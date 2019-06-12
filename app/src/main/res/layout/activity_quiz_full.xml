@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layoutDirection="ltr"
+    android:textDirection="ltr">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="8dp"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+
+            android:orientation="horizontal">
+
+
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@color/grey_Light"-->
+            <!--android:fontFamily="@font/muli_regular"-->
+            <!--android:freezesText="true"-->
+            <!--android:gravity="center"-->
+            <!--android:text="Point  "-->
+            <!--android:textDirection="ltr"-->
+            <!--android:textStyle="bold" />-->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/text_View_score_full"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/muli_regular"
+                    android:freezesText="true"
+                    android:gravity="center"
+                    android:text="Your Score is  0"
+                    android:padding="10dp"
+                    android:textDirection="ltr"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+                <ProgressBar
+                    android:id="@+id/progressbarfull"
+                    style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:max="10" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/countDown_full"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center|end"
+                android:fontFamily="@font/muli_light"
+                android:gravity="center|start"
+                android:layoutDirection="rtl"
+                android:text="2:00"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textDirection="rtl"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:visibility="visible" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/card"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginBottom="65dp"
+        android:background="@color/white"
+        android:textDirection="ltr">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:orientation="horizontal">-->
+
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="start"-->
+                    <!--android:gravity="start"-->
+                    <!--android:orientation="horizontal">-->
+
+
+                    <!--<ImageView-->
+                        <!--android:layout_width="50dp"-->
+                        <!--android:layout_height="50dp"-->
+                        <!--android:layout_weight="3"-->
+                        <!--android:padding="7dp"-->
+                        <!--android:src="@drawable/ic_timer" />-->
+
+                <!--</LinearLayout>-->
+
+
+            <!--</LinearLayout>-->
+
+            <!--<include-->
+                <!--layout="@layout/separator_layout_no"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="0dp"-->
+                <!--android:layout_weight="1" />-->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="2dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginEnd="20dp"
+
+                        android:layout_weight="1"
+
+                        android:fontFamily="@font/muli"
+                        android:gravity="start|center"
+                        android:text=" Check the correct answer : "
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/text_View_count_question_full"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="bottom"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/muli_regular"
+                    android:freezesText="true"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text=" 1 / x"
+                    android:textDirection="ltr"
+                    android:textStyle="bold" />
+
+                <include layout="@layout/separator_layout" />
+
+                <TextView
+                    android:id="@+id/qution_full"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="30sp"
+                    android:background="@color/grey_Light"
+                    android:fontFamily="@font/a5"
+                    android:freezesText="true"
+                    android:lineSpacingMultiplier="1.2"
+                    android:padding="10dp"
+                    android:text="the qution is here Like what the Capital of the syria"
+                    android:textAlignment="center"
+                    android:textColor="@color/backber"
+                    android:textSize="22sp"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginBottom="30dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/cardborder_blue"
+                android:textDirection="ltr">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/stroke"
+                    android:orientation="vertical">
+
+                    <RadioGroup
+                        android:id="@+id/Radio_Group_full"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layoutDirection="ltr">
+
+                        <RadioButton
+
+                            android:id="@+id/radio_button1_full"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:fontFamily="@font/muli_regular"
+                            android:freezesText="true"
+                            android:gravity="left"
+                            android:padding="4dp"
+
+                            android:text="option (1)"
+                            android:textColor="#5e5d5d"
+                            android:textSize="16dp"
+                            android:textStyle="bold" />
+
+                        <include layout="@layout/separator_layout_no" />
+
+                        <RadioButton
+                            android:id="@+id/radio_button2_full"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_margin="10dp"
+                            android:fontFamily="@font/muli_regular"
+                            android:freezesText="true"
+                            android:gravity="left"
+                            android:padding="4dp"
+
+                            android:text="option (2)"
+                            android:textColor="#5e5d5d"
+                            android:textSize="16dp"
+                            android:textStyle="bold" />
+
+                        <include layout="@layout/separator_layout_no" />
+
+                        <RadioButton
+                            android:id="@+id/radio_button3_full"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_margin="10dp"
+                            android:fontFamily="@font/muli_regular"
+                            android:freezesText="true"
+                            android:gravity="left"
+                            android:padding="4dp"
+                            android:text="option (3)"
+                            android:textColor="#5e5d5d"
+                            android:textSize="16dp"
+                            android:textStyle="bold" />
+
+                        <include layout="@layout/separator_layout_no" />
+
+                        <RadioButton
+                            android:id="@+id/radio_button4_full"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_margin="10dp"
+                            android:fontFamily="@font/muli_regular"
+                            android:freezesText="true"
+                            android:gravity="left"
+                            android:padding="4dp"
+                            android:text="option (4)"
+                            android:textColor="#5e5d5d"
+
+                            android:textSize="16dp"
+                            android:textStyle="bold" />
+
+
+                    </RadioGroup>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/confirm_next_full"
+        style="@android:style/Widget.DeviceDefault.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30sp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="@font/muli_regular"
+        android:freezesText="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:text="Confirm"
+        android:textColor="#fff"
+        android:textDirection="ltr"
+        android:textStyle="bold"
+        app:fButtonColor="@color/colorPrimary" />
+</RelativeLayout>

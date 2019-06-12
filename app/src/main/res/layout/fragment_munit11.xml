@@ -1,0 +1,355 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center"
+    android:layoutDirection="ltr"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/hugme"
+                android:padding="10dp"
+                android:text=" page 73" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/hugme"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:text="Wireless Networking"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="إن شركات الاتصال اللاسلكية WIFI ليست إلا شبكات اتصال محلية مثبّتة ولكن عوضا عن استخدام الأسلاك، ترتبط بواسطة الأمواج الراديويّة.
+كل حاسب في شبكة الاتصال اللاسلكي يتطلّب بطاقة واجهة الشبكة (كرت الشبكة).
+يمكن لهذه البطاقات ان تكون موجودة مسبقاً او يمكنك ان تربطها عبر مداخل خاصة. تسمح هذه البطاقات لكل مكوّن في الشبكة بأن يتصل مع نقطة الوصول اللاسلكي لينشئ شبكة اتصال محلية لاسلكية.
+إن نقطة الوصول تعمل كموجه في شبكة اتصال محلية مثبتة.
+انها تؤمن أيضاً جسر يمكن أن يوصل إلى (هاب) في شبكة اتصال محلية مثبتة ممكنة كلا المستخدمين (مستخدمي الشبكة المثبتة ومستخدمي الشبكة اللاسلكية) بالتحدّث مع بعضهم البعض.
+إذا كانت شبكة الاتصال المحلية الخاصة بك متصلة الى الانترنت، فإنّ شبكة الاتصال اللاسلكية يمكنها استخدامه أيضاً. وإلاّ (إن لم تكن متصلة) يمكنك أن توصل الشبكة اللاسلكية المحلية WLAN الى الانترنت عن طريق ال ADSL أو cable modem .
+ماهي مزايا شلكة الاتصال اللاسلكية؟
+لا تحتاج الى اسلاك و كبلات. في المباني القديمة، كان من المكلف أن تركّب الأسلاك ونقطة الوصول. مع شبكات الاتصال اللاسلكية Wifi ، نقطة وصول واحدة يمكن ان تغطي كامل الأرضية وحتى المبنى. يمكنك أن تعمل في أي مكان ضمن مجال نقطة الوصول. في يوم مشمس، تستطيع العمل في الخارج. يمكنك صنع أي غرفة في المنزل من أجل الدراسة. يوجد الآن Wifi hotspots في الفنادق والمكتبات والمطارات وبذلك يمكنك الوصول للشبكة وأنت بعيد عن منزلك أو مكتبك.
+هناك مساوئ أيضاً:
+شبكات الاتصال اللاسلكية المثبتة يمكن أن تصل لسرعة 1000Mbps . شبكات الاتصال اللاسلكية أبطأ، والابتعاد عن نقطة الوصول يزيد البطأ أكثر. على الرغم من وجود حفاظ على الموارد (الاسلاك)، فإنّ بطاقات واجهة الشبكة أغلى من النسخة السلكية. وبذلك توجد مشكلة في الواجهة، إذا استعمل جار نفس القناة والحماية. ويمكن لمستخدمين أن يفسروا بيناتك. برامج التشفير مثل WEP يمكن ان تساعد في مثل ذلك.
+"
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/hugme"
+                android:padding="10dp"
+                android:text=" page 79" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/hugme"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:text="Network Communication"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="The application layer is the only part of a communications process that a user sees, and even then, the user doesn't see most of the work that the application does to prepare a message for sending over a network The layer converts a message's data from human-readable form into bits and attaches a header identifying the sending and receiving computers. "
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/separator_layout_sample" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="(١) طبقة التطبيق هي الجزء الوحيد من عملية الاتصالات التي يراها المستخدم، وحتى ذلك الحين، المستخدم لا يرى معظم العمل الذي يقوم به التطبيق لإعداد رسالة لإرسالها عبر الشبكة.
+الطبقة تحول بيانات الرسالة من الشكل المقروء الإنسان إلى البتات وترفقها بترويسة للتعرف على أجهزة الارسال والاستقبال.
+"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="(2) The presentation layer ensures that the message is transmitted in a language that the receiving computer can interpret (often ASCII) This layer translates the language, if necessary, and then compresses and perhaps encrypts the data. It adds another header specifying the language as well as the compression and encryption schemes. "
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/separator_layout_sample" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="(٢) تضمن طبقة التقديم بأنّ تترجم الرسالة إلى لغة يمكن للحاسوب المستلم أن يترجمها (في أغل الأحيان اللاسلكي).
+هذه الطبقة تترجم اللغة إذا لزم الأمر، وبعد ذلك تضغط وربما تشفر البيانات. تضيف ترويسة أخرى تحدد اللغة، فضلاً عن مخططات الضغط والتشفير."
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="(3) The session layer opens communications and has the job of keeping straight the communications among all nodes on the network. It sets boundaries (called bracketing) for the beginning and end of the message, and establishes whether the messages will be sent half-duplex, with each computer taking turns sending and receiving or full-duplex, with both computers sending and receiving at the same time. The details of these decisions are placed into a session header."
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/separator_layout_sample" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="(3) طبقة الجلسة تفتح الإتصالات و تتولى مهمة الحفاظ على استمرار الاتصالات بين جميع العقد على الشبكة. تقوم بتعيين الحدود (وتسمى الأقواس) لبداية ونهاية الرسالة، وتحدد فيها إذا كان سيتم إرسال رسائل أحادية الاتجاه، بحيث أن كل حاسوب يتناوب بالإرسال والاستقبال، أو رسالة مزدوجة الاتجاه، بحيث كلا الحاسوبين يرسل ويستقبل في نفس الوقت. يتم وضع تفاصيل هذه القرارات في رأس الجلسة."
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text=" (4) The transport layer protects the data being sent . It subdivides the data into segments, creates checksum tests mathematical sums based on the contents of data - that can be used later to determine if the data was scrambled It can also make backup copies of the data. The transport header identifies each segment's checksum and its position in the message."
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/separator_layout_sample" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="(٤) تحمي طبقة النقل البيانات المرسلة. فهي تقسم البيانات إلى أجزاء، تقوم بإجراء اختبارات المجموع - المجاميع الرياضية تعتمد على محتويات الرسالة – التي يمكن أن تستخدم لاحقاً لتحديد فيها إذا كانت البيانات ممزوجة (تذكرة: المزج يوفر التزامن دون زيادة عدد البتات).
+يمكن أيضاً إجراء نسخ احتياطية للبيانات. ترويسة النقل تحدد اختبار المجموع لكل جزء و موقعه في الرسالة.
+"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="(5) The network layer selects a route for the message. It forms data into packets, counts them, and adds a header containing the sequence of packets and the address of the receiving computer"
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/separator_layout_sample" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="
+(٥) طبقة الشبكة تختار طريقاً للرسالة، وهي تحول البيانات إلى حزم، تحسبها، وتضيف ترويسة تحتوي على سلسلة من الحزم على عنوان الحاسوب المستقبل."
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text=" (6)The data-link layer supervises the transmission. It confirms the checksum, then addresses and duplicates the packets. This layer keeps a copy of each packet until it receives confirmation from the next point along the route that the packet has arrived undamaged."
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/separator_layout_sample" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="(٦) طبقة وصلة البيانات تشرف على الإرسال. وهي تؤكد اختبار المجموع، ثم تعنون وتنسخ الجزء. هذه الطبقة تحتفظ بنسخة من كل حزمة إلى أن تستلم التأكيد من النقطة التالية عبر الطريق بأنه قد تم وصول الحزمة بدون أي أضرار."
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="(7) The physical layer encodes the packets into the medium that will carry them - such as an analogue signal, if the message is going across a telephone line - and sends the packets along that medium."
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/separator_layout_sample" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="(٧) الطبقة الفيزيائية ترمّز الحزم في الوسط الذي ستُحمل إليه_ مثل الإشارة التماثلية، إذا كانت الرسالة تذهب عبر خط الهاتف _وترسل الحزم على هذه الوسط."
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="(8) An intermediate node calculates and verifies the checksum for each packet. It may also reroute the message to avoid congestion on the network."
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/separator_layout_sample" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="(٨) عقدة وسيطة تقوم بحساب والتحقق من اختبار المجموع من أجل كل حزمة. وقد تعيد توجيه الرسالة لتجنب الازدحام على الشبكة."
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="(9) At the receiving node, the layered process that sent the message on its way is reversed. The physical layer reconverts the message into bits. The data-link layer recalculates the checksum, confirms arrival, and logs in the packets. The network layer recounts incoming packets for security and billing purposes The transport. layer recalculates the checksum and reassembles the message segments. The session layer holds the parts of the message until the message is complete and sends it to the next layer. The presentation layer expands and decrypts the message. The application layer converts the bits into readable  characters, and directs the data to the correct application."
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/separator_layout_sample" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="(٩) عند عقدة الاستلام، العملية ذات الطبقات التي أرسلت الرسالة على طريقها تصبح معكوسة.
+الطبقة الفيزيائية تعيد تحويل الرسالة إلى بتات. طبقة وصلة البيانات تعيد حساب اختبار المجموع، تؤكد وصوله، وتسجلها في الحزم. طبقة الشبكة تعيد حساب الحزم القادمة لأغراض الأمنية والمحاسبة. طبقة النقل تعيد حساب اختبار المجموع وتعيد تجميع أجزاء الرسالة. طبقة الجلسة تحمل أجزاء من الرسالة حتى الانتهاء من كتابة الرسالة، وترسلها إلى الطبقة التالية. طبقة التقديم توسع وتفك شيفرة الرسالة. طبقة التطبيق تحول البتات إلى محارف مقروءة، وتوجه البيانات إلى التطبيق الصحيح.
+"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

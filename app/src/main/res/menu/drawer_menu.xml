@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:id="@+id/grp1">
+
+        <item
+            android:id="@+id/scores"
+            android:icon="@drawable/ic_diagram"
+            android:title="سجل النقاط   " />
+
+    </group>
+    <group android:id="@+id/grp2">
+
+        <item
+            android:id="@+id/menu_help"
+            android:icon="@drawable/ic_help_operator"
+            android:title="تحتاج لمساعدة ؟ " />
+        <item
+            android:id="@+id/menu_share"
+            android:icon="@drawable/ic_share"
+            android:title="مشاركة التطبيق " />
+    </group>
+    <group android:id="@+id/grp3">
+        <item
+            android:id="@+id/menu_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="الإعدادات" />
+        <item
+            android:id="@+id/menu_about"
+            android:icon="@drawable/ic_info_button"
+            android:title="حول التطبيق
+" />
+    </group>
+    <group android:id="@+id/grp4">
+        <item
+            android:id="@+id/eng3"
+            android:icon="@drawable/brand"
+            android:title=" إصدارات سابقة" />
+    </group>
+</menu>

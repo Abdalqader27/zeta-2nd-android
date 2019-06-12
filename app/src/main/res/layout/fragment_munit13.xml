@@ -1,0 +1,242 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center"
+    android:layoutDirection="ltr"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/hugme"
+                android:padding="10dp"
+                android:text=" page 94 " />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/hugme"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:text="Email protocols "
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="Although the format of a mail message, as transmitted from one machine to another, is rigidly define, different mail protocols transfer and store messages in slightly different ways. The mail system you’re probably used to employs combination of STMP and POP3 to send or receive mail respectively. Others may use IMP4 to receive mail, especially where bandwidth is limited or expensive."
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/separator_layout_sample" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="رغم أن صياغة شكل رسالة البريد الالكتروني عندما ترسب من جهاز إلى آخر معروفة تماما فإن اتفاقيات الايميل المختلفة وتخزن الرسائل بطرق مختلفة تماما. إن نظام البريد الذي من الممكن أن يستخدم لتوظيف.      لتلقي البريد، I MP4 لإرسال وتلقي البريد على الترتيب. الآخرون قد يستخدمون  POP3 وSTMPمجموعة من
+وبخاصة عندما تكون كمية البيانات محدودة أو غالية الثمن.
+"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/hugme"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:text="Simple Mail Transfer Protocol"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="STMP is used to transfer messages between one mail server and another. It’s also used by mail programs on PCs to send mail to the
+Server. STMP is very straightforward, providing only facilities to deliver messages to one or more recipients in batch mode. Once a message has been delivered, it can’t be recalled or cancelled. It’s also deleted from the sending server once it’s been delivered. SMPT uses ‘push’ operation, meaning that the connection is initiated by sending server rather than the receiver. This makes it unsuitable for delivering messages to desktop PCs, which aren’t guaranteed to be switched at all times."
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/separator_layout_sample" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a4"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:text="اتفاقية تحويلالبريد العادي "
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="
+ لتحويل الرسائل بين خادم بريد وآخر. وهو يستخدم أيضا عن طريق برامج الايميل على STMPيستعمل
+ هي صريحة جدا، وهي تزود فقط بالتسهيلات لاستلام الرسائل إلى STMP الحواسيب الشخصية لإرسال البريد إلى الخادم.
+واحدة أو أكثر من المستلمين بالنموذج التسلسلي. حالما تصل الرسالة، فإنه لا يمكن أن يذكر أو يلغى. وهي أيضا تحذف من
+ يستخدم عملية الدفع، ويعني ذلك أن الاتصال يبدأ عن طرق ملقم الإرسال بدلا من STMPالملقم المرسل حالما يتم استلامها.
+المتلقي، وهذا يجعله غير مناسب لتسليم الرسائل إلى سطح المكتب في الحواسيب الشخصية والتي تكون مضمونة لكي تنقل في كل الأوقات.
+"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="In host-based mail system, such as Unix and Web mail, SMPT is the only protected the server uses. Received messages are stored locally and retrieved from the local file system by mail program. In the case of Web mail, the message is then translated into HTML and transmitted to your browser. SMPT is the only protocol for transferring messages between server. How they’re then stored varies from system to system."
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/separator_layout_sample" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="
+   هي الاتفاقية الوحيدة التي يستخدمهاSMPT، إنWebوالويب Unix في المضيف –وبالاعتماد على أنظمة البريد، مثل بريد
+الملقم. تخزن الرسائل المستلمة محليا ويسترجعها من نظام الملف المحلي عن طريق برنامج البريد. في حالة شبكة  الويب,
+ هي الاتفاقية الوحيدة لتحويل الرسائل بين الملقمات. كيف SMPT  وترسل إلى المتصفح لديك.HTML فإن الرسالة تتحول إلى
+تخزن بعدها التغيرات من نظام إلى آخر."
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/hugme"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:text="Post Office Protocol"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="POP is a message-retrieval protocol used by many PC mail clients to get message from a server, typically your ISP’s mail server. it only allows you to download all message in your mailbox at once. It works in ‘pull’ mode, the receiving PC initiating the connection. PC-based POP3 mail clients can do this automatically at a present interval. When you use your Web mail account to access a POP3 mailbox, the mail server opens a connection to the POP3 server just as a PC-based application would. The messages are then copied into your Web mailbox and read via a browser."
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/separator_layout_sample" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text=" اتفاقية استعادة الرسائل المستخدمة عن طريق الكثير من مسجلي البريد في الحاسب الشخصي للحصول على pop
+رسائلهم من الملقم، نموذجيا ملقم البريد لمزود خدمات الانترنت: أنه يسمح فقط بتحميل كل الرسائل في صندوق البريد في الحال. وهو يعمل بنظام سحب البيانات، الحاسب الشخصي المرسل البادئ بالاتصال. ان الحاسب الشخصي المعتمد على مسجلي
+ يمكن أن يقوموا بذلك أوتوماتيكيا في اللحظة نفسها. عندما تستخدم حساب البريد الالكتروني للوصول إلىPop3البريد
+ فقط كما لو كان حاسبا شخصيا معتمدا على التطبيق. ينسخ بعدها POP3فإن ملقم البريد يفتح الاتصال لملقم POP3 البريد
+الرسائل في صندوق البريد الالكتروني وتقرأ بواسطة المتصفح
+"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="Since POP3 download all the messages in your mailbox there’s an option to leave messages on the server, so that they can be picked up from different machines without losing any. This does mean that you’ll get every message downloaded every time you connect to the server. If you don’t clean up your mailbox regularly, this could mean long downloads. When using a Web mail account to receive POP3 mail, be careful about leaving message on the server – if too many build up, each download will take a long time and fill up your inbox. Many Web mail systems won’t recognize messages you’ve already downloaded, so you’ll get duplicates of ones you haven’t deleted."
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/separator_layout_sample" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="منذ تنزيل POP3 لجميع الرسائل الموجودة في صندوق البريد الخاص بك ، هناك خيار لترك الرسائل على الخادم ، بحيث يمكن التقاطها من أجهزة مختلفة دون فقد أي. وهذا يعني أنك ستحصل على كل رسالة يتم تنزيلها كل إذا كنت لا تقوم بتنظيف صندوق البريد الخاص بك بانتظام ، فقد يعني ذلك تنزيلات طويلة.عند استخدام حساب بريد ويب لتلقي بريد POP3 ، احرص على ترك رسالة على الخادم - إذا كان هناك عدد كبير جدًا من الإنشاءات ، سيستغرق كل تنزيل وقتًا طويلاً ويملأ البريد الوارد الخاص بك. لن تتعرف العديد من أنظمة بريد الويب على الرسائل التي قمت بتنزيلها بالفعل ، وبالتالي ستحصل على نسخ مكررة من تلك التي لم تقم بحذفها. "
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

@@ -1,0 +1,251 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center"
+    android:layoutDirection="ltr"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/hugme"
+                android:padding="10dp"
+                android:text=" page 86 - 87 " />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/hugme"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:text="How TCP/IP Links Dissimilar Machines"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="At the heart of the Internet  protocol(IP) portion of TCP/IP is a concept called the Internet address. This 32 bit coding system assigns a number   to every node on the network  . There are various types of addresses  designed for networks of different sizes, but you can write every address with a series of numbers that identify the major network and the sub – networks to which a node is attached. Besides identifying a node, the             address provides a path that gateway can use to route information from one machine to another,"
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/separator_layout_sample" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="في قلب جزء من معاهدة الانترنت )الملكية الفكرية   ( من بروتوكول برنامج التعاون الفني  يوجد مفهوم يدعى عنوان الانترنت وهو نظام ترميز ب 32 عقدة يشير الى عدد كل   عقدة من شبكة الانترنت . وهناك نماذج متعددة من العناوين المصممة للشبكات وبحجوم مختلفة ، ولكن يمكنك ان تكتب كل عنوان مع سلسلة من الأرقام التي تعرف الشبكة الرئيسية والشبكات  الفرعية التي ترتبط الى عقدة . بالإضافة الى تعريف للعقدة فإن العنوان يزود بمسار بحيث يمكن ان تستخدم البوابات لتسيير المعلومات من الة الى أخرى "
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text=".   Although data-delivery systems like Ethernet or X.25 bring their packets
+To any machine electrically attached to the cable, the IP modules must
+Know each other’s Internet addresses if they are to communicate. A
+machine acting as a gateway connecting different TCP/IP networks will
+have a different Internet address on each network. Internet look _up
+tables and software based on another standard-called Resolution protocol- are used to route the data through a gateway between networks.
+"
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/separator_layout_sample" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="ورغم ان أنظمة تسليم البيانات كالايثرنت او     تحضر حزمها كهربائيا اللا أي جهاز مرتبط الى الكابل ، فإنه يجب على معايير   ان تعرف عناوين الانترنت بعضها ببعض اذا كانت على  اتصال. ان الجهاز الذي يعمل كبوابة ربط لشبكات المختلفة سيكون له عنوان انترنت"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="9-use an IC extraction tool; don’t use a screwdriver. "
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/separator_layout_sample" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="استخدم أداة استخراج استخراج    ولا تستخدم مفك براغي"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="10-Always ensure the power is switched off when working on a
+Computer.
+"
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/separator_layout_sample" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="تأكد دائما من فصل الطاقة عند العمل على الكمبيوتر  "
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="إن نظام تسليم البيانات كالايثرنت لا يبشر بتسليم حزم المعلومات بنجاح.
+لا IP ولا حتى UDP يعرفان أي شيء عن استعادة الحزم التي لا تسلم بشكل ناجح. لكن بنىTCPتنظم وتحجز تدفقات البيانات وتبحث عن استجابات وتتخذ الإجراءات لتحل محل كتل البيانات و مفهوم إدارة البيانات هذا يدعى خدمة الجريان الاستمرار الموثوق بها.
+"
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="After TCP brings the data packet into a computer, other high-level programs handle it . some are enshrined in official US government standards, like the file transfer protocol (FTP) and the Simple Mail Transfer Protocol (STMP) . if you use these standard protocols on different kinds of computers, you will at least have ways of easily transferring files and other kinds of data."
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/separator_layout_sample" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="بعد أن يأتي TCP بحزم البيانات إلى الكمبيوتر تقوم البرامج الأخرى ذات المستوى العالي بمعالجتها وبعضها يكون منصوصا عليها في المعايير الحكومية الرسمية في الولايات المتحدة مثل بروتوكول تحويل الملف FTP و بروتوكول تحويل الميل البسيط STMP .إذا استخدمت هذه البروتوكولات القياسية بأنواع مختلفة من أجهزة الحاسب , فإنك على الأقل ستملك طرق تحويل الملفات و الأنواع الأخرى من البيانات بسهولة."
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="Conceptually, software that supports the TCP protocol stands alone. it can work with data received through a serial port, over a packet-switched network, or from a network system like Ethernet. TCP software doesn’t
+Need to use IP or UDP, it doesn’t even have to know they exist. but in practice TCP is an integral part of the TCP\IP picture, and it is most frequently used with those two protocols.
+"
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/separator_layout_sample" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="وبشكل توضيحي وإن البرامج التي تدعم TCP تكون مستقلة، ويمكنها أن تعمل مع البيانات المستلمة خلال المنفذ التسلسلي، عبر شبكة اتصال حزمة التشغيل أو من نظام الشبكة كالإيثرنت. إن برامج TCP لا يحتاج لاستخدام IPأو UDP , عليه حتى أن لا يعرف أنها موجودة. ولكن عمليان يكون تطبيق TCP  هو جزء متمم لشكل TCP\IP , وهو غالبا ما يستخدم مع هذان البروتوكولانز"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

@@ -1,0 +1,367 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center"
+    android:layoutDirection="ltr"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/hugme"
+                android:padding="10dp"
+                android:text=" page 58" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/hugme"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:text="Application Service Providers"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="If your hard disk is packed to bursting point, the IT department is far too busy to fix your email problems, and your business can't afford to buy the tool that you'd like to develop the company website, then it's time to think about using an application service provider (ASP). Rather than installing software on each machine so server within your organization, you rent applications from the ASP which provides remote access to the software and manages the hardware required to run the applications."
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/separator_layout_sample" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="إذا كان قرصك الصلب ممتلئ إلى حد الانفجار وقسم المعلومات أبعد بكثير من أن ينشغل بإصلاح مشاكل بريدك الإلكتروني. ولايمكن لقطاع عملك أن يتحمل نفقات شراء الأداة التي تريدها لتطوير موقع الويب للشركة عندما يكون قد حان الوقت للتفكير باستخدام موفر خدمة الإنترنت (ASP)
+بدلا من تثبيت البرنامج على كل جهاز أو خادم داخل مؤسستك. يمكنك استئجار التطبيقات من ASP ، التي توفر الوصول عن
+بعد إلى البرنامج وتدير الأجهزة المطلوبة لتشغيل التطبيقات.
+"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="There are a lot of advantages to this approach. The havoc caused by viruses makes the idea of outsourcing your email and office suite services an attractive option. It also gives you more flexibility – you pay for applications as and when you need them, rather than investing in a lot of costly software which you'r then tied to for years."
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/separator_layout_sample" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="هناك الكثير من المحاسن لهذه الطريقة، الفوضى التي تسببها تجعل من فكرة الاستعانة ببريدك الالكتروني وخدمات جناح ال office  كمصادر خارجية خياراً جذاباً.
+كما أنه يتيح لك المزيد من المرونة، كأن تدفع ثمن التطبيقات عندما تحتاجها بدلاً من أن تُحاط بالكثير من البرامج المكلفة، والتي تبقى مقيداً بها لسنوات.
+"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="Not having to worry about upgrading to the latest version of the office suite about battling with the complexities of managing an email system, leaves business with more time. Time to focus on what they do best. However, there are some potential pitfalls. To use applications remotely requires a lot of bandwidth, which is only really available from a broadband connection or a leased line to the ASP itself. It is also important to ensure that the ASP will be able to provide a secure, reliable service which will be available whenever you need it."
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/separator_layout_sample" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="لا داعي للقلق حول ترقية جناح الoffice  إلى إصدار أو حول المواجهة مع تعقيدات نظام إدارة البريد الإلكتروني، اترك العمل لكسب المزيد من الوقت. الوقت لتركيز على أفضل ما يمكنهم فعله. ومع ذلك هناك بعض المخاطر المحتملة. استخدام التطبيقات عن بعد يتطلب الكثير من عرض الحزمة. والذي لا يتوفر فعلاً إلا من اصال واسع النطاق أو خط مؤجر للASP نفسه. ومن المهم أيضا التأكد من أن ASP سوف يكون قادراً على توفير بيئة آمنة. وخدمة موثوق بها بحيث تكون متاحة كلما احتجت إليها. "
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="Providing applications and storage space for vast numbers of users requires some powerful technology on the part of the ASP. This includes security controls and data storage as well as providing the physical links to customers. For the most part, ASPs don't own the data centers that store the information. Instead, they lease space from data storage specialists. In this way, they can be confident of meeting customers' increasing storage requirements by buying more space as it's needed."
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/separator_layout_sample" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="التزويد بالتطبيقات وبمساحة تخزين الأعداد الكبيرة من المستخدمين يحتاج إلى بعض التقنية القوية من الناحية الASP. وهذا يشمل الرقابة الأمنية وتخزين البيانات. فضلاً عن توفير الوصلات الفيزيائية للمستخدمين. بالنسبة للجزء الأكبر. مزودات خدمات الانترنت لا تملك مراكز البيانات التي تخزن المعلومات . بدلاً من ذلك إنهم يستأجرون المساحة من المتخصصين في تخزين البيانات. وبهذه الطريقة، يمكن أن يكونوا واثقين من تحقيق متطلبات المستخدمين للتخزين التي تزداد باستمرار عن طريق شراء المزيد من المساحة عند الحاجة اليها."
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="There's wide variety of applications available for use via ASPs. Office suite applications and email services are two of the most generic applications available through ASPs."
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/separator_layout_sample" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="هناك طائفة واسعة من التطبيقات المتوفرة للاستخدام عبر مزودات خدمات الانترنت.
+تطبيقات جناح الoffice  وخدمات البريد الإلكتروني اثنان من أكثر التطبيقات العامة المتاحة من خلال مزودات خدمات الانترنت."
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="Large, complex business applications such as enterprise resource planning tools like SAP are another popular candidate for delivery through an ASP. Other business services, such as payroll and accounting systems are also available. This is particularly beneficial to small businesses which are likely to grow quickly and don't want to deal with the problems caused by outgrowing their existing system and having to move to a high-end package."
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/separator_layout_sample" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="تطبيقات الأعمال الكبيرة و المعقدة مثل أدوات التخطيط لموارد مؤسسة ك ASP  الخدمات التجارية الأخرى، مثل الرواتب ونظم المحاسبة متوفرة أيضاً. هذا مفيد بشكل خاص للشركات الصغيرة التي من المرجح أن تنمو بسرعة ولا ترغب في التعامل مع المشاكل التي يسببها النمو الفائق لنظامهم الحالي والحاجة إلى الانتقال إلى رزمة راقية."
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="ASPs also offer a means of using specialist tools that would otherwise prove prohibitively expensive. Small businesses have the opportunity to use such tools for short periods of time as and when they need them, rather than having to buy the software as a permanent investment."
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/separator_layout_sample" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="مزودات خدمة الانترنت تقدم أيضاً وسائل لاستخدام الادوات المتخصصة التي من شأنها أن تثبت أنها ليست باهظة الثمن الشركات الصغيرة لديها الفرصة لاستخدام هذه الأدوات لفترات قصيرة من الوقت عندما تجد أنها في حاجة إليها، بدلاً من الاضطرار إلى شراء البرمجيات كاستثمار دائم"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="ASPs also offer a means of using specialist tools that would otherwise prove prohibitively expensive. Small businesses have the opportunity to use such tools for short periods of time as and when they need them, rather than having to buy the software as a permanent investment."
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/separator_layout_sample" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="
+أحد العوائق الرئيسية للشركات الصغيرة التي تريد البدء في مجال التجارة الإلكترونية هو أن تَضْمنُ بأنّ لديهم مصادر كافية لتحمل الزيادات الكبيرة المفاجئة في عدد الزبائن."
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="This means not only having adequate storage for all your customers' details, but ensuring that you have the technology in place to handle stock levels, efficient delivery and large volumes or traffic."
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/separator_layout_sample" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="هذا لا يعني فقط أن يكون لديهم تخزين كافي لتفاصيل كافة الزبائن، ولكن أن تضمن بأن يكون لديك التقنية للتعامل مع مستويات المخزون، والتوزيع الكفوء، والكميات ضخمة أو المرور.(الاتصالات)."
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="It's very rare for an e-commerce business to handle all of these elements by itself, making this one of the best-established areas of ASP use"
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/separator_layout_sample" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="من النادر جداً لعمل التجارة الإلكترونية التعامل مع جميع هذه العناصر بنفسه، مما يجعل هذا واحدة من أفضل المجالات لتأسيس استخدام ASP"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="Being able to respond rapidly to changes in the size of your customer base and the type of product that they want to order from your business, demands more flexibility than traditional software can provide."
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/separator_layout_sample" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="أن تكون قادر على الاستجابة بسرعة للتغيرات في حجم قاعدة العملاء الخاصة بك ونوع المنتج الذي يريدونه هو أمر من أمور عملك. ويتطلب مزيد من المرونة التي يمكن للبرمجيات التقليدية أن تقدمها."
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

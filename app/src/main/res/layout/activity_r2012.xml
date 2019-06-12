@@ -1,0 +1,175 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.core.widget.NestedScrollView
+
+        android:id="@+id/nested2012"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:layoutDirection="ltr">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="@dimen/ib_fr_space_20"
+                        android:fontFamily="@font/a5"
+                        android:gravity="start"
+                        android:padding="10dp"
+                        android:text="@string/university_of_aleppo_faculty_of_informatic"
+                        android:textDirection="ltr" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="@dimen/ib_fr_space_20"
+                        android:fontFamily="@font/a5"
+                        android:gravity="start"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/form_b_2012_third_term"
+                        android:textDirection="ltr" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:fontFamily="@font/muli"
+                android:gravity="start"
+                android:text="@string/_1_read_the_following_passage_and_answer_the_qustions"
+                android:textDirection="ltr"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <include layout="@layout/separator_layout" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_margin="5dp"
+                        android:background="@color/white"
+                        android:fontFamily="@font/muli_regular"
+                        android:gravity="start"
+                        android:lineSpacingMultiplier="1.4"
+                        android:padding="2dp"
+                        android:text="@string/stream_is_a_way_of_dealing_with_bandwidth_problems_1_you_download_vedio_from_the_internet_one_key_to_successful_streaming_is_the_process_of_buffering_when_you_download_a_movie_the_vedio_player_stores_apart_of_the_movie_in_memory_before_playing_it_imagine_the_buffer_as_a_continer_filled_from_top_when_the_continer_is_full_the_player_sends_data_on_for_playback_from_the_bottom_data_2_coming_as_a_clip_plays_the_user_can_view_the_begining_of_the_movie_as_rest_of_of_the_movie_as_the_rest_of_clip_downloads_when_connection_3_interruption_occur_the_amount_of_data_in_the_buffer_deceasrs_but_as_long_as_some_4_playback_is_uninterrupted_playback_continues_as_a_steady_rafe_until_the_buffer_is_empty"
+                        android:textColor="@color/black"
+                        android:textDirection="ltr"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycle_view2012"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <LinearLayout
+        android:id="@+id/pro2012"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical">
+
+        <com.github.ybq.android.spinkit.SpinKitView
+            style="@style/SpinKitView.Large.DoubleBounce"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:padding="30dp"
+            android:layout_margin="5dp"
+            app:SpinKit_Color="@color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="الرجاء الانتظار ...."
+            android:layout_margin="20dp"
+            android:layout_weight="2"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/white" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="عش كأنك ستموت غدا . تعلم كأنك ستعيش للأبد"
+            android:layout_margin="20dp"
+            android:layout_weight="2"
+            android:textSize="15sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+

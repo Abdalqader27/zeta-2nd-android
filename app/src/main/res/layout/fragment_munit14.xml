@@ -1,0 +1,317 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center"
+    android:layoutDirection="ltr"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/hugme"
+                android:padding="10dp"
+                android:text=" page 100" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/hugme"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:text="XML Takes on HTML"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="Standard Generalized Markup Language (SGML) is the language that spawned both HTML(Hyper Text Markup Language ) and XML(Extensible Markup Language ).SGML is not a true language , it is a metalanguage, which is a language from which you can create other language . In this case, it is the creation of a markup language (a system of encoded instructions for structuring and formatting electronic document elements )."
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/separator_layout_sample" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="إن اللغة المعممة القياسية الخاصة بتوصيف النص (SMGL ) هي تلك اللغة التي تنتج كلا من HTML (لغة الانترنت التوصيفية ) و XML (اللغة التوصيفية القابلة للتبسيط للامتداد).
+إن SGML ليست لغة حقيقية وهي لغة مركبة حيث يمكن ابتكار لغات اخرى منها .في هذه الحالة هي عبارة عن خلق للغة توصيف النص (نظام من التعليمات المشفرة لبناء وتنسيق عناصر المستند الالكترونية )
+"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="HTML is an application-specific derivation of SGML . it is a set of codes , generally used for webpages, that creates electronic documents according to rules established by SGML. HTML is a
+ language that is all about the presentation of your information , not what the actual data is. You can ,therefore, say  that HTML is a presentation language ."
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/separator_layout_sample" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="
+HTML هي اشتقاق تطبيق محدد عن  SGML فهي مجموعة من الرموز التي تستخدم بشكل عام لصفحات الويب التي تنشئ مستندات الكترونية بحسب القواعد المبنية باستخدام SGML . إن HTML هي اللغة التي كلها تدور حول عرض معلوماتك وليست عن البيانات الفعلية .لذا فإنه بإمكانك أن تقول أن HTML  هي لغة عرض ."
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="XML is a subset of SGML , but it is also , like SGML , a metalanguage .
+XML defines a specific method for creating text formats for data so that files are program independent platform independent , and support internationalization (able to read different languages , etc. ). In fact , because XML is an extensible language , you don't even have to have a browser to interpret the page . Application can parse the XML document and read the information without any human intervention ."
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/separator_layout_sample" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="XML هي مجموعة فرعية من SGML ولكنها تشبه SGML أيضاً، اللغة المركبة. تعرف XML طريقة محددة لإيجاد ولأن XML هي لغة قابلة للامتداد فلا يتحتم عليك أن يكون لديك متصفحاً لترجمة الصفحة . يمكن للتطبيقات أن تحلل وثيقة XML وتقرأ المعلومات بدون أي تدخل بشري."
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="XML, unlike HTML , is concerned with the identity , meaning and structure of data . XML is extensible because it lets website developers create their own set of customized tags for documents . This ability to define your own tags is the main feature of XML , and it is what gives developers more flexibility ."
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/separator_layout_sample" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="XML على نقيض HTML تهتم تتعلق بتطابق ، ومعنى وبنية البيانات .XML قابلة للامتداد لأنها تفسح المجال لمطوري المواقع الالكترونية بخلق مجموعة من الاقتباسات البيانية حسب الطلب من أجل المستندات الوثائق . وهذه القدرة على تعريف الاقتباسات الخاصة بك هي الميزة الرئيسية ل XML ، وهي ما يمنح المطورون مرونة أكثر"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text=" By defining your own markup tags ,you can explicitly define the content in the document . This makes XML a more intelligent markup language than HTML . For example, in HTML , you could have a paragraph tag P preceding a paragraph about baseball. Your web browser sees this tag and know to present the following text as a paragraph . All your browser knows about the text , however, is that it is text , it doesn't know that it is specifically about baseball."
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/separator_layout_sample" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="وبتعريف اقتباسات توصيف النص ، بإمكانك أن تعرف بشكل واضح المحتوى في الوثيقة المستند. وهذا يجعل من XML لغة توصيفية أكثر ذكاء من HTML ،يمكن أن يكون لديك اقتباس خاص بفقرة P تسبق فقرة عن البيسبول . إن كتصفح الويب لديك يرى هذا الاقتباس ويعرفها ليحضر النص التالي كفقرة . إن كل متصفحك يعرف حول النص ، ولكن هل هو نفسه ذاك النص ، فهو لا يعرف بأنه عن البيسبول بالتحديد."
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="In an XML document , you could define a BASEBALL tag to refer specifically to the text in the paragraph in your document . This way , when your XML browser examines the document, the document knows what data it contains, and that makes the content more intelligent . Search engines that make use of XML data can do a better job of finding the pages you are looking for because of the intelligent nature of XML content."
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/separator_layout_sample" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="في مستند XML ، يمكنك أن تعرف البيسبول لتشير بشكل واضح الى نص في الفقرة في مستندك. وهذه الطريقة عندما يفحص متصفحك XML المستند، فالمستند يعرف البيانات التي بداخله وهذا يجعل من المحتوى أكثر ذكاء. أن المحركات التي تستخدم بيانات XML يمكن أن تقوم بعمل أفضل بإيجاد الصفحات التي تبحث عنها بسبب الطبيعة الذكية لمحتوى XML."
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="XML, by design , does not deal with how the data is displayed to the end user . Because HTML is a presentation language ,XML documents use HTML tags to help handle the visual formatting of the document. Also, you can use XML in your HTML documents to provide metadata ,which is data about data in the document."
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/separator_layout_sample" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="XML،بالتصميم لا تتعامل مع كيفية عرض البيانات للمستخدم النهائي. لأن HTML هي لغة عرض، ان مستندات XML تستخدم اقتباسات HTML لتساعد في التعامل مع التنسيق البصري للمستند. وكذلك بإمكانك أن تستخدم XML في مستندات HTML للتزويد ببيانات مركبة والتي هي بيانات عن البيانات التي في المستند."
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="XML will do the Web and e-commerce what HTML originally did to the internet . XML and its associated applications have the potential to blow the roof off the internet and we do business."
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/separator_layout_sample" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="XML ستعمل للويب وللتجارة الالكترونية ما فعلته HTML بالأساس للإنترنت.
+XML وتطبيقاتها المرتبطة تمتلك القدرة على اختراق سقف الانترنت وما نقوم به من أعمال.
+"
+                    android:textAlignment="center" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/cardborder"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="XML will do the Web and e-commerce what HTML originally did to the internet . XML and its associated applications have the potential to blow the roof off the internet and we do business."
+                    android:textAlignment="center"
+                    android:textSize="16sp" />
+
+                <include layout="@layout/separator_layout_sample" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/a5"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:text="XML ستعمل للويب وللتجارة الالكترونية ما فعلته HTML بالأساس للإنترنت.
+XML وتطبيقاتها المرتبطة تمتلك القدرة على اختراق سقف الانترنت وما نقوم به من أعمال.
+"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

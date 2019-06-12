@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "170324943633",
+    "firebase_url": "https://zeta-7a49a.firebaseio.com",
+    "project_id": "zeta-7a49a",
+    "storage_bucket": "zeta-7a49a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170324943633:android:3eb078e728760461",
+        "android_client_info": {
+          "package_name": "com.Elkood.ling_en4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170324943633-b0v9hb2fk3j18j4peosmoau5vdjtntcd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAp2WSFjSyyAF4zsELDKa1jQ9wQhKmLxk4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170324943633-b0v9hb2fk3j18j4peosmoau5vdjtntcd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

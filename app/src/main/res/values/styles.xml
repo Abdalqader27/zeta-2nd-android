@@ -1,0 +1,34 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/style_color_primary</item>
+        <item name="colorPrimaryDark">@color/style_color_primary_dark</item>
+        <item name="colorAccent">@color/style_color_accent</item>
+        <item name="colorControlHighlight">@color/fab_color_pressed</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">@font/a5</item>
+        <item name="android:windowDrawsSystemBarBackgrounds" tools:targetApi="lollipop">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="Navigation_Theme">
+        <item name="android:fontFamily"
+            tools:targetApi="jelly_bean">@font/tajawal_regular</item>
+
+
+    </style>
+    <style name="FullScreenTheme" parent="AppTheme">
+        <!--this property will help hide ActionBar-->
+        <item name="windowNoTitle">true</item>
+        <!--currently, I don't know why we need this property since use windowNoTitle only already help hide actionbar. I use it because it is used inside Theme.AppCompat.Light.NoActionBar (you can check Theme.AppCompat.Light.NoActionBar code). I think there are some missing case that I don't know-->
+        <item name="windowActionBar">false</item>
+        <!--this property is used for hiding StatusBar-->
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="Dialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+</resources>

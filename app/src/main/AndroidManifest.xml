@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.Elkood.ling_en4"
+    android:installLocation="auto">
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATEf" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_descriptor"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:testOnly="false"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:icon">
+        <activity android:name=".Repeatrer_Quiz.r2017_2"></activity>
+
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:permission="">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service> <!-- <meta-data -->
+        <!-- android:name="com.google.android.gms.ads.APPLICATION_ID" -->
+        <!-- android:value="ca-app-pub-5222241590312997~8688336863" /> -->
+        <!-- <meta-data -->
+        <!-- android:name="com.google.android.gms.ads.AD_MANAGER_APP" -->
+        <!-- android:value="true" /> -->
+        <!-- <meta-data -->
+        <!-- android:name="com.google.android.gms.version" -->
+        <!-- android:value="@integer/google_play_services_version" /> -->
+        <!-- <activity -->
+        <!-- android:name="com.google.android.gms.ads.AdActivity" -->
+        <!-- android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" -->
+        <!-- android:theme="@android:style/Theme.Translucent" /> -->
+        <activity
+            android:name=".Important_quiz.unit_package.unit8"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Repeatrer_Quiz.R2016_3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Important_quiz.molakas"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.parse.SERVER_URL"
+            android:value="@string/back4app_server_url" />
+        <meta-data
+            android:name="com.parse.APPLICATION_ID"
+            android:value="@string/back4app_app_id" />
+        <meta-data
+            android:name="com.parse.CLIENT_KEY"
+            android:value="@string/back4app_client_key" />
+
+        <activity
+            android:name=".Important_quiz.unit_package.unit14"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Important_quiz.unit_package.unit13"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Important_quiz.unit_package.unit12"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Important_quiz.unit_package.unit11"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Important_quiz.unit_package.unit10"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Important_quiz.unit_package.unit9"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Important_quiz.word"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Header_Elements.statistics"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Repeatrer_Quiz.r2018"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Header_Elements.old_version"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Header_Elements.licenses"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Header_Elements.study_member"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Header_Elements.Eng3.QuizActivity_Eng3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Important_quiz.Extinsions.Extinsions"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Important_quiz.True_false.True_false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Repeatrer_Quiz.R2012"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Repeatrer_Quiz.R2013"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Repeatrer_Quiz.R2014"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Repeatrer_Quiz.R2015"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Important_quiz.Compound_Nouns.Compound_Nouns"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Important_quiz.Abbrevationss.Abbreviations"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Repeatrer_Quiz.r2016"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Important_quiz.Vocabulary.Vocabulary"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Header_Elements.Settings"
+            android:screenOrientation="portrait" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name=".Important_quiz.Abbrevationss.QuizActivity_Abberv"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Header_Elements.About"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Repeatrer_Quiz.r2017"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreenTheme" />
+        <activity
+            android:name=".Important_quiz.Vocabulary.QuizActivity_Vocabulary"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Important_quiz.True_false.QuizActivity_True_false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Anim.SecondAnimationActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Full_Quizes.QuizActivity_Full_Quiz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Important_quiz.Extinsions.QuizActivity_Extinsons"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Important_quiz.Compound_Nouns.QuizActivity_Comp"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>
