@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#0FB2C0</color>
-    <color name="colorPrimaryDark">#1198A4</color>
-    <color name="colorAccent">#A54685</color>
-    <color name="style_color_primary">#2d5d82</color>
+    <color name="colorPrimaryDark">#1198A4</color>   <color name="style_color_primary">#2d5d82</color>
     <color name="style_color_primary_dark">#21425d</color>
     <color name="style_color_accent">#01bcd5</color>
     <color name="fab_color_pressed">#007787</color>
@@ -53,4 +51,6 @@
     <color name="fbutton_color_silver">#bdc3c7</color>
     <color name="fbutton_color_concrete">#95a5a6</color>
     <color name="fbutton_color_asbestos">#7f8c8d</color>
+    <color name="colorAccent">#A54685</color>
+
 </resources>
