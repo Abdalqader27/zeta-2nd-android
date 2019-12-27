@@ -4,7 +4,7 @@
     android:layout_marginBottom="65dp"
     android:orientation="vertical">
 
-    <androidx.core.widget.NestedScrollView
+    <com.xw.repo.widget.BounceScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -90,5 +90,5 @@
             </androidx.recyclerview.widget.RecyclerView>
 
         </LinearLayout>
-    </androidx.core.widget.NestedScrollView>
+    </com.xw.repo.widget.BounceScrollView>
 </LinearLayout>

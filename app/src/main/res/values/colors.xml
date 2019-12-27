@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <color name="colorPrimary">#0FB2C0</color>
     <color name="colorPrimaryDark">#1198A4</color>   <color name="style_color_primary">#2d5d82</color>
     <color name="style_color_primary_dark">#21425d</color>
@@ -31,6 +31,7 @@
 
     <color name="blueberry">#0FB2C0</color>
     <color name="backber">#57727F</color>
+    <color name="backberddd">#ecc32e</color>
     <color name="fbutton_color_turquoise">#1abc9c</color>
     <color name="fbutton_color_green_sea">#16a085</color>
     <color name="fbutton_color_emerald">#2ecc71</color>
@@ -52,5 +53,42 @@
     <color name="fbutton_color_concrete">#95a5a6</color>
     <color name="fbutton_color_asbestos">#7f8c8d</color>
     <color name="colorAccent">#A54685</color>
+    <!--    <color name="colorPrimaryDark">#A8161B</color>-->
+
+    <color name="transparent">#00000000</color>
+
+    <!-- Screens background color-->
+
+
+    <!-- dots inactive colors -->
+
+    <!-- dots active colors -->
+
+    <color name="colorBackground" tools:keep="@color/colorBackground">#241445</color>
+    <color name="separatorColor" tools:keep="@color/separatorColor">#18102C</color>
+
+
+    <!-- Stock Theme -->
+    <!--<color name="line_background">#cccccc</color>-->
+    <!--<color name="done_text_color_disabled">#cccccc</color>-->
+    <!--<color name="transparent_black">#7f000000</color>-->
+
+    <!--<color name="neutral_pressed">#33999999</color>-->
+    <!--<color name="date_picker_text_disabled">#ccc</color>-->
+
+    <!-- DatePicker Dark Theme -->
+
+    <!-- TimePicker Dark Theme -->
+    <!--<color name="mdtp_circle_background_dark_theme">#525252</color>-->
+
+    <!-- Colors for red theme -->
+    <!--<color name="red">@color/mdtp_accent_color</color>-->
+    <!--<color name="red_focused">@color/mdtp_accent_color_dark</color>-->
+    <!--<color name="light_gray">#424242</color>-->
+    <!--<color name="dark_gray">#323232</color>-->
+    <!--<color name="line_dark">#808080</color>-->
+    <!--<color name="done_text_color_dark_normal">#ffffff</color>-->
+    <!--<color name="done_text_color_dark_disabled">#888888</color>-->
+    <!--<color name="done_disabled_dark">#bfbfbf</color>-->
 
 </resources>

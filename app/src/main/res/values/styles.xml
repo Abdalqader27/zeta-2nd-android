@@ -27,8 +27,4 @@
         <!--this property is used for hiding StatusBar-->
         <item name="android:windowFullscreen">true</item>
     </style>
-    <style name="Dialog" parent="Theme.AppCompat.Dialog">
-        <item name="android:windowNoTitle">false</item>
-        <item name="android:windowIsFloating">true</item>
-    </style>
 </resources>

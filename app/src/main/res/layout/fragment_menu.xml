@@ -9,14 +9,14 @@
         android:layout_width="350dp"
         android:layout_height="match_parent"
         android:layout_gravity="end"
-        android:background="@color/color4"
+        android:background="@color/grey_Light"
         android:layoutDirection="rtl"
         app:elevation="0dp"
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/view_global_menu_header"
-        app:itemIconTint="@color/white"
+        app:itemIconTint="@color/backber"
         app:itemTextAppearance="@style/Navigation_Theme"
-        app:itemTextColor="@color/white"
+        app:itemTextColor="@color/backber"
         app:menu="@menu/drawer_menu" >
 
 
@@ -47,7 +47,7 @@
                         android:layout_gravity="center"
                         android:gravity="center"
                         android:layout_weight="1"
-                        android:textColor="@color/backber"
+                        android:textColor="@color/white"
                         android:text="Created By"/>
                     <TextView
                         android:layout_width="match_parent"

@@ -1,90 +1,94 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@drawable/cardborder"
-    android:layout_marginEnd="5dp"
-    android:layout_marginStart="5dp"
-    android:layout_marginBottom="5dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/round20"
+    android:clickable="false"
+    android:elevation="0dp"
     android:orientation="vertical">
 
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-        <LinearLayout
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layoutDirection="rtl">
 
-            <RelativeLayout
+
+            <ImageView
+                android:id="@+id/picture"
+                android:layout_width="90dp"
+                android:layout_height="80dp"
+                android:layout_centerVertical="true"
+                android:padding="5dp"
+                app:srcCompat="@drawable/ic_tutors_purchase_image" />
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layoutDirection="rtl">
+                android:layout_marginStart="1dp"
+                android:layout_toEndOf="@+id/picture"
+                android:orientation="vertical">
 
-
-                <ImageView
-                    android:id="@+id/picture"
-                    android:layout_width="90dp"
-                    android:layout_height="80dp"
-                    android:layout_centerVertical="true"
-                    android:padding="5dp"
-                    android:src="@drawable/ic_tutors_purchase_image" />
-
-                <LinearLayout
+                <TextView
+                    android:id="@+id/title_home"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="1dp"
-                    android:layout_toEndOf="@+id/picture"
-                    android:orientation="vertical">
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="المرادفات "
+                    android:textColor="@color/backber"
+                    android:textSize="18sp" />
 
-                    <TextView
-                        android:id="@+id/title_home"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_margin="5dp"
-                        android:fontFamily="@font/a4"
-                        android:gravity="right"
-                        android:layout_weight="1"
-                        android:text="المرادفات "
-                        android:textColor="@color/colorPrimary"
-                        android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/datehome"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:lineSpacingMultiplier="1.3"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:text=" حيث "
+                    android:textColor="#9C9B9B" />
 
-                    <TextView
-                        android:id="@+id/datehome"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/a5"
-                        android:textColor="#9C9B9B"
-                        android:layout_weight="1"
-                        android:lineSpacingMultiplier="1.3"
-                        android:padding="5dp"
-                        android:layout_marginEnd="10dp"
-                        android:layout_marginStart="5dp"
-                        android:gravity="right"
-                        android:text=" حيث " />
+                <TextView
+                    android:id="@+id/desc_home"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="10dp"
 
-                    <TextView
-                        android:id="@+id/desc_home"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:fontFamily="@font/a5"
-                        android:gravity="right"
-                        android:layout_marginStart="5dp"
+                    android:fontFamily="@font/a5"
 
-                        android:padding="5dp"
-                        android:layout_weight="1"
-                        android:text="العدد :  100  " />
+                    android:gravity="right"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:text="العدد :  100  " />
 
-                </LinearLayout>
+            </LinearLayout>
 
 
-                <!--<include-->
-                <!--layout="@layout/separator_layout"-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="1dp"-->
-                <!--android:layout_alignParentBottom="true"-->
-                <!--android:layout_margin="10dp" />-->
+            <!--<include-->
+            <!--layout="@layout/separator_layout"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_margin="10dp" />-->
 
-            </RelativeLayout>
-        </LinearLayout>
+        </RelativeLayout>
     </LinearLayout>
+</LinearLayout>

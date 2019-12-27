@@ -1,35 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/white"
     android:orientation="vertical"
 
     tools:context=".LoginActivity">
-<LinearLayout
-    android:id="@+id/linearlogin"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:gravity="center"
-    android:visibility="gone"
-    android:layout_centerInParent="true"
-    android:orientation="vertical">
-    <com.github.ybq.android.spinkit.SpinKitView
-        style="@style/SpinKitView.Large.DoubleBounce"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        app:SpinKit_Color="@color/colorPrimary" />
-    <TextView
+
+    <LinearLayout
+        android:id="@+id/linearlogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:layout_gravity="center"
+        android:layout_centerInParent="true"
         android:gravity="center"
-        android:text="الرجاء الانتظار ...."/>
-</LinearLayout>
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <com.github.ybq.android.spinkit.SpinKitView
+            style="@style/SpinKitView.Large.Wave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:SpinKit_Color="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="الرجاء الانتظار ...." />
+    </LinearLayout>
 
 
     <RelativeLayout
@@ -46,7 +49,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="220dp"
-                android:background="@color/color4" />
+                android:background="@drawable/roundbottom20" />
 
 
             <TextView
@@ -69,6 +72,7 @@
                 android:text=" أنشأ حسابك "
                 android:textColor="@color/white"
                 android:textSize="17sp" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -79,72 +83,99 @@
                 android:textSize="17sp" />
         </RelativeLayout>
 
-        <ScrollView
+        <com.xw.repo.widget.BounceScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_below="@id/rl1"
 
-      >
+            >
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:orientation="vertical">
 
-
-                <com.google.android.material.textfield.TextInputLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp">
-
-                    <EditText
-                        android:id="@+id/theName_signin"
+                    <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="15dp"
+                        android:elevation="5dp"
                         android:layout_margin="15dp"
-                        android:fontFamily="@font/a4"
-                        android:gravity="start"
-                        android:hint="الاسم "
-                        android:paddingStart="33dp"
-                        android:shadowColor="@color/colorPrimaryDark"
-                        android:singleLine="true"
-                        android:textColor="@color/colorPrimaryDark"
-                        android:textColorHighlight="@color/colorPrimaryDark"
-                        android:textColorHint="@color/colorPrimaryDark"
-                        android:textColorLink="@color/colorPrimaryDark"
-                        android:textSize="20dp" />
-                </com.google.android.material.textfield.TextInputLayout>
+                        android:background="@drawable/round20"
+                        >
 
-                <com.google.android.material.textfield.TextInputLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            >
 
-                    <EditText
-                        android:id="@+id/number"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_margin="15dp"
-                        android:fontFamily="@font/a4"
-                        android:gravity="start"
-                        android:hint="الرقم الجامعي  "
-                        android:inputType="number"
-                        android:paddingStart="33dp"
+                            <EditText
+                                android:id="@+id/theName_signin"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:drawableEnd="@drawable/ic_userk"
+                                android:drawableRight="@drawable/ic_userk"
+                                android:drawablePadding="10dp"
+                                android:drawableTint="@color/colorPrimary"
+                                android:gravity="start"
+                                android:layout_margin="10dp"
+                                android:hint="اسم الطالب "
+                                android:importantForAutofill="no"
+                                android:inputType="textPersonName"
+                                android:lineSpacingMultiplier="1"
+                                android:lines="1"
+                                android:maxLines="1"
+                                android:padding="15dp"
+                                android:singleLine="true"
+                                android:textAlignment="textStart"
 
-                        android:shadowColor="@color/colorPrimaryDark"
-                        android:singleLine="true"
-                        android:textColor="@color/colorPrimaryDark"
-                        android:textColorHighlight="@color/colorPrimaryDark"
-                        android:textColorHint="@color/colorPrimaryDark"
-                        android:textColorLink="@color/colorPrimaryDark"
-                        android:textSize="20dp" />
-                </com.google.android.material.textfield.TextInputLayout>
+                                android:textSize="15sp"
+                                tools:targetApi="m"  />
+                        </com.google.android.material.textfield.TextInputLayout>
 
-                <Button
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <EditText
+                                android:id="@+id/number"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:drawableEnd="@drawable/ic_contact"
+                                android:drawableRight="@drawable/ic_contact"
+                                android:drawablePadding="10dp"
+                                android:drawableTint="@color/colorPrimary"
+                                android:gravity="start"
+                                android:layout_margin="10dp"
+                                android:hint="الرقم الجامعي  "
+                                android:importantForAutofill="no"
+                                android:inputType="number"
+                                android:lineSpacingMultiplier="1"
+                                android:lines="1"
+                                android:maxLines="1"
+                                android:padding="15dp"
+                                android:singleLine="true"
+                                android:textAlignment="textStart"
+
+                                android:textSize="15sp"
+                                tools:targetApi="m" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                    </LinearLayout>
+
+
+
+                <info.hoang8f.widget.FButton
                     android:id="@+id/sgin"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="30dp"
-                    android:background="@drawable/bbb3"
+                    app:cornerRadius="15dp"
+                    app:shadowHeight="5dp"
+                    android:fontFamily="@font/a5"
+                    app:fButtonColor="@color/white"
                     android:text="@string/log" />
 
                 <CheckBox
@@ -156,13 +187,13 @@
                     android:clickable="false"
                     android:text="تذكر هذه المعلومات " />
             </LinearLayout>
-        </ScrollView>
+        </com.xw.repo.widget.BounceScrollView>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:gravity="center"
-            android:text="ITE 20 " />
+            android:text="" />
     </RelativeLayout>
 </RelativeLayout>

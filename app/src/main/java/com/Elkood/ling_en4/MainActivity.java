@@ -11,9 +11,16 @@ import android.view.MenuItem;
 import android.view.Window;
 import android.widget.Toast;
 
-import com.Elkood.ling_en4.Home.Home_fragment;
-import com.Elkood.ling_en4.Repeatrer_Quiz.Repeater_Quiz;
-import com.Elkood.ling_en4.Utils.TypefaceUtil;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.core.content.ContextCompat;
+import androidx.fragment.app.FragmentManager;
+import androidx.viewpager.widget.ViewPager;
+
+import com.Elkood.ling_en4.EN4.Home.Home_fragment;
+import com.Elkood.ling_en4.EN4.MenuListFragment;
+import com.Elkood.ling_en4.EN4.Repeatrer_Quiz.Repeater_Quiz;
+import com.Elkood.ling_en4.EN4.Utils.TypefaceUtil;
 import com.google.android.material.tabs.TabLayout;
 import com.instabug.library.Instabug;
 import com.instabug.library.ui.onboarding.WelcomeMessage;
@@ -26,11 +33,6 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
-import androidx.core.content.ContextCompat;
-import androidx.fragment.app.FragmentManager;
-import androidx.viewpager.widget.ViewPager;
 import cn.pedant.SweetAlert.SweetAlertDialog;
 
 import static java.security.AccessController.getContext;
@@ -96,6 +98,7 @@ public class MainActivity extends AppCompatActivity {
         FragmentPagerItemAdapter adapter = new FragmentPagerItemAdapter(
                 getSupportFragmentManager(), FragmentPagerItems.with(getApplicationContext())
                 .add("الدورات", Repeater_Quiz.class)
+                .add("القائمة", menuGold.class)
                 .add("الرئيسية", Home_fragment.class)
 
                 .create());
@@ -104,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
         viewPager.setAdapter(adapter);
 
         tabLayout.setupWithViewPager(viewPager);
-        tabLayout.selectTab(tabLayout.getTabAt(1));
+        tabLayout.selectTab(tabLayout.getTabAt(2));
         tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
@@ -117,7 +120,19 @@ public class MainActivity extends AppCompatActivity {
                             R.color.color4));
                     tabLayout.setBackgroundColor(ContextCompat.getColor(getApplicationContext(),
                             R.color.color4));
-                } else if (tab.getPosition() == 1) {
+                }
+                else if (tab.getPosition() == 1) {
+
+                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                        window.setStatusBarColor(ContextCompat.getColor(getApplicationContext(),
+                                R.color.backberddd));
+                    }
+                    toolbar.setBackgroundColor(ContextCompat.getColor(getApplicationContext(),
+                            R.color.backberddd));
+                    tabLayout.setBackgroundColor(ContextCompat.getColor(getApplicationContext(),
+                            R.color.backberddd));
+                }
+                else if (tab.getPosition() == 2) {
 
                     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                         window.setStatusBarColor(ContextCompat.getColor(getApplicationContext(),
@@ -238,7 +253,7 @@ public class MainActivity extends AppCompatActivity {
                                     .setConfirmText("تم ");
                             dialog.setCancelable(false);
                         } else {
-                            dialog.setTitleText(String.valueOf("انتهى الامتحان "))
+                            dialog.setTitleText(String.valueOf("الاصدار الحالي :  1.4"))
                                     .setConfirmText("تم ");
                             dialog.setCancelable(false);
                         }

@@ -7,6 +7,6 @@
           android:title=" الوقت المتبقي"
           android:orderInCategory="100"
           app:showAsAction="ifRoom"
-        android:icon="@drawable/ic_streak_repair_unavailable"/>
+        android:icon="@drawable/ic_info"/>
 
 </menu>

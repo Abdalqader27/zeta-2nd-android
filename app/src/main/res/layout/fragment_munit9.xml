@@ -103,7 +103,6 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/a5"
                 android:padding="10dp"
-                android:textColor="@color/red_btn_bg_color"
                 android:text=" ميزات أخرى تشمل Mp3 " />
 
             <LinearLayout
