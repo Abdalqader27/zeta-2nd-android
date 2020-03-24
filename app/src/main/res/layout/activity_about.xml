@@ -34,7 +34,7 @@
                 android:layout_marginEnd="40dp"
                 android:layout_marginStart="40dp"
                 android:fitsSystemWindows="true"
-                android:src="@drawable/ic_untitled"
+                app:srcCompat="@drawable/ic_untitled"
                 app:layout_collapseMode="parallax" />
 
 
@@ -52,7 +52,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="10dp"
-                    android:src="@drawable/ic_arrow_back_black_24dp"
+                    app:srcCompat="@drawable/ic_arrow_back_black_24dp"
                     android:tint="@color/white" />
             </androidx.appcompat.widget.Toolbar>
 
@@ -101,7 +101,7 @@
                             android:layout_height="100dp"
                             android:layout_weight="2"
                             android:padding="30dp"
-                            android:src="@drawable/brand"
+                            app:srcCompat="@drawable/brand"
                             android:tint="@color/backber" />
 
                         <LinearLayout
@@ -196,7 +196,7 @@
                         android:padding="10dp"
                         android:scaleType="fitCenter"
                         android:tint="@color/colorPrimary"
-                        android:src="@drawable/ic_people" />
+                        app:srcCompat="@drawable/ic_people" />
 
 
                     <TextView
@@ -306,7 +306,7 @@
                             android:layout_weight="1"
                             android:clickable="true"
                             android:focusable="true"
-                            android:src="@drawable/ic_facebook_logo_in_circular_button_outlined_social_symbol"
+                            app:srcCompat="@drawable/ic_facebook_logo_in_circular_button_outlined_social_symbol"
                             android:tint="@color/grey"
                             />
 
@@ -318,7 +318,7 @@
                             android:clickable="true"
                             android:tint="@color/grey"
                             android:focusable="true"
-                            android:src="@drawable/ic_telegram" />
+                            app:srcCompat="@drawable/ic_telegram" />
 
                     </LinearLayout>
                 </LinearLayout>

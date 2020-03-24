@@ -40,7 +40,7 @@
                             android:layout_height="150dp"
                             android:background="@color/colorPrimary"
                             android:padding="10dp"
-                            android:src="@drawable/ic_clubs_caption_icon" />
+                            app:srcCompat="@drawable/ic_clubs_caption_icon" />
 
                     </androidx.cardview.widget.CardView>
 

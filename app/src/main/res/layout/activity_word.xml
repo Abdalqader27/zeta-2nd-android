@@ -41,7 +41,7 @@
                             android:layout_height="150dp"
                             android:background="@color/backber"
                             android:padding="10dp"
-                            android:src="@drawable/ic_reading" />
+                            app:srcCompat="@drawable/ic_reading" />
 
                     </androidx.cardview.widget.CardView>
 

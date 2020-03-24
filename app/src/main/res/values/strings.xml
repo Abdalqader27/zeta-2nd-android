@@ -30,4 +30,7 @@
     <string name="r2017_2">The application layer is the only part of communication process that a user sees, and even then, the user does not see most of the work that the application does to prepare a message for sending over a network. It converts a message\'s data from human-readable form into bits and attaches a header identifying the sending and receiving computers. The presentation layer ensures that the message is transmitted in a language that the receiver computer can interpret. This layer translates that message if necessary and then compresses and perhaps encrypts the data. It adds another header specifying the language as well as the compression and encryption schemes.</string>
 
     <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
 </resources>

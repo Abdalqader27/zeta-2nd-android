@@ -1,170 +1,164 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
-    android:orientation="vertical"
+    android:background="#ffffff"
+    >
 
-    tools:context=".LoginActivity">
 
-    <LinearLayout
-        android:id="@+id/linearlogin"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:gravity="center"
-        android:orientation="vertical"
-        android:visibility="gone">
-
-        <com.github.ybq.android.spinkit.SpinKitView
-            style="@style/SpinKitView.Large.Wave"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            app:SpinKit_Color="@color/colorPrimary" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="10dp"
-            android:gravity="center"
-            android:text="الرجاء الانتظار ...." />
-    </LinearLayout>
 
 
     <RelativeLayout
-        android:id="@+id/relogin"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:visibility="visible">
+        android:layout_height="match_parent"
 
-        <RelativeLayout
-            android:id="@+id/rl1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="220dp"
-                android:background="@drawable/roundbottom20" />
-
-
-            <TextView
-                android:id="@+id/hello"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/ib_fr_space_20"
-                android:text="مرحباً بك"
-                android:textColor="@color/white"
-                android:textSize="27sp" />
-
-            <TextView
-                android:id="@+id/t"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/hello"
-                android:layout_marginTop="5dp"
-                android:paddingRight="20dp"
-
-                android:text=" أنشأ حسابك "
-                android:textColor="@color/white"
-                android:textSize="17sp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/t"
-                android:layout_marginRight="@dimen/ib_fr_space_20"
-                android:text="  يرجى ملء البيانات التالية : "
-                android:textColor="@color/white"
-                android:textSize="17sp" />
-        </RelativeLayout>
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
         <com.xw.repo.widget.BounceScrollView
+            android:id="@+id/loginBoucingScroll"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_below="@id/rl1"
-
-            >
+            android:layout_height="wrap_content">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
                 android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:background="@drawable/gradaints"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/hello"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/ib_fr_space_20"
+                        android:text="مرحباً بك"
+                        android:textColor="@color/white"
+                        android:textSize="27sp" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical"
-                        android:padding="15dp"
-                        android:elevation="5dp"
-                        android:layout_margin="15dp"
-                        android:background="@drawable/round20"
-                        >
+                        android:gravity="center"
+                        android:layout_marginEnd="75dp"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="75dp"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="10dp"
+                            app:srcCompat="@drawable/ic_untitled"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/muli_regular"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:layout_marginStart="-50dp"
+                            android:layout_gravity="center"
+                            android:text="@string/app_name"/>
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="80dp"
+                        android:layout_height="4dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="16dp"
+                        android:background="#fff"
+                        />
+                </LinearLayout>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="-64dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="16dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="4dp"
+                    app:cardUseCompatPadding="true"
+                    app:contentPadding="16dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:id="@+id/t"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/hello"
+                            android:layout_marginTop="5dp"
+                            android:paddingRight="20dp"
+
+                            android:text=" أنشأ حسابك "
+                            android:textSize="17sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/t"
+                            android:layout_marginRight="@dimen/ib_fr_space_20"
+                            android:text="  يرجى ملء البيانات التالية : "
+                            android:textSize="17sp" />
 
                         <com.google.android.material.textfield.TextInputLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            >
+                            android:layout_marginBottom="16dp"
+                            android:textColorHint="#FFB3B3B3">
 
                             <EditText
+
                                 android:id="@+id/theName_signin"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:drawableEnd="@drawable/ic_userk"
-                                android:drawableRight="@drawable/ic_userk"
-                                android:drawablePadding="10dp"
-                                android:drawableTint="@color/colorPrimary"
-                                android:gravity="start"
-                                android:layout_margin="10dp"
+                                android:drawableStart="@drawable/ic_person_gray_24dp"
+                                android:drawablePadding="16dp"
                                 android:hint="اسم الطالب "
-                                android:importantForAutofill="no"
-                                android:inputType="textPersonName"
-                                android:lineSpacingMultiplier="1"
-                                android:lines="1"
+                                android:paddingRight="20dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="5dp"
+                                android:inputType="text"
                                 android:maxLines="1"
-                                android:padding="15dp"
-                                android:singleLine="true"
-                                android:textAlignment="textStart"
-
-                                android:textSize="15sp"
-                                tools:targetApi="m"  />
+                                android:textColor="@android:color/black"
+                                android:textSize="16sp" />
                         </com.google.android.material.textfield.TextInputLayout>
 
                         <com.google.android.material.textfield.TextInputLayout
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="16dp"
+                            android:textColorHint="#FFB3B3B3"
+                            app:passwordToggleEnabled="true">
 
                             <EditText
                                 android:id="@+id/number"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:drawableEnd="@drawable/ic_contact"
-                                android:drawableRight="@drawable/ic_contact"
-                                android:drawablePadding="10dp"
-                                android:drawableTint="@color/colorPrimary"
-                                android:gravity="start"
-                                android:layout_margin="10dp"
-                                android:hint="الرقم الجامعي  "
-                                android:importantForAutofill="no"
-                                android:inputType="number"
-                                android:lineSpacingMultiplier="1"
-                                android:lines="1"
+                                android:drawableStart="@drawable/ic_lock_gray_24dp"
+                                android:drawablePadding="16dp"
+                                android:hint="كلمة المرور "
+                                android:inputType="textPassword"
                                 android:maxLines="1"
-                                android:padding="15dp"
-                                android:singleLine="true"
-                                android:textAlignment="textStart"
-
-                                android:textSize="15sp"
-                                tools:targetApi="m" />
+                                android:textColor="@android:color/black"
+                                android:textSize="16sp" />
                         </com.google.android.material.textfield.TextInputLayout>
 
                     </LinearLayout>
 
+                </androidx.cardview.widget.CardView>
 
 
                 <info.hoang8f.widget.FButton
@@ -173,9 +167,10 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="30dp"
                     app:cornerRadius="15dp"
-                    app:shadowHeight="5dp"
+                    app:shadowHeight="2dp"
                     android:fontFamily="@font/a5"
-                    app:fButtonColor="@color/white"
+                    android:textColor="@color/white"
+                    app:fButtonColor="@color/colorPrimary"
                     android:text="@string/log" />
 
                 <CheckBox
@@ -187,13 +182,35 @@
                     android:clickable="false"
                     android:text="تذكر هذه المعلومات " />
             </LinearLayout>
-        </com.xw.repo.widget.BounceScrollView>
 
-        <TextView
+
+        </com.xw.repo.widget.BounceScrollView>
+        <LinearLayout
+            android:id="@+id/linearlogin"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
             android:gravity="center"
-            android:text="" />
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <com.github.ybq.android.spinkit.SpinKitView
+                style="@style/SpinKitView.Large.Wave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:SpinKit_Color="@color/colorPrimary" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:text="الرجاء الانتظار ...." />
+        </LinearLayout>
+
     </RelativeLayout>
-</RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

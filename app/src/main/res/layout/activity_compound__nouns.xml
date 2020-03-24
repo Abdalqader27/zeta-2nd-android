@@ -40,7 +40,7 @@
                             android:layout_height="150dp"
                             android:background="@color/color4"
                             android:padding="10dp"
-                            android:src="@drawable/ic_children" />
+                            app:srcCompat="@drawable/ic_children" />
 
                     </androidx.cardview.widget.CardView>
 

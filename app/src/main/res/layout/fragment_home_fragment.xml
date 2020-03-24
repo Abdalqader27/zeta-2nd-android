@@ -6,7 +6,7 @@
     android:layout_height="wrap_content"
     android:background="@color/white_20"
     android:layoutDirection="ltr"
-    tools:context=".EN4.Home.Home_fragment">
+    tools:context=".Views.TwoYear.English_3.English_4.Home.Home_fragment">
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
