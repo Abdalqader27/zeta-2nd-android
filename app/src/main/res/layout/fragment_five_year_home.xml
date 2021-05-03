@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/grey_Light"
     android:layoutDirection="rtl"
-    tools:context=".Views.OneYear.English_1.En1HomeFr">
+    tools:context=".Views.FirstYear.English_1.En1HomeFr">
 
     <com.xw.repo.widget.BounceScrollView
         android:id="@+id/scrollView"

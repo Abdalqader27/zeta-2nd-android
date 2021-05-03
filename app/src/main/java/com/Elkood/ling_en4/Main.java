@@ -20,7 +20,6 @@ import androidx.viewpager.widget.ViewPager;
 import com.Elkood.ling_en4.Utils.TypefaceUtil;
 import com.Elkood.ling_en4.Views.FiveYear.FiveYearHomeFr;
 import com.Elkood.ling_en4.Views.FourthYear.FourthYearHomeFr;
-import com.Elkood.ling_en4.Views.OneYear.OneYearHomeFr;
 import com.Elkood.ling_en4.Views.SecondYear.SecondYearHomeFr;
 import com.Elkood.ling_en4.Views.ThirdYear.ThirdYearHomeFr;
 import com.Elkood.ling_en4.Views.TwoYear.English_3.English_4.Home.MenuListFragment;
@@ -104,7 +103,7 @@ public class Main extends AppCompatActivity {
                 .add("الرابعة", FourthYearHomeFr.class)
                 .add("الثالثة", ThirdYearHomeFr.class)
                 .add("الثانية", SecondYearHomeFr.class)
-                .add("الاولى", OneYearHomeFr.class)
+//                .add("الاولى", OneYearHomeFr.class)
 
                 .create());
         final TabLayout tabLayout = findViewById(R.id.tablyout);

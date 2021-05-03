@@ -25,16 +25,15 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:replace="android:icon">
-
-        <activity android:name=".Views.TwoYear.English_3.English_4.Repeatrer_Quiz.r2017_2" />
-
-<!--        <service-->
-<!--            android:name=".Views.English_4.MyFirebaseMessagingService"-->
-<!--            android:permission="">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="com.google.firebase.MESSAGING_EVENT" />-->
-<!--            </intent-filter>-->
-<!--        </service> &lt;!&ndash; <meta-data &ndash;&gt;-->
+        <activity android:name=".Views.FirstYear.FirstYearAct"></activity>
+        <activity android:name=".NewMain" />
+        <activity android:name=".Views.TwoYear.English_3.English_4.Repeatrer_Quiz.r2017_2" /> <!-- <service -->
+        <!-- android:name=".Views.English_4.MyFirebaseMessagingService" -->
+        <!-- android:permission=""> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="com.google.firebase.MESSAGING_EVENT" /> -->
+        <!-- </intent-filter> -->
+        <!-- </service> &lt;!&ndash; <meta-data &ndash;&gt; -->
         <!-- android:name="com.google.android.gms.ads.APPLICATION_ID" -->
         <!-- android:value="ca-app-pub-5222241590312997~8688336863" /> -->
         <!-- <meta-data -->
@@ -171,7 +170,6 @@
             android:name=".Views.TwoYear.English_3.English_4.Important_quiz.True_false.QuizActivity_True_false"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme" />
-
         <activity
             android:name=".Anim.SecondAnimationActivity"
             android:screenOrientation="fullSensor">
@@ -190,10 +188,11 @@
         <activity
             android:name=".Views.TwoYear.English_3.English_4.Important_quiz.Compound_Nouns.QuizActivity_Comp"
             android:screenOrientation="fullSensor" />
-        <activity android:name=".Main"
+        <activity
+            android:name=".Main"
             android:label="@string/app_name"
             android:screenOrientation="fullSensor"
-            android:theme="@style/AppTheme"/>
+            android:theme="@style/AppTheme" />
     </application>
 
 </manifest>

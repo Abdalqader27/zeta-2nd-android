@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    tools:context=".Views.Home">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="حول الملف الشخصي "
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_001_student3" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.6"
+                    android:gravity="center"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="25dp"
+                    android:id="@+id/theDonkey"
+
+                    android:text="Abd Alqader Alnajjar "
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/action_settings"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:tint="@color/blue"
+                    android:src="@drawable/ic_settingsd" />
+            </LinearLayout>
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tablyout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="ltr"
+                app:tabSelectedTextColor="@color/black"
+                app:tabIndicatorAnimationDuration="@integer/strokeDrawingDuration"
+                app:tabIndicatorColor="@color/black"
+                app:tabIndicatorHeight="3dp"
+                app:tabIndicatorFullWidth="@bool/default_bmb_autoBoom"
+                app:tabIndicator="@drawable/round15"
+                app:tabTextColor="@color/grey">
+
+                <com.google.android.material.tabs.TabItem
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="النتائج" />
+
+                <com.google.android.material.tabs.TabItem
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="النشاطات " />
+
+                <com.google.android.material.tabs.TabItem
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="المواد" />
+            </com.google.android.material.tabs.TabLayout>
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/viewPager_main"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+
+            </androidx.viewpager.widget.ViewPager>
+
+
+        </LinearLayout>
+
+
+</FrameLayout>

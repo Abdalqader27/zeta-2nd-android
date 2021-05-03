@@ -18,7 +18,7 @@ import android.widget.Toast;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.Elkood.ling_en4.Main;
+import com.Elkood.ling_en4.NewMain;
 import com.Elkood.ling_en4.R;
 import com.parse.Parse;
 import com.parse.ParseObject;
@@ -47,7 +47,8 @@ public class LoginActivity extends AppCompatActivity {
         SharedPreferences preferences = getSharedPreferences("saveData", MODE_PRIVATE);
         editor = preferences.edit();
         if (preferences.getBoolean("checkbox", false)) {
-            Intent intent = new Intent(getApplicationContext(), Main.class);
+//            Intent intent = new Intent(getApplicationContext(), Main.class);
+            Intent intent = new Intent(getApplicationContext(), NewMain.class);
             startActivity(intent);
             finish();
         }
@@ -100,7 +101,7 @@ public class LoginActivity extends AppCompatActivity {
                     Handler handler = new Handler();
                     handler.postDelayed(
                             () -> {
-                                Intent intent = new Intent(getApplicationContext(), Main.class);
+                                Intent intent = new Intent(getApplicationContext(), NewMain.class);
                                 startActivity(intent);
                             }, 2000L);
 
