@@ -1,32 +1,14 @@
-package com.Elkood.ling_en4.Views.TwoYear.English_3.English_4.Repeatrer_Quiz;
+package com.Elkood.ling_en4.Constants.En4;
 
-import android.os.Bundle;
-import android.os.Handler;
-import android.view.View;
-import android.view.ViewGroup;
-
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-
-import com.Elkood.ling_en4.Adapter.Adapter_Quiz;
 import com.Elkood.ling_en4.Models.Quiz;
-import com.Elkood.ling_en4.R;
 
 import java.util.ArrayList;
 
-public class r2017_2 extends AppCompatActivity {
-    private ViewGroup progressBar;
-    private RecyclerView recyclerView;
+public class En4R2017_2Constants {
+    public ArrayList<Quiz> list = new ArrayList<>();
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_r2017_2);
-        recyclerView = findViewById(R.id.recycle_view2017_2);
-        progressBar = findViewById(R.id.pro2017_2);
+    public En4R2017_2Constants() {
 
-        ArrayList<Quiz> list = new ArrayList<>();
         list.add(new Quiz("1) The best title of this paragraph is  : ",
                 0, 0, 1, 0,
                 "A. The application layer",
@@ -69,7 +51,7 @@ public class r2017_2 extends AppCompatActivity {
                 "C. data is converted into bits",
                 "D. nothing changes in the message"));
         list.add(new Quiz("7 ) According to the passage, the receiving computer should receive the following information EXCEPT…………. : ",
-        0, 0, 0, 1,
+                0, 0, 0, 1,
                 "A. The address",
                 "B. compression method",
                 "C. encryption way",
@@ -395,17 +377,5 @@ public class r2017_2 extends AppCompatActivity {
                 " B. directing",
                 "C. directed",
                 "D. directs"));
-        LinearLayoutManager layoutManager = new LinearLayoutManager(getApplicationContext());
-
-        Adapter_Quiz adapter_home = new Adapter_Quiz(list, r2017_2.this);
-        recyclerView.setHasFixedSize(true);
-        recyclerView.setLayoutManager(layoutManager);
-        new Handler().postDelayed(() -> {
-            progressBar.setVisibility(View.GONE);
-            recyclerView.setAdapter(adapter_home);
-        }, 4000L);
-
-
     }
-
 }

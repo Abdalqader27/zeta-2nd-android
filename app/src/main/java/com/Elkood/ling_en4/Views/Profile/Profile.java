@@ -55,7 +55,7 @@ public class Profile extends Fragment {
     }
     private  void setClicks(){
         settings.setOnClickListener(v->{
-            Intent intent = new Intent(Objects.requireNonNull(getActivity()).getApplicationContext(), com.Elkood.ling_en4.Views.TwoYear.English_3.English_4.Header_Elements.Settings.class);
+            Intent intent = new Intent(Objects.requireNonNull(getActivity()).getApplicationContext(), com.Elkood.ling_en4.Views.SecondYear.English_4.Header_Elements.Settings.class);
             getActivity().startActivity(intent);
             getActivity().overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
         });

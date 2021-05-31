@@ -25,35 +25,19 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:replace="android:icon">
-        <activity android:name=".Views.FirstYear.FirstYearAct"></activity>
-        <activity android:name=".NewMain" />
-        <activity android:name=".Views.TwoYear.English_3.English_4.Repeatrer_Quiz.r2017_2" /> <!-- <service -->
-        <!-- android:name=".Views.English_4.MyFirebaseMessagingService" -->
-        <!-- android:permission=""> -->
-        <!-- <intent-filter> -->
-        <!-- <action android:name="com.google.firebase.MESSAGING_EVENT" /> -->
-        <!-- </intent-filter> -->
-        <!-- </service> &lt;!&ndash; <meta-data &ndash;&gt; -->
-        <!-- android:name="com.google.android.gms.ads.APPLICATION_ID" -->
-        <!-- android:value="ca-app-pub-5222241590312997~8688336863" /> -->
-        <!-- <meta-data -->
-        <!-- android:name="com.google.android.gms.ads.AD_MANAGER_APP" -->
-        <!-- android:value="true" /> -->
-        <!-- <meta-data -->
-        <!-- android:name="com.google.android.gms.version" -->
-        <!-- android:value="@integer/google_play_services_version" /> -->
-        <!-- <activity -->
-        <!-- android:name="com.google.android.gms.ads.AdActivity" -->
-        <!-- android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" -->
-        <!-- android:theme="@android:style/Theme.Translucent" /> -->
+        <activity android:name=".Views.SecondYear.English_4.Courses_Quiz.Courses_Quiz_details"></activity>
+        <activity android:name=".Views.SecondYear.SecondYearActivity" />
+        <activity android:name=".NewMain2" />
+        <activity android:name=".Views.FirstYear.FirstYearAct" />
+        <activity android:name=".Views.SecondYear.English_4.Courses_Quiz.r2017_2" /> <!-- <service -->
         <activity
-            android:name=".Views.TwoYear.English_3.English_4.Important_quiz.unit_package.unit8"
+            android:name=".Views.SecondYear.English_4.Important_quiz.unit_package.unit8"
             android:screenOrientation="fullSensor" />
         <activity
-            android:name=".Views.TwoYear.English_3.English_4.Repeatrer_Quiz.R2016_3"
+            android:name=".Views.SecondYear.English_4.Courses_Quiz.R2016_3"
             android:screenOrientation="fullSensor" />
         <activity
-            android:name=".Views.TwoYear.English_3.English_4.Important_quiz.molakas"
+            android:name=".Views.SecondYear.English_4.Important_quiz.molakas"
             android:screenOrientation="fullSensor" />
 
         <meta-data
@@ -67,76 +51,76 @@
             android:value="@string/back4app_client_key" />
 
         <activity
-            android:name=".Views.TwoYear.English_3.English_4.Important_quiz.unit_package.unit14"
+            android:name=".Views.SecondYear.English_4.Important_quiz.unit_package.unit14"
             android:screenOrientation="fullSensor" />
         <activity
-            android:name=".Views.TwoYear.English_3.English_4.Important_quiz.unit_package.unit13"
+            android:name=".Views.SecondYear.English_4.Important_quiz.unit_package.unit13"
             android:screenOrientation="fullSensor" />
         <activity
-            android:name=".Views.TwoYear.English_3.English_4.Important_quiz.unit_package.unit12"
+            android:name=".Views.SecondYear.English_4.Important_quiz.unit_package.unit12"
             android:screenOrientation="fullSensor" />
         <activity
-            android:name=".Views.TwoYear.English_3.English_4.Important_quiz.unit_package.unit11"
+            android:name=".Views.SecondYear.English_4.Important_quiz.unit_package.unit11"
             android:screenOrientation="fullSensor" />
         <activity
-            android:name=".Views.TwoYear.English_3.English_4.Important_quiz.unit_package.unit10"
+            android:name=".Views.SecondYear.English_4.Important_quiz.unit_package.unit10"
             android:screenOrientation="fullSensor" />
         <activity
-            android:name=".Views.TwoYear.English_3.English_4.Important_quiz.unit_package.unit9"
+            android:name=".Views.SecondYear.English_4.Important_quiz.unit_package.unit9"
             android:screenOrientation="fullSensor" />
         <activity
-            android:name=".Views.TwoYear.English_3.English_4.Important_quiz.word"
+            android:name=".Views.SecondYear.English_4.Important_quiz.word"
             android:screenOrientation="fullSensor" />
         <activity
-            android:name=".Views.TwoYear.English_3.English_4.Header_Elements.statistics"
+            android:name=".Views.SecondYear.English_4.Header_Elements.statistics"
             android:screenOrientation="fullSensor" />
         <activity
-            android:name=".Views.TwoYear.English_3.English_4.Repeatrer_Quiz.r2018"
+            android:name=".Views.SecondYear.English_4.Courses_Quiz.r2018"
             android:screenOrientation="fullSensor" />
         <activity
-            android:name=".Views.TwoYear.English_3.English_4.Header_Elements.old_version"
+            android:name=".Views.SecondYear.English_4.Header_Elements.old_version"
             android:screenOrientation="fullSensor" />
         <activity
-            android:name=".Views.TwoYear.English_3.English_4.Header_Elements.licenses"
+            android:name=".Views.SecondYear.English_4.Header_Elements.licenses"
             android:screenOrientation="fullSensor" />
         <activity
-            android:name=".Views.TwoYear.English_3.English_4.Header_Elements.study_member"
+            android:name=".Views.SecondYear.English_4.Header_Elements.study_member"
             android:screenOrientation="fullSensor" />
         <activity
-            android:name=".Views.TwoYear.English_3.English_4.Header_Elements.Eng3.QuizActivity_Eng3"
+            android:name=".Views.SecondYear.English_4.Header_Elements.Eng3.QuizActivity_Eng3"
             android:screenOrientation="fullSensor" />
         <activity
-            android:name=".Views.TwoYear.English_3.English_4.Important_quiz.Extinsions.Extinsions"
+            android:name=".Views.SecondYear.English_4.Important_quiz.Extinsions.Extinsions"
             android:screenOrientation="fullSensor" />
         <activity
-            android:name=".Views.TwoYear.English_3.English_4.Important_quiz.True_false.True_false"
+            android:name=".Views.SecondYear.English_4.Important_quiz.True_false.True_false"
             android:screenOrientation="fullSensor" />
         <activity
-            android:name=".Views.TwoYear.English_3.English_4.Repeatrer_Quiz.R2012"
+            android:name=".Views.SecondYear.English_4.Courses_Quiz.R2012"
             android:screenOrientation="fullSensor" />
         <activity
-            android:name=".Views.TwoYear.English_3.English_4.Repeatrer_Quiz.R2013"
+            android:name=".Views.SecondYear.English_4.Courses_Quiz.R2013"
             android:screenOrientation="fullSensor" />
         <activity
-            android:name=".Views.TwoYear.English_3.English_4.Repeatrer_Quiz.R2014"
+            android:name=".Views.SecondYear.English_4.Courses_Quiz.R2014"
             android:screenOrientation="fullSensor" />
         <activity
-            android:name=".Views.TwoYear.English_3.English_4.Repeatrer_Quiz.R2015"
+            android:name=".Views.SecondYear.English_4.Courses_Quiz.R2015"
             android:screenOrientation="fullSensor" />
         <activity
-            android:name=".Views.TwoYear.English_3.English_4.Important_quiz.Compound_Nouns.Compound_Nouns"
+            android:name=".Views.SecondYear.English_4.Important_quiz.Compound_Nouns.Compound_Nouns"
             android:screenOrientation="fullSensor" />
         <activity
-            android:name=".Views.TwoYear.English_3.English_4.Important_quiz.Abbrevationss.Abbreviations"
+            android:name=".Views.SecondYear.English_4.Important_quiz.Abbrevationss.Abbreviations"
             android:screenOrientation="fullSensor" />
         <activity
-            android:name=".Views.TwoYear.English_3.English_4.Repeatrer_Quiz.r2016"
+            android:name=".Views.SecondYear.English_4.Courses_Quiz.r2016"
             android:screenOrientation="fullSensor" />
         <activity
-            android:name=".Views.TwoYear.English_3.English_4.Important_quiz.Vocabulary.Vocabulary"
+            android:name=".Views.SecondYear.English_4.Important_quiz.Vocabulary.Vocabulary"
             android:screenOrientation="fullSensor" />
         <activity
-            android:name=".Views.TwoYear.English_3.English_4.Header_Elements.Settings"
+            android:name=".Views.SecondYear.English_4.Header_Elements.Settings"
             android:screenOrientation="fullSensor" />
 
         <provider
@@ -150,24 +134,24 @@
         </provider>
 
         <activity
-            android:name=".Views.TwoYear.English_3.English_4.Important_quiz.Abbrevationss.QuizActivity_Abberv"
+            android:name=".Views.SecondYear.English_4.Important_quiz.Abbrevationss.QuizActivity_Abberv"
             android:screenOrientation="fullSensor" />
         <activity
-            android:name=".Views.TwoYear.English_3.English_4.Header_Elements.About"
+            android:name=".Views.SecondYear.English_4.Header_Elements.About"
             android:screenOrientation="fullSensor" />
         <activity
-            android:name=".Views.TwoYear.English_3.English_4.Repeatrer_Quiz.r2017"
+            android:name=".Views.SecondYear.English_4.Courses_Quiz.r2017"
             android:screenOrientation="fullSensor" />
         <activity
             android:name=".Views.Sgin.LoginActivity"
             android:screenOrientation="fullSensor"
             android:theme="@style/FullScreenTheme" />
         <activity
-            android:name=".Views.TwoYear.English_3.English_4.Important_quiz.Vocabulary.QuizActivity_Vocabulary"
+            android:name=".Views.SecondYear.English_4.Important_quiz.Vocabulary.QuizActivity_Vocabulary"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".Views.TwoYear.English_3.English_4.Important_quiz.True_false.QuizActivity_True_false"
+            android:name=".Views.SecondYear.English_4.Important_quiz.True_false.QuizActivity_True_false"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme" />
         <activity
@@ -180,19 +164,14 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Views.TwoYear.English_3.English_4.Full_Quizes.QuizActivity_Full_Quiz"
+            android:name=".Views.SecondYear.English_4.Full_Quizes.QuizActivity_Full_Quiz"
             android:screenOrientation="fullSensor" />
         <activity
-            android:name=".Views.TwoYear.English_3.English_4.Important_quiz.Extinsions.QuizActivity_Extinsons"
+            android:name=".Views.SecondYear.English_4.Important_quiz.Extinsions.QuizActivity_Extinsons"
             android:screenOrientation="fullSensor" />
         <activity
-            android:name=".Views.TwoYear.English_3.English_4.Important_quiz.Compound_Nouns.QuizActivity_Comp"
+            android:name=".Views.SecondYear.English_4.Important_quiz.Compound_Nouns.QuizActivity_Comp"
             android:screenOrientation="fullSensor" />
-        <activity
-            android:name=".Main"
-            android:label="@string/app_name"
-            android:screenOrientation="fullSensor"
-            android:theme="@style/AppTheme" />
     </application>
 
 </manifest>

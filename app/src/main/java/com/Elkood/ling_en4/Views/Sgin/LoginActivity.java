@@ -18,7 +18,7 @@ import android.widget.Toast;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.Elkood.ling_en4.NewMain;
+import com.Elkood.ling_en4.NewMain2;
 import com.Elkood.ling_en4.R;
 import com.parse.Parse;
 import com.parse.ParseObject;
@@ -26,10 +26,13 @@ import com.xw.repo.widget.BounceScrollView;
 
 import java.util.Objects;
 
+//import com.Elkood.ling_en4.NewMain;
+
+//import com.Elkood.ling_en4.NewMain;
+
 /**
  * A login screen that offers login via email/password.
- */
-public class LoginActivity extends AppCompatActivity {
+ */public class LoginActivity extends AppCompatActivity {
     private Button sign;
     private EditText theName_signin;
     private EditText number;
@@ -43,12 +46,15 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
         this.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
         SharedPreferences preferences = getSharedPreferences("saveData", MODE_PRIVATE);
         editor = preferences.edit();
         if (preferences.getBoolean("checkbox", false)) {
+//            startActivity(new Intent(this, NewMain.class));
+
 //            Intent intent = new Intent(getApplicationContext(), Main.class);
-            Intent intent = new Intent(getApplicationContext(), NewMain.class);
+            Intent intent = new Intent(getApplicationContext(), NewMain2.class);
             startActivity(intent);
             finish();
         }
@@ -101,7 +107,7 @@ public class LoginActivity extends AppCompatActivity {
                     Handler handler = new Handler();
                     handler.postDelayed(
                             () -> {
-                                Intent intent = new Intent(getApplicationContext(), NewMain.class);
+                                Intent intent = new Intent(getApplicationContext(), NewMain2.class);
                                 startActivity(intent);
                             }, 2000L);
 

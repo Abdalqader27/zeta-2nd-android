@@ -1,4 +1,4 @@
-package com.Elkood.ling_en4.Views.TwoYear.English_3.English_4.Header_Elements;
+package com.Elkood.ling_en4.Views.SecondYear.English_4.Header_Elements;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.Elkood.ling_en4.Views.TwoYear.English_3.English_4.Header_Elements.Eng3.QuizActivity_Eng3;
+import com.Elkood.ling_en4.Views.SecondYear.English_4.Header_Elements.Eng3.QuizActivity_Eng3;
 import com.Elkood.ling_en4.R;
 
 import androidx.appcompat.app.AlertDialog;

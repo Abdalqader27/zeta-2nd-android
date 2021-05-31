@@ -1,5 +1,6 @@
 package com.Elkood.ling_en4.Views;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,15 +11,12 @@ import androidx.fragment.app.Fragment;
 
 import com.Elkood.ling_en4.R;
 import com.Elkood.ling_en4.Views.FirstYear.FirstYearAct;
+import com.Elkood.ling_en4.Views.SecondYear.SecondYearActivity;
 
 import java.util.Objects;
 
-/**
- * A simple {@link Fragment} subclass.
- */
 public class TheList extends Fragment {
-    private ViewGroup firstYear, secondYear, thirdYear, fourthYear, fiveYear;
-
+    Context context;
 
     public static TheList getInstance() {
         return new TheList();
@@ -29,31 +27,29 @@ public class TheList extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         View view = inflater.inflate(R.layout.fragment_the_list, container, false);
-        initUi(view);
+        initUi();
         setClick(view);
 
 
         return view;
     }
 
-    private void initUi(View view) {
-        firstYear = view.findViewById(R.id.firstYear);
-        secondYear = view.findViewById(R.id.secondYear);
-        thirdYear = view.findViewById(R.id.thirdYear);
-        fourthYear = view.findViewById(R.id.fourthYear);
-        fiveYear = view.findViewById(R.id.fiveYear);
+    private void initUi() {
+        context = requireActivity().getApplicationContext();
     }
 
+
     private void setClick(View view) {
-        firstYear.setOnClickListener(v -> {
-            Intent intent = new Intent(Objects.requireNonNull(getActivity()).getApplicationContext(),
-                    FirstYearAct.class);
-            getActivity().startActivity(intent);
-            getActivity().overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+        view.findViewById(R.id.firstYear).setOnClickListener(v -> {
+            Intent intent = new Intent(context, FirstYearAct.class);
+            requireActivity().startActivity(intent);
+            requireActivity().overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
         });
-        secondYear = view.findViewById(R.id.secondYear);
-        thirdYear = view.findViewById(R.id.thirdYear);
-        fourthYear = view.findViewById(R.id.fourthYear);
-        fiveYear = view.findViewById(R.id.fiveYear);
+
+        view.findViewById(R.id.fourthYear).setOnClickListener(v -> {
+            Intent intent = new Intent(context, SecondYearActivity.class);
+            requireActivity().startActivity(intent);
+            requireActivity().overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+        });
     }
 }

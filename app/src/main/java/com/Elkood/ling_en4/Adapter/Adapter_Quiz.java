@@ -21,30 +21,36 @@ import com.google.android.material.snackbar.Snackbar;
 
 import java.util.ArrayList;
 
-public class Adapter_Quiz extends RecyclerView.Adapter<Adapter_Quiz.Recycle_Adapter_Schdual_View_Holder> {
+public class Adapter_Quiz extends RecyclerView.Adapter<Adapter_Quiz.Recycle_Adapter_Schedule_View_Holder> {
     private final ArrayList<Quiz> list;
     private final Context context;
 
-    static class Recycle_Adapter_Schdual_View_Holder extends RecyclerView.ViewHolder {
-        final TextView Quiz;
-        final RadioGroup RG;
-        final RadioButton R1;
-        final RadioButton R2;
-        final RadioButton R3;
-        final RadioButton R4;
-        final LinearLayout button;
+    static class Recycle_Adapter_Schedule_View_Holder extends RecyclerView.ViewHolder {
+        TextView Quiz;
+
+        RadioGroup radioGroup;
+
+        RadioButton r1Options;
+
+        RadioButton r2Options;
+
+        RadioButton r3Options;
+
+        RadioButton r4Options;
+        LinearLayout solveButton;
+
         final ImageView[] check = new ImageView[8];
 
 
-        Recycle_Adapter_Schdual_View_Holder(View itemView) {
+        Recycle_Adapter_Schedule_View_Holder(View itemView) {
             super(itemView);
-            Quiz = itemView.findViewById(R.id.quiz_2017);
-            RG = itemView.findViewById(R.id.RG1_2017);
-            R1 = itemView.findViewById(R.id.rb1_2017);
-            R2 = itemView.findViewById(R.id.rb2_2017);
-            R3 = itemView.findViewById(R.id.rb3_2017);
-            R4 = itemView.findViewById(R.id.rb4_2017);
-            button = itemView.findViewById(R.id.solve);
+             Quiz = itemView.findViewById(R.id.Quiz);
+            radioGroup = itemView.findViewById(R.id.radioGroup);
+            r1Options = itemView.findViewById(R.id.r1Options);
+            r2Options = itemView.findViewById(R.id.r2Options);
+            r3Options = itemView.findViewById(R.id.r3Options);
+            r4Options = itemView.findViewById(R.id.r4Options);
+            solveButton = itemView.findViewById(R.id.solveButton);
             check[0] = itemView.findViewById(R.id.r1_right);
             check[1] = itemView.findViewById(R.id.r1_wrong);
             check[2] = itemView.findViewById(R.id.r2_right);
@@ -67,61 +73,61 @@ public class Adapter_Quiz extends RecyclerView.Adapter<Adapter_Quiz.Recycle_Adap
 
     @NonNull
     @Override
-    public Recycle_Adapter_Schdual_View_Holder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public Recycle_Adapter_Schedule_View_Holder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
 
         View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.quiz_row_2017, parent, false);
-        return new Recycle_Adapter_Schdual_View_Holder(v);
+        return new Recycle_Adapter_Schedule_View_Holder(v);
 
     }
 
     @Override
-    public void onBindViewHolder(@NonNull final Recycle_Adapter_Schdual_View_Holder holder, final int position) {
+    public void onBindViewHolder(@NonNull final Recycle_Adapter_Schedule_View_Holder holder, final int position) {
         Quiz cureentItem = list.get(position);
         holder.Quiz.setText(cureentItem.getQuiz());
 
-        holder.R1.setText(cureentItem.getR1_text());
-        holder.R1.setOnClickListener(v -> {
-            holder.R2.setChecked(false);
-            holder.R3.setChecked(false);
-            holder.R4.setChecked(false);
+        holder.r1Options.setText(cureentItem.getR1_text());
+        holder.r1Options.setOnClickListener(v -> {
+            holder.r2Options.setChecked(false);
+            holder.r3Options.setChecked(false);
+            holder.r4Options.setChecked(false);
         });
-        holder.R2.setText(cureentItem.getR2_text());
-        holder.R2.setOnClickListener(v -> {
-            holder.R1.setChecked(false);
-            holder.R3.setChecked(false);
-            holder.R4.setChecked(false);
+        holder.r2Options.setText(cureentItem.getR2_text());
+        holder.r2Options.setOnClickListener(v -> {
+            holder.r1Options.setChecked(false);
+            holder.r3Options.setChecked(false);
+            holder.r4Options.setChecked(false);
         });
         if (cureentItem.getR3_check() == -1) {
-            holder.R3.setVisibility(View.GONE);
+            holder.r3Options.setVisibility(View.GONE);
             holder.check[5].setVisibility(View.GONE);
             holder.check[4].setVisibility(View.GONE);
         } else {
-            holder.R3.setText(cureentItem.getR3_text());
-            holder.R3.setOnClickListener(v -> {
-                holder.R1.setChecked(false);
-                holder.R2.setChecked(false);
-                holder.R4.setChecked(false);
+            holder.r3Options.setText(cureentItem.getR3_text());
+            holder.r3Options.setOnClickListener(v -> {
+                holder.r1Options.setChecked(false);
+                holder.r2Options.setChecked(false);
+                holder.r4Options.setChecked(false);
             });
         }
         if (cureentItem.getR4_check() == -1) {
-            holder.R4.setVisibility(View.GONE);
+            holder.r4Options.setVisibility(View.GONE);
             holder.check[6].setVisibility(View.GONE);
             holder.check[7].setVisibility(View.GONE);
         } else {
-            holder.R4.setText(cureentItem.getR4_text());
-            holder.R4.setOnClickListener(v -> {
-                holder.R1.setChecked(false);
-                holder.R2.setChecked(false);
-                holder.R3.setChecked(false);
+            holder.r4Options.setText(cureentItem.getR4_text());
+            holder.r4Options.setOnClickListener(v -> {
+                holder.r1Options.setChecked(false);
+                holder.r2Options.setChecked(false);
+                holder.r3Options.setChecked(false);
             });
         }
-        holder.button.setOnClickListener(v -> {
+        holder.solveButton.setOnClickListener(v -> {
 
-            if (holder.R1.isChecked() || holder.R2.isChecked() || holder.R3.isChecked() || holder.R4.isChecked()) {
-                holder.R1.setClickable(false);
-                holder.R2.setClickable(false);
-                holder.R3.setClickable(false);
-                holder.R4.setClickable(false);
+            if (holder.r1Options.isChecked() || holder.r2Options.isChecked() || holder.r3Options.isChecked() || holder.r4Options.isChecked()) {
+                holder.r1Options.setClickable(false);
+                holder.r2Options.setClickable(false);
+                holder.r3Options.setClickable(false);
+                holder.r4Options.setClickable(false);
                 if (list.get(position).getR1_check() == 1) {
 //                        holder.R1.setChecked(true);
 //                        holder.R2.setChecked(false);
@@ -129,18 +135,18 @@ public class Adapter_Quiz extends RecyclerView.Adapter<Adapter_Quiz.Recycle_Adap
 //                        holder.R4.setChecked(false);
                     holder.check[0].setVisibility(View.VISIBLE);
                     holder.check[1].setVisibility(View.GONE);
-                    holder.R1.setTextColor(context.getResources().getColor(R.color.green));
-                    holder.R2.setTextColor(Color.RED);
+                    holder.r1Options.setTextColor(context.getResources().getColor(R.color.green));
+                    holder.r2Options.setTextColor(Color.RED);
                     holder.check[2].setVisibility(View.GONE);
                     holder.check[3].setVisibility(View.VISIBLE);
 
                     if (cureentItem.getR3_check() != -1) {
-                        holder.R3.setTextColor(Color.RED);
+                        holder.r3Options.setTextColor(Color.RED);
                         holder.check[4].setVisibility(View.GONE);
                         holder.check[5].setVisibility(View.VISIBLE);
                     }
                     if (cureentItem.getR4_check() != -1) {
-                        holder.R4.setTextColor(Color.RED);
+                        holder.r4Options.setTextColor(Color.RED);
                         holder.check[6].setVisibility(View.GONE);
                         holder.check[7].setVisibility(View.VISIBLE);
                     }
@@ -151,20 +157,20 @@ public class Adapter_Quiz extends RecyclerView.Adapter<Adapter_Quiz.Recycle_Adap
 //                        holder.R2.setChecked(true);
 //                        holder.R3.setChecked(false);
 //                        holder.R4.setChecked(false);
-                    holder.R1.setTextColor(Color.RED);
+                    holder.r1Options.setTextColor(Color.RED);
                     holder.check[0].setVisibility(View.GONE);
                     holder.check[1].setVisibility(View.VISIBLE);
-                    holder.R2.setTextColor(context.getResources().getColor(R.color.green));
+                    holder.r2Options.setTextColor(context.getResources().getColor(R.color.green));
                     holder.check[2].setVisibility(View.VISIBLE);
                     holder.check[3].setVisibility(View.GONE);
                     if (cureentItem.getR3_check() != -1) {
-                        holder.R3.setTextColor(Color.RED);
+                        holder.r3Options.setTextColor(Color.RED);
                         holder.check[4].setVisibility(View.GONE);
                         holder.check[5].setVisibility(View.VISIBLE);
                     }
                     if (cureentItem.getR4_check() != -1) {
 
-                        holder.R4.setTextColor(Color.RED);
+                        holder.r4Options.setTextColor(Color.RED);
                         holder.check[6].setVisibility(View.GONE);
                         holder.check[7].setVisibility(View.VISIBLE);
                     }
@@ -173,20 +179,20 @@ public class Adapter_Quiz extends RecyclerView.Adapter<Adapter_Quiz.Recycle_Adap
 //                        holder.R2.setChecked(false);
 //                        holder.R3.setChecked(true);
 //                        holder.R4.setChecked(false);
-                    holder.R1.setTextColor(Color.RED);
+                    holder.r1Options.setTextColor(Color.RED);
                     holder.check[0].setVisibility(View.GONE);
                     holder.check[1].setVisibility(View.VISIBLE);
-                    holder.R2.setTextColor(Color.RED);
+                    holder.r2Options.setTextColor(Color.RED);
                     holder.check[2].setVisibility(View.GONE);
                     holder.check[3].setVisibility(View.VISIBLE);
                     if (cureentItem.getR3_check() != -1) {
-                        holder.R3.setTextColor(context.getResources().getColor(R.color.green));
+                        holder.r3Options.setTextColor(context.getResources().getColor(R.color.green));
                         holder.check[4].setVisibility(View.VISIBLE);
                         holder.check[5].setVisibility(View.GONE);
                     }
                     if (cureentItem.getR4_check() != -1) {
 
-                        holder.R4.setTextColor(Color.RED);
+                        holder.r4Options.setTextColor(Color.RED);
                         holder.check[6].setVisibility(View.GONE);
                         holder.check[7].setVisibility(View.VISIBLE);
                     }
@@ -195,21 +201,21 @@ public class Adapter_Quiz extends RecyclerView.Adapter<Adapter_Quiz.Recycle_Adap
 //                        holder.R2.setChecked(false);
 //                        holder.R3.setChecked(false);
 //                        holder.R4.setChecked(true);
-                    holder.R1.setTextColor(Color.RED);
+                    holder.r1Options.setTextColor(Color.RED);
                     holder.check[0].setVisibility(View.GONE);
                     holder.check[1].setVisibility(View.VISIBLE);
-                    holder.R2.setTextColor(Color.RED);
+                    holder.r2Options.setTextColor(Color.RED);
                     holder.check[2].setVisibility(View.GONE);
                     holder.check[3].setVisibility(View.VISIBLE);
                     if (cureentItem.getR3_check() != -1) {
 
-                        holder.R3.setTextColor(Color.RED);
+                        holder.r3Options.setTextColor(Color.RED);
                         holder.check[4].setVisibility(View.GONE);
                         holder.check[5].setVisibility(View.VISIBLE);
                     }
                     if (cureentItem.getR4_check() != -1) {
 
-                        holder.R4.setTextColor(context.getResources().getColor(R.color.green));
+                        holder.r4Options.setTextColor(context.getResources().getColor(R.color.green));
                         holder.check[6].setVisibility(View.VISIBLE);
                         holder.check[7].setVisibility(View.GONE);
                     }

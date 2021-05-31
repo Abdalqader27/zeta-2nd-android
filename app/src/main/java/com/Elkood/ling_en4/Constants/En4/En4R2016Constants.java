@@ -1,31 +1,13 @@
-package com.Elkood.ling_en4.Views.TwoYear.English_3.English_4.Repeatrer_Quiz;
+package com.Elkood.ling_en4.Constants.En4;
 
-import android.os.Bundle;
-import android.os.Handler;
-import android.view.View;
-import android.view.ViewGroup;
-
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-
-import com.Elkood.ling_en4.Adapter.Adapter_Quiz;
 import com.Elkood.ling_en4.Models.Quiz;
-import com.Elkood.ling_en4.R;
 
 import java.util.ArrayList;
 
-public class r2016 extends AppCompatActivity {
-    private ViewGroup progressBar;
-    private RecyclerView recyclerView;
+public class En4R2016Constants {
+    public ArrayList<Quiz> list = new ArrayList<>();
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_r2016);
-        recyclerView = findViewById(R.id.recycle_view2016);
-        progressBar = findViewById(R.id.pro2016);
-        ArrayList<Quiz> list = new ArrayList<>();
+    public En4R2016Constants() {
         list.add(new Quiz("1.the main idea of this passage is…….",
                 0, 0, 1, 0,
                 "A. Wireless Networks Vs Wired Networks",
@@ -400,14 +382,5 @@ public class r2016 extends AppCompatActivity {
                 "B. After",
                 "C. Until",
                 "D. Once"));
-        LinearLayoutManager layoutManager = new LinearLayoutManager(getApplicationContext());
-
-        Adapter_Quiz adapter_home = new Adapter_Quiz(list, r2016.this);
-        recyclerView.setHasFixedSize(true);
-        recyclerView.setLayoutManager(layoutManager);
-        new Handler().postDelayed(() -> {
-            progressBar.setVisibility(View.GONE);
-            recyclerView.setAdapter(adapter_home);
-        }, 4000L);
     }
 }

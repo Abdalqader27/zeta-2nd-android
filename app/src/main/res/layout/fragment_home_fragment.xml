@@ -6,7 +6,7 @@
     android:layout_height="wrap_content"
     android:background="@color/white_20"
     android:layoutDirection="ltr"
-    tools:context=".Views.TwoYear.English_3.English_4.Home.Home_fragment">
+    tools:context=".Views.SecondYear.English_4.Home.Home_fragment">
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
@@ -23,17 +23,17 @@
         <!--                        android:background="@color/backber"-->
         <!--                        android:padding="20dp"-->
         <!--                        app:srcCompat="@drawable/ic_chip" />-->
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:background="@color/grey_Light"
-            android:text="أهلا بك في تطبيق  زيتا"
-            android:textColor="@color/black"
-            android:textSize="15sp"
-            android:textStyle="bold"
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="10dp"-->
+<!--            android:background="#f1f1f1"-->
+<!--            android:text="أهلا بك في تطبيق  زيتا"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="15sp"-->
+<!--            android:textStyle="bold"-->
 
-            />
+<!--            />-->
 
         <ImageView
             android:layout_width="match_parent"
@@ -50,8 +50,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0"
+            android:layout_margin="10dp"
             android:background="@drawable/round15_top"
-            android:elevation="30dp"
+            android:elevation="0dp"
             android:orientation="vertical">
 
             <View
@@ -64,7 +65,9 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
                 android:text="حول الاختبار الشامل"
                 android:textColor="@color/colorPrimary" />
 
@@ -74,6 +77,8 @@
                 android:gravity="center"
                 android:lineSpacingMultiplier="1.5"
                 android:padding="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="5dp"
                 android:text="يشمل جميع الأسئلة الموجودة في الدورات والأسئلة الذهبية إضافة إلى المقرر اللغة 4"
                 android:textSize="15sp"
                 android:textStyle="bold"
@@ -81,12 +86,7 @@
                 />
 
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:background="@color/grey_Light" />
+
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -99,6 +99,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    app:cornerRadius="20dp"
                     android:layout_marginStart="20dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginEnd="@dimen/ib_fr_space_20"

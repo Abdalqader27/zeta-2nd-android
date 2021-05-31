@@ -1,4 +1,4 @@
-package com.Elkood.ling_en4.Views.TwoYear.English_3.English_4.Home;
+package com.Elkood.ling_en4.Views.SecondYear.English_4.Home;
 
 
 import android.content.Intent;
@@ -13,10 +13,8 @@ import androidx.annotation.NonNull;
 import androidx.core.widget.NestedScrollView;
 import androidx.fragment.app.Fragment;
 
-import com.Elkood.ling_en4.Views.TwoYear.English_3.English_4.Full_Quizes.QuizActivity_Full_Quiz;
 import com.Elkood.ling_en4.R;
-
-import java.util.Objects;
+import com.Elkood.ling_en4.Views.SecondYear.English_4.Full_Quizes.QuizActivity_Full_Quiz;
 
 public class Home_fragment extends Fragment {
 
@@ -50,11 +48,11 @@ public class Home_fragment extends Fragment {
         Button button, result;
 //        result=view.findViewById(R.id.result);
         button = view.findViewById(R.id.startExam);
-        Typeface font = Typeface.createFromAsset(Objects.requireNonNull(getContext()).getAssets(), "fonts/tajawal_bold.ttf");
+        Typeface font = Typeface.createFromAsset(requireContext().getAssets(), "fonts/tajawal_bold.ttf");
         button.setTypeface(font);
 //        result.setTypeface(font);
         button.setOnClickListener(v -> {
-            Intent intent = new Intent(v.getContext(), QuizActivity_Full_Quiz.class);
+            Intent intent = new Intent(v.getContext(), QuizActivity_Full_Quiz.class).setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
             startActivity(intent);
 
         });

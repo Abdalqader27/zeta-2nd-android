@@ -1,4 +1,4 @@
-package com.Elkood.ling_en4.Views.TwoYear.English_3.English_4.Header_Elements;
+package com.Elkood.ling_en4.Views.SecondYear.English_4.Header_Elements;
 
 
 import android.content.SharedPreferences;
@@ -15,7 +15,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.Elkood.ling_en4.Views.TwoYear.English_3.English_4.Home.MenuListFragment;
+import com.Elkood.ling_en4.Views.SecondYear.English_4.Home.MenuListFragment;
 import com.Elkood.ling_en4.R;
 
 import cn.pedant.SweetAlert.SweetAlertDialog;

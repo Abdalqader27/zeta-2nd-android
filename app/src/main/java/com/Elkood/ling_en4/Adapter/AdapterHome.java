@@ -15,13 +15,13 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.Elkood.ling_en4.Models.CardHome;
-import com.Elkood.ling_en4.Views.TwoYear.English_3.English_4.Important_quiz.Abbrevationss.Abbreviations;
-import com.Elkood.ling_en4.Views.TwoYear.English_3.English_4.Important_quiz.Compound_Nouns.Compound_Nouns;
-import com.Elkood.ling_en4.Views.TwoYear.English_3.English_4.Important_quiz.Extinsions.Extinsions;
-import com.Elkood.ling_en4.Views.TwoYear.English_3.English_4.Important_quiz.True_false.True_false;
-import com.Elkood.ling_en4.Views.TwoYear.English_3.English_4.Important_quiz.Vocabulary.Vocabulary;
-import com.Elkood.ling_en4.Views.TwoYear.English_3.English_4.Important_quiz.molakas;
-import com.Elkood.ling_en4.Views.TwoYear.English_3.English_4.Important_quiz.word;
+import com.Elkood.ling_en4.Views.SecondYear.English_4.Important_quiz.Abbrevationss.Abbreviations;
+import com.Elkood.ling_en4.Views.SecondYear.English_4.Important_quiz.Compound_Nouns.Compound_Nouns;
+import com.Elkood.ling_en4.Views.SecondYear.English_4.Important_quiz.Extinsions.Extinsions;
+import com.Elkood.ling_en4.Views.SecondYear.English_4.Important_quiz.True_false.True_false;
+import com.Elkood.ling_en4.Views.SecondYear.English_4.Important_quiz.Vocabulary.Vocabulary;
+import com.Elkood.ling_en4.Views.SecondYear.English_4.Important_quiz.molakas;
+import com.Elkood.ling_en4.Views.SecondYear.English_4.Important_quiz.word;
 import com.Elkood.ling_en4.Utils.ItemClickListener;
 import com.Elkood.ling_en4.R;
 
@@ -96,37 +96,52 @@ public class AdapterHome extends RecyclerView.Adapter<AdapterHome.Recycle_Adapte
                 Toast.makeText(context, "Ite 20", Toast.LENGTH_SHORT).show();
 
             } else {
-                if (position1 == 0) {
-                    Intent intent = new Intent(view.getContext(), word.class);
-                    intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+                switch (position1) {
+                    case 0: {
+                        Intent intent = new Intent(view.getContext(), word.class);
+                        intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
 
-                    view.getContext().startActivity(intent);
-                } else if (position1 == 1) {
-                    Intent intent = new Intent(view.getContext(), Vocabulary.class);
-                    intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+                        view.getContext().startActivity(intent);
+                        break;
+                    }
+                    case 1: {
+                        Intent intent = new Intent(view.getContext(), Vocabulary.class);
+                        intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
 
-                    view.getContext().startActivity(intent);
-                } else if (position1 == 2) {
-                    Intent intent = new Intent(view.getContext(), True_false.class);
-                    intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
-                    view.getContext().startActivity(intent);
-                } else if (position1 == 3) {
-                    Intent intent = new Intent(view.getContext(), Abbreviations.class);
-                    intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
-                    view.getContext().startActivity(intent);
+                        view.getContext().startActivity(intent);
+                        break;
+                    }
+                    case 2: {
+                        Intent intent = new Intent(view.getContext(), True_false.class);
+                        intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+                        view.getContext().startActivity(intent);
+                        break;
+                    }
+                    case 3: {
+                        Intent intent = new Intent(view.getContext(), Abbreviations.class);
+                        intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+                        view.getContext().startActivity(intent);
 
-                } else if (position1 == 4) {
-                    Intent intent = new Intent(view.getContext(), Compound_Nouns.class);
-                    intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
-                    view.getContext().startActivity(intent);
-                } else if (position1 == 5) {
-                    Intent intent = new Intent(view.getContext(), Extinsions.class);
-                    intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
-                    view.getContext().startActivity(intent);
-                }else if (position1 == 6) {
-                    Intent intent = new Intent(view.getContext(), molakas.class);
-                    intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
-                    view.getContext().startActivity(intent);
+                        break;
+                    }
+                    case 4: {
+                        Intent intent = new Intent(view.getContext(), Compound_Nouns.class);
+                        intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+                        view.getContext().startActivity(intent);
+                        break;
+                    }
+                    case 5: {
+                        Intent intent = new Intent(view.getContext(), Extinsions.class);
+                        intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+                        view.getContext().startActivity(intent);
+                        break;
+                    }
+                    case 6: {
+                        Intent intent = new Intent(view.getContext(), molakas.class);
+                        intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+                        view.getContext().startActivity(intent);
+                        break;
+                    }
                 }
 
 

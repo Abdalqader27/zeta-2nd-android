@@ -9,7 +9,7 @@
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
        android:layout_margin="5dp"
-       android:background="@drawable/round20"
+       android:background="@drawable/round15"
        android:orientation="vertical">
 
         <RelativeLayout
@@ -31,6 +31,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="70dp"
                     android:padding="15dp"
+                    android:layout_marginTop="10dp"
                     app:srcCompat="@drawable/ic_folder" />
                 <TextView
                     android:id="@+id/row_name_re"
@@ -40,7 +41,6 @@
                     android:text="دورة 2017"
 
                     android:layout_weight="1"
-                    android:padding="10dp"
                     android:textSize="19sp"
                     android:textStyle="bold"
                     android:textAlignment="center"
@@ -54,25 +54,13 @@
                     android:layout_weight="1"
                     android:gravity="center"
                     android:padding="5dp"
-                    android:textStyle="bold"
                     android:lineSpacingMultiplier="1.4"
-                    android:textColor="#848484"
-                    android:fontFamily="@font/tajawal_light"
+                    android:textColor="#cccccc"
                     android:text="الدورة الاولى فقط "
                     android:textAlignment="center" />
             </LinearLayout>
 
-            <TextView
-                android:id="@+id/type_of_rep"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                android:layout_margin="15dp"
-                android:fontFamily="@font/r4"
-                android:gravity="left"
-                android:text=""
-                android:visibility="gone"
-                android:textAlignment="center" />
+
 
 
 

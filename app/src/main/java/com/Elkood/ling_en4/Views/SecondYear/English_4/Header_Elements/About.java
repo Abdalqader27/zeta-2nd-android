@@ -1,4 +1,4 @@
-package com.Elkood.ling_en4.Views.TwoYear.English_3.English_4.Header_Elements;
+package com.Elkood.ling_en4.Views.SecondYear.English_4.Header_Elements;
 
 import android.content.Intent;
 import android.content.pm.ApplicationInfo;
@@ -10,9 +10,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.Elkood.ling_en4.R;
-
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.Elkood.ling_en4.R;
 
 public class About extends AppCompatActivity {
 
@@ -55,12 +55,12 @@ public class About extends AppCompatActivity {
     }
 
     public void member(View view) {
-        Intent intent = new Intent(getApplicationContext(), study_member.class);
+        Intent intent = new Intent(getApplicationContext(), com.Elkood.ling_en4.Views.SecondYear.English_4.Header_Elements.study_member.class);
         startActivity(intent);
     }
 
     public void licence(View view) {
-        Intent intent = new Intent(getApplicationContext(), licenses.class);
+        Intent intent = new Intent(getApplicationContext(), com.Elkood.ling_en4.Views.SecondYear.English_4.Header_Elements.licenses.class);
         startActivity(intent);
     }
     private static Intent newFacebookIntent(PackageManager pm, String url) {

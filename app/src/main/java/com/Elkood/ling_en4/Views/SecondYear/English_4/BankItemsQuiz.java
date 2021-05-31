@@ -1,4 +1,4 @@
-package com.Elkood.ling_en4.Views.TwoYear.English_3.English_4;
+package com.Elkood.ling_en4.Views.SecondYear.English_4;
 
 
 import android.content.Intent;
@@ -16,25 +16,22 @@ import com.Elkood.ling_en4.Adapter.AdapterHome;
 import com.Elkood.ling_en4.Constants.En4.En4HomeCardConstants;
 import com.Elkood.ling_en4.R;
 import com.Elkood.ling_en4.Utils.BuilderManager;
-import com.Elkood.ling_en4.Views.TwoYear.English_3.English_4.Important_quiz.Abbrevationss.QuizActivity_Abberv;
-import com.Elkood.ling_en4.Views.TwoYear.English_3.English_4.Important_quiz.Compound_Nouns.QuizActivity_Comp;
-import com.Elkood.ling_en4.Views.TwoYear.English_3.English_4.Important_quiz.Extinsions.QuizActivity_Extinsons;
-import com.Elkood.ling_en4.Views.TwoYear.English_3.English_4.Important_quiz.True_false.QuizActivity_True_false;
-import com.Elkood.ling_en4.Views.TwoYear.English_3.English_4.Important_quiz.Vocabulary.QuizActivity_Vocabulary;
+import com.Elkood.ling_en4.Views.SecondYear.English_4.Important_quiz.Abbrevationss.QuizActivity_Abberv;
+import com.Elkood.ling_en4.Views.SecondYear.English_4.Important_quiz.Compound_Nouns.QuizActivity_Comp;
+import com.Elkood.ling_en4.Views.SecondYear.English_4.Important_quiz.Extinsions.QuizActivity_Extinsons;
+import com.Elkood.ling_en4.Views.SecondYear.English_4.Important_quiz.True_false.QuizActivity_True_false;
+import com.Elkood.ling_en4.Views.SecondYear.English_4.Important_quiz.Vocabulary.QuizActivity_Vocabulary;
 import com.nightonke.boommenu.BoomButtons.BoomButton;
-import com.nightonke.boommenu.BoomButtons.HamButton;
 import com.nightonke.boommenu.BoomMenuButton;
 import com.nightonke.boommenu.OnBoomListenerAdapter;
-
-import java.util.Objects;
 
 
 /**
  *
  */
-public class MenuQuiz extends Fragment {
+public class BankItemsQuiz extends Fragment {
     private BoomMenuButton bmb;
-    private En4HomeCardConstants en4HomeCardConstants = new En4HomeCardConstants();
+    private final En4HomeCardConstants en4HomeCardConstants = new En4HomeCardConstants();
     private RecyclerView recyclerView;
     private RecyclerView.LayoutManager layoutManager;
     private AdapterHome adapter_home;
@@ -99,24 +96,23 @@ public class MenuQuiz extends Fragment {
     }
 
     private void changeBoomButton(int index) {
-        HamButton.Builder builder = (HamButton.Builder) bmb.getBuilder(index);
         if (index == 0) {
             Intent intent = new Intent(getContext(), QuizActivity_Vocabulary.class);
-            Objects.requireNonNull(getView()).getContext().startActivity(intent);
+            requireView().getContext().startActivity(intent);
         } else if (index == 1) {
             Intent intent = new Intent(getContext(), QuizActivity_True_false.class);
-            Objects.requireNonNull(getView()).getContext().startActivity(intent);
+            requireView().getContext().startActivity(intent);
 
         } else if (index == 2) {
             Intent intent = new Intent(getContext(), QuizActivity_Abberv.class);
-            Objects.requireNonNull(getView()).getContext().startActivity(intent);
+            requireView().getContext().startActivity(intent);
         } else if (index == 3) {
             Intent intent = new Intent(getContext(), QuizActivity_Comp.class);
-            Objects.requireNonNull(getView()).getContext().startActivity(intent);
+            requireView().getContext().startActivity(intent);
 
         } else if (index == 4) {
             Intent intent = new Intent(getContext(), QuizActivity_Extinsons.class);
-            Objects.requireNonNull(getView()).getContext().startActivity(intent);
+            requireView().getContext().startActivity(intent);
         }
 
     }

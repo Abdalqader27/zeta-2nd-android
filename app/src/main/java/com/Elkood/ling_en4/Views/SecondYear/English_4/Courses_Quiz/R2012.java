@@ -1,4 +1,4 @@
-package com.Elkood.ling_en4.Views.TwoYear.English_3.English_4.Repeatrer_Quiz;
+package com.Elkood.ling_en4.Views.SecondYear.English_4.Courses_Quiz;
 
 
 import android.os.Bundle;
@@ -14,9 +14,13 @@ import com.Elkood.ling_en4.Adapter.Adapter_Quiz;
 import com.Elkood.ling_en4.Constants.En4.En4R2012Constants;
 import com.Elkood.ling_en4.R;
 
+import butterknife.BindView;
+
 public class R2012 extends AppCompatActivity {
-    private ViewGroup progressBar;
-    private RecyclerView recyclerView;
+    @BindView(R.id.pro2012)
+     ViewGroup progressBar;
+    @BindView(R.id.recycle_view2012)
+     RecyclerView recyclerView;
     En4R2012Constants en4R2012Constants = new En4R2012Constants();
     LinearLayoutManager layoutManager;
     Adapter_Quiz adapter_home;
@@ -29,16 +33,16 @@ public class R2012 extends AppCompatActivity {
 
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(layoutManager);
-        new Handler().postDelayed(() -> { progressBar.setVisibility(View.GONE);
+        new Handler().postDelayed(() -> {
+            progressBar.setVisibility(View.GONE);
             recyclerView.setAdapter(adapter_home);
         }, 4000L);
 
     }
 
     private void initItems() {
-
-        recyclerView = findViewById(R.id.recycle_view2012);
         progressBar = findViewById(R.id.pro2012);
+        recyclerView = findViewById(R.id.recycle_view2012);
         layoutManager = new LinearLayoutManager(getApplicationContext());
         adapter_home = new Adapter_Quiz(en4R2012Constants.list, R2012.this);
 

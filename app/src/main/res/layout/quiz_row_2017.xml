@@ -4,12 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layoutDirection="ltr"
+
     android:orientation="vertical">
 
     <include layout="@layout/separator_layout_sample" />
 
     <TextView
-        android:id="@+id/quiz_2017"
+        android:id="@+id/Quiz"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="start"
@@ -31,11 +32,12 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:background="@drawable/round20"
+            android:padding="5dp"
             android:orientation="vertical">
 
 
             <RadioGroup
-                android:id="@+id/RG1_2017"
+                android:id="@+id/radioGroup"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layoutDirection="ltr">
@@ -52,7 +54,7 @@
 
                         <RadioButton
 
-                            android:id="@+id/rb1_2017"
+                            android:id="@+id/r1Options"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="start|center"
@@ -92,7 +94,7 @@
                         android:orientation="horizontal">
 
                         <RadioButton
-                            android:id="@+id/rb2_2017"
+                            android:id="@+id/r2Options"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center|start"
@@ -135,7 +137,7 @@
                         android:orientation="horizontal">
 
                         <RadioButton
-                            android:id="@+id/rb3_2017"
+                            android:id="@+id/r3Options"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="start|center"
@@ -178,7 +180,7 @@
                         android:orientation="horizontal">
 
                         <RadioButton
-                            android:id="@+id/rb4_2017"
+                            android:id="@+id/r4Options"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center|start"
@@ -216,7 +218,7 @@
             </RadioGroup>
             <include layout="@layout/separator_layout_sample"/>
             <LinearLayout
-                android:id="@+id/solve"
+                android:id="@+id/solveButton"
                 android:layout_width="wrap_content"
                 android:layout_gravity="center"
                 android:background="@drawable/bbb3"

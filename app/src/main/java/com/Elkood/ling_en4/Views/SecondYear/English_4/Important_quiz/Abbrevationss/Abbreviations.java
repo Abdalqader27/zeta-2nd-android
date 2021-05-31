@@ -1,4 +1,4 @@
-package com.Elkood.ling_en4.Views.TwoYear.English_3.English_4.Important_quiz.Abbrevationss;
+package com.Elkood.ling_en4.Views.SecondYear.English_4.Important_quiz.Abbrevationss;
 
 import android.os.Bundle;
 import android.view.View;
@@ -7,11 +7,11 @@ import android.view.animation.RotateAnimation;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.Elkood.ling_en4.R;
 import com.diegodobelo.expandingview.ExpandingItem;
 import com.diegodobelo.expandingview.ExpandingList;
-
-import androidx.appcompat.app.AppCompatActivity;
 
 public class Abbreviations extends AppCompatActivity {
     private ExpandingList mExpandingList;

@@ -1,32 +1,14 @@
-package com.Elkood.ling_en4.Views.TwoYear.English_3.English_4.Repeatrer_Quiz;
+package com.Elkood.ling_en4.Constants.En4;
 
-
-import android.os.Bundle;
-import android.os.Handler;
-import android.view.View;
-import android.view.ViewGroup;
-
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-
-import com.Elkood.ling_en4.Adapter.Adapter_Quiz;
 import com.Elkood.ling_en4.Models.Quiz;
-import com.Elkood.ling_en4.R;
 
 import java.util.ArrayList;
 
-public class R2016_3 extends AppCompatActivity {
-    private ViewGroup progressBar;
-    private RecyclerView recyclerView;
+public class En4R2016_3Constants {
+    public ArrayList<Quiz> list = new ArrayList<>();
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_r2016_3);
-        recyclerView = findViewById(R.id.recycle_view2016_3);
-        progressBar = findViewById(R.id.pro2016_3);
-        ArrayList<Quiz> list = new ArrayList<>();
+    public En4R2016_3Constants() {
+
         list.add(new Quiz("1.The main idea of the text is-------.…….",
                 0, 0, 0, 0,
                 "A. development of modern music",
@@ -395,15 +377,5 @@ public class R2016_3 extends AppCompatActivity {
                 " B. to give ",
                 "C. giving",
                 "D. gave"));
-        LinearLayoutManager layoutManager = new LinearLayoutManager(getApplicationContext());
-
-        Adapter_Quiz adapter_home = new Adapter_Quiz(list, R2016_3.this);
-        recyclerView.setHasFixedSize(true);
-        recyclerView.setLayoutManager(layoutManager);
-        new Handler().postDelayed(() -> {
-            progressBar.setVisibility(View.GONE);
-            recyclerView.setAdapter(adapter_home);
-        }, 4000L);
     }
 }
-

@@ -1,5 +1,5 @@
 
-package com.Elkood.ling_en4.Views.TwoYear.English_3.English_4.Home;
+package com.Elkood.ling_en4.Views.SecondYear.English_4.Home;
 
 import android.app.Activity;
 import android.content.Context;
@@ -18,10 +18,10 @@ import androidx.annotation.Nullable;
 import androidx.core.content.FileProvider;
 import androidx.fragment.app.Fragment;
 
-import com.Elkood.ling_en4.Views.TwoYear.English_3.English_4.Header_Elements.About;
-import com.Elkood.ling_en4.Views.TwoYear.English_3.English_4.Header_Elements.Settings;
-import com.Elkood.ling_en4.Views.TwoYear.English_3.English_4.Header_Elements.old_version;
-import com.Elkood.ling_en4.Views.TwoYear.English_3.English_4.Header_Elements.statistics;
+import com.Elkood.ling_en4.Views.SecondYear.English_4.Header_Elements.About;
+import com.Elkood.ling_en4.Views.SecondYear.English_4.Header_Elements.Settings;
+import com.Elkood.ling_en4.Views.SecondYear.English_4.Header_Elements.old_version;
+import com.Elkood.ling_en4.Views.SecondYear.English_4.Header_Elements.statistics;
 import com.Elkood.ling_en4.R;
 import com.google.android.material.navigation.NavigationView;
 import com.instabug.library.Instabug;
@@ -59,11 +59,11 @@ public class MenuListFragment extends Fragment {
         vNavigation.setNavigationItemSelectedListener(menuItem -> {
             if (menuItem.getItemId() == R.id.menu_about) {
 
-                Intent intent = new Intent(Objects.requireNonNull(getActivity()).getApplicationContext(), About.class);
-                getActivity().startActivity(intent);
-                getActivity().overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+                Intent intent = new Intent(requireActivity().getApplicationContext(), About.class);
+                requireActivity().startActivity(intent);
+                requireActivity().overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             } else if (menuItem.getItemId() == R.id.menu_share) {
-                sendApplication(Objects.requireNonNull(getActivity()));
+                sendApplication(requireActivity());
 
             } else if (menuItem.getItemId() == R.id.menu_help) {
                 Instabug.enable();
@@ -71,21 +71,21 @@ public class MenuListFragment extends Fragment {
 
 
             } else if (menuItem.getItemId() == R.id.menu_settings) {
-                Intent intent = new Intent(Objects.requireNonNull(getActivity()).getApplicationContext(), Settings.class);
-                getActivity().startActivity(intent);
-                getActivity().overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+                Intent intent = new Intent(requireActivity().getApplicationContext(), Settings.class);
+                requireActivity().startActivity(intent);
+                requireActivity().overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
 
             } else if (menuItem.getItemId() == R.id.eng3) {
-                Intent intent = new Intent(Objects.requireNonNull(getActivity()).getApplicationContext(), old_version.class);
-                getActivity().startActivity(intent);
-                getActivity().overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+                Intent intent = new Intent(requireActivity().getApplicationContext(), old_version.class);
+                requireActivity().startActivity(intent);
+                requireActivity().overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
 
 
             } else if (menuItem.getItemId() == R.id.scores) {
 
-                Intent intent = new Intent(Objects.requireNonNull(getActivity()).getApplicationContext(), statistics.class);
-                getActivity().startActivity(intent);
-                getActivity().overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+                Intent intent = new Intent(requireActivity().getApplicationContext(), statistics.class);
+                requireActivity().startActivity(intent);
+                requireActivity().overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
 
             }
             return false;

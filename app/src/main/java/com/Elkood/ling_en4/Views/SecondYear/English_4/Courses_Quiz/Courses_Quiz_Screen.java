@@ -1,4 +1,4 @@
-package com.Elkood.ling_en4.Views.TwoYear.English_3.English_4.Repeatrer_Quiz;
+package com.Elkood.ling_en4.Views.SecondYear.English_4.Courses_Quiz;
 
 
 import android.os.Bundle;
@@ -11,13 +11,13 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.Elkood.ling_en4.Adapter.Adapter_repeater_Quiz;
+import com.Elkood.ling_en4.Adapter.Adapter_Courses;
 import com.Elkood.ling_en4.Models.item_repeater;
 import com.Elkood.ling_en4.R;
 
 import java.util.ArrayList;
 
-public class Repeater_Quiz extends Fragment {
+public class Courses_Quiz_Screen extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -36,7 +36,7 @@ public class Repeater_Quiz extends Fragment {
 
         RecyclerView.LayoutManager layoutManager = new GridLayoutManager(getContext(), 2);
         recyclerView.setHasFixedSize(true);
-        Adapter_repeater_Quiz repeater_quiz = new Adapter_repeater_Quiz(list, getContext());
+        Adapter_Courses repeater_quiz = new Adapter_Courses(list, getContext());
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setAdapter(repeater_quiz);
 
