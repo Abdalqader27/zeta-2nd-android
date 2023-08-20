@@ -21,7 +21,7 @@
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
            android:layout_gravity="start"
-           android:padding="@dimen/ib_fr_space_20"
+           android:padding="20dp"
            app:srcCompat="@drawable/ic_back_button"/>
         <ImageView
             android:id="@+id/toolbar_image"

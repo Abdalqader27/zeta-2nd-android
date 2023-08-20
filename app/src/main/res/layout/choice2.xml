@@ -15,7 +15,7 @@
             android:gravity="center"
             android:text="الأولى "
             android:textDirection="rtl"
-            android:textSize="@dimen/ib_fr_space_20" />
+            android:textSize="20dp" />
         <RadioButton
             android:id="@+id/f2"
             android:layout_width="200dp"
@@ -24,7 +24,7 @@
             android:gravity="center"
             android:text="الثانية "
             android:textDirection="rtl"
-            android:textSize="@dimen/ib_fr_space_20" />
+            android:textSize="20dp" />
     </RadioGroup>
 
 </RelativeLayout>

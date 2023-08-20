@@ -130,62 +130,62 @@ public class SecondYearActivity extends AppCompatActivity {
         }
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
-    }
+//    @Override
+//    public boolean onCreateOptionsMenu(Menu menu) {
+//        getMenuInflater().inflate(R.menu.menu_main, menu);
+//        return true;
+//    }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-
-
-        int id = item.getItemId();
-        if (id == R.id.Exit) {
-            dialog = new SweetAlertDialog(getWindow().getContext(), SweetAlertDialog.SUCCESS_TYPE);
-            handler = new Handler();
-            Runnable runnable = new Runnable() {
-                @Override
-                public void run() {
-                    handler.postDelayed(this, 1000);
-                    try {
-                        if (getContext() == null) return;
-                        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd", Locale.ENGLISH);
-                        // Please here set your event date//YYYY-MM-DD
-                        Date futureDate = dateFormat.parse("2019-6-13");
-                        Date currentDate = new Date();
-                        if (!currentDate.after(futureDate)) {
-                            assert futureDate != null;
-                            long diff = futureDate.getTime()
-                                    - currentDate.getTime();
-                            long days = diff / (24 * 60 * 60 * 1000);
-                            diff -= days * (24 * 60 * 60 * 1000);
-                            long hours = diff / (60 * 60 * 1000);
-                            diff -= hours * (60 * 60 * 1000);
-                            long minutes = diff / (60 * 1000);
-                            diff -= minutes * (60 * 1000);
-                            long seconds = diff / 1000;
-
-                            x = String.format(Locale.ENGLISH, "%02d %s %02d  :  %02d  :  %02d  ", days, "يوم   ", hours, minutes, seconds);
-                            dialog.setTitleText(" الفترة المتبقية " + "\n" + x)
-                                    .setConfirmText("تم ");
-                        } else {
-                            dialog.setTitleText("الاصدار الحالي :  1.4")
-                                    .setConfirmText("تم ");
-                        }
-                        dialog.setCancelable(false);
-
-
-                    } catch (Exception e) {
-                        e.printStackTrace();
-                    }
-                }
-            };
-            handler.postDelayed(runnable, 1000);
-            dialog.setConfirmClickListener(Dialog::dismiss).show();
-
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
+//    @Override
+//    public boolean onOptionsItemSelected(MenuItem item) {
+//
+//
+//        int id = item.getItemId();
+//        if (id == R.id.Exit) {
+//            dialog = new SweetAlertDialog(getWindow().getContext(), SweetAlertDialog.SUCCESS_TYPE);
+//            handler = new Handler();
+//            Runnable runnable = new Runnable() {
+//                @Override
+//                public void run() {
+//                    handler.postDelayed(this, 1000);
+//                    try {
+//                        if (getContext() == null) return;
+//                        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd", Locale.ENGLISH);
+//                        // Please here set your event date//YYYY-MM-DD
+//                        Date futureDate = dateFormat.parse("2019-6-13");
+//                        Date currentDate = new Date();
+//                        if (!currentDate.after(futureDate)) {
+//                            assert futureDate != null;
+//                            long diff = futureDate.getTime()
+//                                    - currentDate.getTime();
+//                            long days = diff / (24 * 60 * 60 * 1000);
+//                            diff -= days * (24 * 60 * 60 * 1000);
+//                            long hours = diff / (60 * 60 * 1000);
+//                            diff -= hours * (60 * 60 * 1000);
+//                            long minutes = diff / (60 * 1000);
+//                            diff -= minutes * (60 * 1000);
+//                            long seconds = diff / 1000;
+//
+//                            x = String.format(Locale.ENGLISH, "%02d %s %02d  :  %02d  :  %02d  ", days, "يوم   ", hours, minutes, seconds);
+//                            dialog.setTitleText(" الفترة المتبقية " + "\n" + x)
+//                                    .setConfirmText("تم ");
+//                        } else {
+//                            dialog.setTitleText("الاصدار الحالي :  1.4")
+//                                    .setConfirmText("تم ");
+//                        }
+//                        dialog.setCancelable(false);
+//
+//
+//                    } catch (Exception e) {
+//                        e.printStackTrace();
+//                    }
+//                }
+//            };
+//            handler.postDelayed(runnable, 1000);
+//            dialog.setConfirmClickListener(Dialog::dismiss).show();
+//
+//        }
+//
+//        return super.onOptionsItemSelected(item);
+//    }
 }

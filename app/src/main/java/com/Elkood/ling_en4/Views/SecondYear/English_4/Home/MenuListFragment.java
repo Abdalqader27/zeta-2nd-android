@@ -24,7 +24,6 @@ import com.Elkood.ling_en4.Views.SecondYear.English_4.Header_Elements.old_versio
 import com.Elkood.ling_en4.Views.SecondYear.English_4.Header_Elements.statistics;
 import com.Elkood.ling_en4.R;
 import com.google.android.material.navigation.NavigationView;
-import com.instabug.library.Instabug;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -64,11 +63,6 @@ public class MenuListFragment extends Fragment {
                 requireActivity().overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
             } else if (menuItem.getItemId() == R.id.menu_share) {
                 sendApplication(requireActivity());
-
-            } else if (menuItem.getItemId() == R.id.menu_help) {
-                Instabug.enable();
-                Instabug.show();
-
 
             } else if (menuItem.getItemId() == R.id.menu_settings) {
                 Intent intent = new Intent(requireActivity().getApplicationContext(), Settings.class);

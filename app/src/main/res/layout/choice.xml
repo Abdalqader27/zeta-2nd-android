@@ -15,7 +15,7 @@
             android:gravity="center"
             android:text="الأولى "
             android:textDirection="rtl"
-            android:textSize="@dimen/ib_fr_space_20" />
+            android:textSize="20dp" />
 
         <RadioButton
             android:id="@+id/eng_lan"
@@ -25,7 +25,7 @@
             android:gravity="center"
             android:text="التكميلية"
             android:textDirection="rtl"
-            android:textSize="@dimen/ib_fr_space_20" />
+            android:textSize="20dp" />
     </RadioGroup>
 
 </RelativeLayout>

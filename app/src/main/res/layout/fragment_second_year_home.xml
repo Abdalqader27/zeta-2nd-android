@@ -63,7 +63,7 @@
                         android:layout_weight="1"
                         android:gravity="center"
                         android:orientation="vertical"
-                        android:padding="@dimen/ib_fr_space_20">
+                        android:padding="20dp">
 
                         <TextView
                             android:layout_width="match_parent"
@@ -138,7 +138,7 @@
                         android:layout_weight="1"
                         android:gravity="center"
                         android:orientation="vertical"
-                        android:padding="@dimen/ib_fr_space_20">
+                        android:padding="20dp">
 
                         <TextView
                             android:layout_width="match_parent"

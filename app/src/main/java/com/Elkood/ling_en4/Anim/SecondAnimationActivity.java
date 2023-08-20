@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.view.Window;
 import android.view.WindowManager;
 
+import com.Elkood.ling_en4.Views.SecondYear.SecondYearActivity;
 import com.Elkood.ling_en4.Views.Sgin.LoginActivity;
 import com.Elkood.ling_en4.R;
 import com.daimajia.androidanimations.library.Techniques;
@@ -65,7 +66,7 @@ public class SecondAnimationActivity extends AwesomeSplash {
     public void animationsFinished() {
         //transit to another activity here
         //or do whatever you want
-        Intent intent=new Intent(SecondAnimationActivity.this, LoginActivity.class);
+        Intent intent=new Intent(SecondAnimationActivity.this, SecondYearActivity.class);
         startActivity(intent);
         finish();
     }

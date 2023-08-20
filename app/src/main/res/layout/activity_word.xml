@@ -21,7 +21,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
-                app:cardCornerRadius="@dimen/ib_fr_space_8">
+                app:cardCornerRadius="8dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -34,7 +34,7 @@
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginRight="10dp"
-                        app:cardCornerRadius="@dimen/ib_fr_space_8">
+                        app:cardCornerRadius="8dp">
 
                         <ImageView
                             android:layout_width="match_parent"

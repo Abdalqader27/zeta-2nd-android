@@ -2,6 +2,7 @@
 <androidx.coordinatorlayout.widget.CoordinatorLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
@@ -53,7 +54,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="10dp"
                     app:srcCompat="@drawable/ic_arrow_back_black_24dp"
-                    android:tint="@color/white" />
+                    app:tint="@color/white" />
             </androidx.appcompat.widget.Toolbar>
 
 
@@ -102,7 +103,7 @@
                             android:layout_weight="2"
                             android:padding="30dp"
                             app:srcCompat="@drawable/brand"
-                            android:tint="@color/backber" />
+                            app:tint="@color/backber" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -195,8 +196,8 @@
                         android:layout_gravity="center"
                         android:padding="10dp"
                         android:scaleType="fitCenter"
-                        android:tint="@color/colorPrimary"
-                        app:srcCompat="@drawable/ic_people" />
+                        app:srcCompat="@drawable/ic_people"
+                        app:tint="@color/colorPrimary" />
 
 
                     <TextView
@@ -271,7 +272,8 @@
                                     android:onClick="licence"
                                     android:textAlignment="center"
                                     android:textColor="@color/black"
-                                    android:textSize="14sp" />
+                                    android:textSize="14sp"
+                                    tools:ignore="RtlCompat" />
 
                             </LinearLayout>
 
@@ -289,7 +291,7 @@
                         android:layout_marginTop="10dp"
                         android:fontFamily="@font/tajawal_bold"
                         android:text="تواصل معنا "
-                        android:layout_marginBottom="@dimen/ib_fr_space_20"
+                        android:layout_marginBottom="20dp"
                         android:textColor="@color/black"
                         android:textSize="16sp" />
 
@@ -307,8 +309,7 @@
                             android:clickable="true"
                             android:focusable="true"
                             app:srcCompat="@drawable/ic_facebook_logo_in_circular_button_outlined_social_symbol"
-                            android:tint="@color/grey"
-                            />
+                            app:tint="@color/grey" />
 
                         <ImageView
                             android:id="@+id/telegram"
@@ -316,9 +317,9 @@
                             android:layout_height="40dp"
                             android:layout_weight="1"
                             android:clickable="true"
-                            android:tint="@color/grey"
                             android:focusable="true"
-                            app:srcCompat="@drawable/ic_telegram" />
+                            app:srcCompat="@drawable/ic_telegram"
+                            app:tint="@color/grey" />
 
                     </LinearLayout>
                 </LinearLayout>

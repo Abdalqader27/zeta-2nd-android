@@ -29,7 +29,7 @@ import com.nightonke.boommenu.OnBoomListenerAdapter;
 /**
  *
  */
-public class BankItemsQuiz extends Fragment {
+public class    BankItemsQuiz extends Fragment {
     private BoomMenuButton bmb;
     private final En4HomeCardConstants en4HomeCardConstants = new En4HomeCardConstants();
     private RecyclerView recyclerView;

@@ -72,6 +72,8 @@ public class QuizActivity_Full_Quiz extends AppCompatActivity {
     private SharedPreferences.Editor editerScore;
     private ProgressBar bar;
     private static int tempBar = 0;
+    ParseQuery<ParseObject> query;
+    QuizDbHelper_Full_Quiz DbHelper;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -234,7 +236,7 @@ public class QuizActivity_Full_Quiz extends AppCompatActivity {
 
             score++;
             tempBar++;
-            if(tempBar==10){
+            if (tempBar == 10) {
                 Toast.makeText(this, "أحسنت 10 إجابات صحيحة متتالية ", Toast.LENGTH_SHORT).show();
             }
             bar.setProgress(tempBar);
@@ -321,7 +323,7 @@ public class QuizActivity_Full_Quiz extends AppCompatActivity {
                 );
 
 
-                ParseQuery<ParseObject> query = ParseQuery.getQuery("Quiz");
+                query = ParseQuery.getQuery("Quiz");
                 SharedPreferences sharedPreferences = getSharedPreferences("SaveFile", MODE_PRIVATE);
                 String ID = sharedPreferences.getString("objectID", "no");
                 query.getInBackground(ID, (entity, e) -> {
@@ -364,6 +366,10 @@ public class QuizActivity_Full_Quiz extends AppCompatActivity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
+        if (DbHelper != null) DbHelper = null;
+        if (qutionsList != null) qutionsList = null;
+        if (query != null)
+            query = null;
         if (countDownTimer != null) {
 
             countDownTimer.cancel();

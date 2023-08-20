@@ -63,9 +63,9 @@
                     <!--&lt;!&ndash;android:id="@+id/startExam"&ndash;&gt;-->
                     <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
                     <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
-                    <!--&lt;!&ndash;android:layout_marginLeft="@dimen/ib_fr_space_20"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_marginLeft="20dp"&ndash;&gt;-->
                     <!--&lt;!&ndash;android:layout_marginTop="10dp"&ndash;&gt;-->
-                    <!--&lt;!&ndash;android:layout_marginRight="@dimen/ib_fr_space_20"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_marginRight="20dp"&ndash;&gt;-->
                     <!--&lt;!&ndash;android:layout_marginBottom="10dp"&ndash;&gt;-->
                     <!--&lt;!&ndash;android:background="@drawable/bbb2"&ndash;&gt;-->
                     <!--&lt;!&ndash;android:text="أبدأ الأختبار "&ndash;&gt;-->

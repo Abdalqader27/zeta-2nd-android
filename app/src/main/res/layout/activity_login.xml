@@ -36,7 +36,7 @@
                         android:id="@+id/hello"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_margin="@dimen/ib_fr_space_20"
+                        android:layout_margin="20dp"
                         android:text="مرحباً بك"
                         android:textColor="@color/white"
                         android:textSize="27sp" />
@@ -109,7 +109,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_below="@id/t"
-                            android:layout_marginRight="@dimen/ib_fr_space_20"
+                            android:layout_marginRight="20dp"
                             android:text="  يرجى ملء البيانات التالية : "
                             android:textSize="17sp" />
 

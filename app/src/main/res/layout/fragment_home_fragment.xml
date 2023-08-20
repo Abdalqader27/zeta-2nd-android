@@ -102,7 +102,7 @@
                     app:cornerRadius="20dp"
                     android:layout_marginStart="20dp"
                     android:layout_marginTop="10dp"
-                    android:layout_marginEnd="@dimen/ib_fr_space_20"
+                    android:layout_marginEnd="20dp"
                     android:layout_marginBottom="10dp"
                     android:fontFamily="@font/a4"
                     android:gravity="center"

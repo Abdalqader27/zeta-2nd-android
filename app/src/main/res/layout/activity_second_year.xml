@@ -44,12 +44,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_margin="20dp"
-                    android:background="@drawable/round15"
                     android:layoutDirection="ltr"
-                    app:tabIndicatorAnimationDuration="@integer/strokeDrawingDuration"
-                    app:tabIndicatorHeight="1dp"
-                    app:tabIndicatorAnimationMode="elastic"
+                    app:tabIndicatorHeight="3.5dp"
                     app:tabSelectedTextColor="@color/colorPrimary"
                     app:tabTextColor="@color/grey">
 
