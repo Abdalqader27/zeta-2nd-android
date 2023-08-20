@@ -15,8 +15,6 @@ import com.viksaa.sssplash.lib.model.ConfigSplash;
 
 public class SecondAnimationActivity extends AwesomeSplash {
 
-    //DO NOT OVERRIDE onCreate()!
-    //if you need to start some services do it in initSplash()!
 
     @Override
     public void initSplash(ConfigSplash configSplash) {
