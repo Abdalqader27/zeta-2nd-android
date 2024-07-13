@@ -27,26 +27,25 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 
-import butterknife.BindView;
 import cn.pedant.SweetAlert.SweetAlertDialog;
 
 import static java.security.AccessController.getContext;
 
 public class SecondYearActivity extends AppCompatActivity {
-    @BindView(R.id.toolbar)
-     Toolbar toolbar;
-    private Handler handler;
-    @BindView(R.id.drawerlayout)
-     FlowingDrawer mDrawer;
-    @BindView(R.id.viewPager_main)
+    Toolbar  toolbar;
     ViewPager viewPager;
+    FlowingDrawer mDrawer;
     private SweetAlertDialog dialog;
     private static String x;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second_year);
+        toolbar=findViewById(R.id.toolbar);
+        viewPager=findViewById(R.id.viewPager_main);
+
         mDrawer=findViewById(R.id.drawerlayout);
         mDrawer.setTouchMode(ElasticDrawer.TOUCH_MODE_BEZEL);
         setupToolbar();

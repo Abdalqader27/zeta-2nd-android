@@ -13,12 +13,9 @@ import com.Elkood.ling_en4.Adapter.Adapter_Quiz;
 import com.Elkood.ling_en4.Constants.En4.En4R2014Constants;
 import com.Elkood.ling_en4.R;
 
-import butterknife.BindView;
 
 public class R2014 extends AppCompatActivity {
-    @BindView(R.id.pro2014)
     ViewGroup progressBar;
-    @BindView(R.id.recycle_view2014)
     RecyclerView recyclerView;
     final private En4R2014Constants en4R2014Constants = new En4R2014Constants();
 

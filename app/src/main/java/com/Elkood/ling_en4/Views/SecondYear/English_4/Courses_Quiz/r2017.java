@@ -13,13 +13,10 @@ import com.Elkood.ling_en4.Adapter.Adapter_Quiz;
 import com.Elkood.ling_en4.Constants.En4.En4R2017Constants;
 import com.Elkood.ling_en4.R;
 
-import butterknife.BindView;
 
 public class r2017 extends AppCompatActivity {
     private final En4R2017Constants en4R2017Constants = new En4R2017Constants();
-    @BindView(R.id.pro2017)
      ViewGroup progressBar;
-    @BindView(R.id.recycle_view2017)
      RecyclerView recyclerView;
 
     @Override
