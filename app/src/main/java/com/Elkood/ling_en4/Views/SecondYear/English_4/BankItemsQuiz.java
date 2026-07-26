@@ -21,6 +21,8 @@ import com.Elkood.ling_en4.Views.SecondYear.English_4.Important_quiz.Compound_No
 import com.Elkood.ling_en4.Views.SecondYear.English_4.Important_quiz.Extinsions.QuizActivity_Extinsons;
 import com.Elkood.ling_en4.Views.SecondYear.English_4.Important_quiz.True_false.QuizActivity_True_false;
 import com.Elkood.ling_en4.Views.SecondYear.English_4.Important_quiz.Vocabulary.QuizActivity_Vocabulary;
+import com.Elkood.ling_en4.data.model.QuizTopic;
+import com.Elkood.ling_en4.ui.screens.quiz.ComposeQuizActivity;
 import com.nightonke.boommenu.BoomButtons.BoomButton;
 import com.nightonke.boommenu.BoomMenuButton;
 import com.nightonke.boommenu.OnBoomListenerAdapter;
@@ -97,7 +99,8 @@ public class    BankItemsQuiz extends Fragment {
 
     private void changeBoomButton(int index) {
         if (index == 0) {
-            Intent intent = new Intent(getContext(), QuizActivity_Vocabulary.class);
+            Intent intent = new Intent(getContext(), ComposeQuizActivity.class);
+            intent.putExtra(ComposeQuizActivity.EXTRA_TOPIC, QuizTopic.VOCABULARY.name());
             requireView().getContext().startActivity(intent);
         } else if (index == 1) {
             Intent intent = new Intent(getContext(), QuizActivity_True_false.class);

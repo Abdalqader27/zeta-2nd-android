@@ -149,6 +149,10 @@
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme" />
         <activity
+            android:name=".ui.screens.quiz.ComposeQuizActivity"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppTheme" />
+        <activity
             android:name=".Views.SecondYear.English_4.Important_quiz.True_false.QuizActivity_True_false"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme" />
