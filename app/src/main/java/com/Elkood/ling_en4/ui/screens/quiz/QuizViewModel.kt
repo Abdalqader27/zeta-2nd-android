@@ -43,10 +43,12 @@ class QuizViewModel(
     }
 
     /** Grades the current question, reveals the answer. */
-    fun confirm() {
-        if (_uiState.value.phase != AnswerPhase.ANSWERING) return
-        if (_uiState.value.selectedIndex == current.correctIndex) score++
+    fun confirm(): Boolean {
+        if (_uiState.value.phase != AnswerPhase.ANSWERING) return false
+        val correct = _uiState.value.selectedIndex == current.correctIndex
+        if (correct) score++
         reveal()
+        return correct
     }
 
     /** Called when the countdown reaches zero with no confirm. */
