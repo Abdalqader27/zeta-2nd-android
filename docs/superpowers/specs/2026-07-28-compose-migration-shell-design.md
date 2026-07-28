@@ -176,12 +176,20 @@ convention. Everything uses `ZetaTheme { ... }`, matching `ComposeQuizActivity`.
 Once the Compose shell builds and runs:
 - `Anim/SecondAnimationActivity.java`
 - `Views/SecondYear/SecondYearActivity.java` + `res/layout/activity_second_year.xml`
-- `res/layout/view_feed_toolbar.xml` (only `<include>`d by `activity_second_year.xml`)
 - `Views/SecondYear/English_4/Home/MenuListFragment.java` +
   `res/layout/fragment_menu.xml` + `res/layout/view_global_menu_header.xml`
 - `res/menu/drawer_menu.xml` (its items are now data in `ShellDestinations.kt`)
 
 Verify no other references (Grep for each class/layout name) before each deletion.
+
+**Not deleted this phase (deferred to final cleanup):** `res/layout/view_feed_toolbar.xml`
+is still `<include>`d by `activity_second_year.xml` **and** by the already-dead layouts
+`activity_main.xml` / `activity_new_main.xml` (neither referenced by any `setContentView`/`R.layout`
+in code). Deleting the include target would break aapt resolution in those two dead layouts, so
+`view_feed_toolbar.xml` and the two dead layouts are left in place and removed together in the final
+cleanup phase. Likewise, the `FlowingDrawer`/`smarttablayout` library `implementation` lines and the
+`AwesomeSplash`-adjacent `nineoldandroids`/`daimajia` transitives are left declared; only the direct
+`AwesomeSplash` line is removed here (see §4.6).
 
 ## 5. Data Flow
 
