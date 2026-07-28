@@ -15,4 +15,5 @@ data class QuizUiState(
     val isLastQuestion: Boolean,
     val finished: Boolean,
     val passed: Boolean,
+    val streak: Int = 0,
 )

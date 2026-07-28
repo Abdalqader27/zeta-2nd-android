@@ -16,6 +16,7 @@ class QuizViewModel(
     private val questions: List<Question> = shuffle(config.questions)
     private var index = 0
     private var score = 0
+    private var streak = 0
 
     private val _uiState = MutableStateFlow(buildState(AnswerPhase.ANSWERING, null, totalSeconds))
     val uiState: StateFlow<QuizUiState> = _uiState.asStateFlow()
@@ -35,6 +36,7 @@ class QuizViewModel(
         isLastQuestion = index == questions.size - 1,
         finished = false,
         passed = false,
+        streak = streak,
     )
 
     fun selectOption(optionIndex: Int) {
@@ -46,7 +48,12 @@ class QuizViewModel(
     fun confirm(): Boolean {
         if (_uiState.value.phase != AnswerPhase.ANSWERING) return false
         val correct = _uiState.value.selectedIndex == current.correctIndex
-        if (correct) score++
+        if (correct) {
+            score++
+            streak++
+        } else {
+            streak = 0
+        }
         reveal()
         return correct
     }
@@ -54,7 +61,13 @@ class QuizViewModel(
     /** Called when the countdown reaches zero with no confirm. */
     fun onTimeExpired() {
         if (_uiState.value.phase != AnswerPhase.ANSWERING) return
-        if (_uiState.value.selectedIndex == current.correctIndex) score++
+        val correct = _uiState.value.selectedIndex == current.correctIndex
+        if (correct) {
+            score++
+            streak++
+        } else {
+            streak = 0
+        }
         reveal()
     }
 
@@ -63,6 +76,7 @@ class QuizViewModel(
             phase = AnswerPhase.REVEALED,
             correctIndex = current.correctIndex,
             score = score,
+            streak = streak,
         )
     }
 

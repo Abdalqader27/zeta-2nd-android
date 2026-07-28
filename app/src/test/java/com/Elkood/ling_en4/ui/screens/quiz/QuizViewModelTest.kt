@@ -112,4 +112,25 @@ class QuizViewModelTest {
         assertEquals(0, s.secondsLeft)
         assertEquals(AnswerPhase.REVEALED, s.phase)
     }
+
+    @Test
+    fun streak_increments_on_consecutive_correct() {
+        val vm = vm()
+        assertEquals(0, vm.uiState.value.streak)
+        vm.selectOption(0); vm.confirm()
+        assertEquals(1, vm.uiState.value.streak)
+        vm.next()
+        vm.selectOption(1); vm.confirm()
+        assertEquals(2, vm.uiState.value.streak)
+    }
+
+    @Test
+    fun streak_resets_on_wrong_answer() {
+        val vm = vm()
+        vm.selectOption(0); vm.confirm()          // correct -> streak 1
+        assertEquals(1, vm.uiState.value.streak)
+        vm.next()
+        vm.selectOption(0); vm.confirm()          // q2 correct is index 1, so this is wrong
+        assertEquals(0, vm.uiState.value.streak)
+    }
 }
