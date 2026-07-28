@@ -11,7 +11,7 @@ import java.util.ArrayList;
 
 import androidx.annotation.Nullable;
 
-class QuizDbHelper_Eng3 extends SQLiteOpenHelper {
+public class QuizDbHelper_Eng3 extends SQLiteOpenHelper {
     private static final String Data_Base_NAME = "MyAwsome.db";
     private static final int Version = 1;
     private SQLiteDatabase db;

@@ -10,7 +10,7 @@ import androidx.annotation.Nullable;
 
 import java.util.ArrayList;
 
-class QuizDbHelper_Full_Quiz extends SQLiteOpenHelper {
+public class QuizDbHelper_Full_Quiz extends SQLiteOpenHelper {
     private static final String Data_Base_NAME = "MyAwsomeQuaizFul10.db";
     private static final int Version = 8;
     private SQLiteDatabase db;
