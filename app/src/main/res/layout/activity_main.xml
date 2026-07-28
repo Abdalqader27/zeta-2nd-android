@@ -53,7 +53,6 @@
                     android:background="@drawable/gradaints"
                     android:layoutDirection="ltr"
                     app:tabSelectedTextColor="@color/white"
-                    app:tabIndicatorAnimationDuration="@integer/strokeDrawingDuration"
                     app:tabIndicatorColor="@color/white"
                     app:tabIndicatorHeight="3dp"
                     app:tabTextColor="@color/white">

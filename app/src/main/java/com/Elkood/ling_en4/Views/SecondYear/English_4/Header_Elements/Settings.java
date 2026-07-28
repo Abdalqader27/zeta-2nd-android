@@ -15,7 +15,6 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.Elkood.ling_en4.Views.SecondYear.English_4.Home.MenuListFragment;
 import com.Elkood.ling_en4.R;
 
 import cn.pedant.SweetAlert.SweetAlertDialog;
@@ -125,7 +124,6 @@ public class Settings extends AppCompatActivity {
                 editor.apply();
                 btnsave.setVisibility(View.GONE);
                 name.setEnabled(false);
-                MenuListFragment.setName();
             }
         });
         findViewById(R.id.back).setOnClickListener(v -> super.onBackPressed());
