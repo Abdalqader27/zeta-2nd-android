@@ -24,7 +24,7 @@ class ComposeQuizActivity : ComponentActivity() {
         val topic = QuizTopic.valueOf(
             intent.getStringExtra(EXTRA_TOPIC) ?: QuizTopic.VOCABULARY.name
         )
-        val config = quizConfigFor(topic)
+        val config = quizConfigFor(topic, this)
         val seconds = countdownSeconds()
 
         val viewModel = ViewModelProvider(
