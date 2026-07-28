@@ -85,9 +85,6 @@
             android:name=".Views.SecondYear.English_4.Header_Elements.study_member"
             android:screenOrientation="fullSensor" />
         <activity
-            android:name=".Views.SecondYear.English_4.Header_Elements.Eng3.QuizActivity_Eng3"
-            android:screenOrientation="fullSensor" />
-        <activity
             android:name=".Views.SecondYear.English_4.Important_quiz.Extinsions.Extinsions"
             android:screenOrientation="fullSensor" />
         <activity
@@ -132,9 +129,6 @@
         </provider>
 
         <activity
-            android:name=".Views.SecondYear.English_4.Important_quiz.Abbrevationss.QuizActivity_Abberv"
-            android:screenOrientation="fullSensor" />
-        <activity
             android:name=".Views.SecondYear.English_4.Header_Elements.About"
             android:screenOrientation="fullSensor" />
         <activity
@@ -144,10 +138,6 @@
             android:name=".Views.Sgin.LoginActivity"
             android:screenOrientation="fullSensor"
             android:theme="@style/FullScreenTheme" />
-        <activity
-            android:name=".Views.SecondYear.English_4.Important_quiz.Vocabulary.QuizActivity_Vocabulary"
-            android:screenOrientation="fullSensor"
-            android:theme="@style/AppTheme" />
         <activity
             android:name=".ui.screens.quiz.ComposeQuizActivity"
             android:screenOrientation="fullSensor"
@@ -167,15 +157,6 @@
             </intent-filter>
 
         </activity>
-        <activity
-            android:name=".Views.SecondYear.English_4.Full_Quizes.QuizActivity_Full_Quiz"
-            android:screenOrientation="fullSensor" />
-        <activity
-            android:name=".Views.SecondYear.English_4.Important_quiz.Extinsions.QuizActivity_Extinsons"
-            android:screenOrientation="fullSensor" />
-        <activity
-            android:name=".Views.SecondYear.English_4.Important_quiz.Compound_Nouns.QuizActivity_Comp"
-            android:screenOrientation="fullSensor" />
     </application>
 
 </manifest>

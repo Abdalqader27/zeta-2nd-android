@@ -14,7 +14,6 @@ import androidx.core.widget.NestedScrollView;
 import androidx.fragment.app.Fragment;
 
 import com.Elkood.ling_en4.R;
-import com.Elkood.ling_en4.Views.SecondYear.English_4.Full_Quizes.QuizActivity_Full_Quiz;
 
 public class Home_fragment extends Fragment {
 

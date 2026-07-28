@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.Elkood.ling_en4.Views.SecondYear.English_4.Header_Elements.Eng3.QuizActivity_Eng3;
 import com.Elkood.ling_en4.R;
 
 import androidx.appcompat.app.AlertDialog;
@@ -44,7 +43,7 @@ public class old_version extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == REQUST_CODE_QUIZ) {
             if (resultCode == RESULT_OK) {
-                int score = data.getIntExtra(QuizActivity_Eng3.EXTRA_SCORE, 0);
+                int score = data.getIntExtra(com.Elkood.ling_en4.ui.screens.quiz.ComposeQuizActivity.EXTRA_SCORE, 0);
                 if (score > highScore) {
                     updateHighScore(score);
 
