@@ -1,7 +1,5 @@
 package com.Elkood.ling_en4.ui.screens.shell
 
-import androidx.compose.foundation.Image
-import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
