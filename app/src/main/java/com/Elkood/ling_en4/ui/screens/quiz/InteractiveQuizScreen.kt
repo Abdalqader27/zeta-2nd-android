@@ -1,5 +1,6 @@
 package com.Elkood.ling_en4.ui.screens.quiz
 
+import android.widget.Toast
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -12,6 +13,7 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.selection.selectable
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Card
+import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.RadioButton
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -40,10 +42,12 @@ import kotlinx.coroutines.delay
 fun InteractiveQuizScreen(
     viewModel: QuizViewModel,
     onFinished: (score: Int, passed: Boolean) -> Unit,
+    soundGated: Boolean = true,
+    showStreakBar: Boolean = false,
 ) {
     val state by viewModel.uiState.collectAsStateWithLifecycle()
     val context = LocalContext.current
-    val sound = rememberQuizSound(context)
+    val sound = rememberQuizSound(context, soundGated)
 
     // Countdown loop: one tick per second while answering.
     LaunchedEffect(state.questionNumber, state.phase) {
@@ -58,6 +62,13 @@ fun InteractiveQuizScreen(
         if (state.finished) onFinished(state.score, state.passed)
     }
 
+    // Full Quiz: celebrate a 10-in-a-row streak once, matching the legacy tempBar == 10 toast.
+    LaunchedEffect(state.streak) {
+        if (showStreakBar && state.streak == 10) {
+            Toast.makeText(context, "أحسنت 10 إجابات صحيحة متتالية", Toast.LENGTH_SHORT).show()
+        }
+    }
+
     CompositionLocalProvider(LocalLayoutDirection provides LayoutDirection.Ltr) {
         Box(modifier = Modifier.fillMaxSize()) {
             Column(
@@ -68,6 +79,15 @@ fun InteractiveQuizScreen(
                     .verticalScroll(rememberScrollState()),
             ) {
                 QuizHeaderRow(state)
+
+                if (showStreakBar) {
+                    LinearProgressIndicator(
+                        progress = { (state.streak.coerceAtMost(10)) / 10f },
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .padding(horizontal = 20.dp, vertical = 4.dp),
+                    )
+                }
 
                 Text(
                     text = " Check the correct answer : ",
@@ -166,6 +186,7 @@ private fun OptionsGroup(state: QuizUiState, onSelect: (Int) -> Unit) {
         verticalArrangement = Arrangement.spacedBy(2.dp),
     ) {
         state.options.forEachIndexed { i, option ->
+            if (option.isEmpty()) return@forEachIndexed
             val color = when {
                 state.phase == AnswerPhase.REVEALED && i == state.correctIndex -> ZetaColors.Correct
                 state.phase == AnswerPhase.REVEALED -> ZetaColors.WrongText
@@ -206,8 +227,8 @@ private fun formatSeconds(totalSeconds: Int): String {
 }
 
 @Composable
-private fun rememberQuizSound(context: android.content.Context): QuizSound {
-    val sound = remember { QuizSound(context) }
+private fun rememberQuizSound(context: android.content.Context, gated: Boolean): QuizSound {
+    val sound = remember(gated) { QuizSound(context, gated) }
     DisposableEffect(Unit) { onDispose { sound.release() } }
     return sound
 }
