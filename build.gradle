@@ -7,9 +7,10 @@ buildscript {
         
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.4.2'
-        classpath 'org.greenrobot:greendao-gradle-plugin:3.2.2' // add plugin
-        classpath 'com.google.gms:google-services:4.3.15'
+        classpath 'com.android.tools.build:gradle:8.9.1'
+        classpath 'com.google.gms:google-services:4.4.2'
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:2.0.21'
+        classpath 'org.jetbrains.kotlin:compose-compiler-gradle-plugin:2.0.21'
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
@@ -20,6 +21,10 @@ allprojects {
     repositories {
         google()
         mavenCentral() // add repository
+        // jcenter was sunset; these legacy artifacts (boommenu, flowingdrawer,
+        // navigationtabbar, expanding-view, meow-bottom-navigation) are served
+        // from Aliyun's read-only jcenter mirror at their original versions.
+        maven { url "https://maven.aliyun.com/repository/jcenter" }
         maven { url "https://jitpack.io" }
         maven { url "https://maven.google.com" }
         maven {
