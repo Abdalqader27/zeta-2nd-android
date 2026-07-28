@@ -107,6 +107,7 @@ fun ShellScreen(activity: Activity, userName: String, onExit: () -> Unit) {
                         }
                         HorizontalPager(
                             state = pagerState,
+                            beyondViewportPageCount = SHELL_TABS.size - 1,
                             modifier = Modifier.fillMaxSize(),
                         ) { page ->
                             CompositionLocalProvider(LocalLayoutDirection provides LayoutDirection.Rtl) {
