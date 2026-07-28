@@ -24,7 +24,6 @@
         tools:replace="android:icon">
 
         <activity android:name=".Views.SecondYear.English_4.Courses_Quiz.Courses_Quiz_details"></activity>
-        <activity android:name=".Views.SecondYear.SecondYearActivity" />
         <activity android:name=".Views.SecondYear.English_4.Courses_Quiz.r2017_2" /> <!-- <service -->
         <activity
             android:name=".Views.SecondYear.English_4.Important_quiz.unit_package.unit8"
@@ -133,10 +132,6 @@
             android:name=".Views.SecondYear.English_4.Courses_Quiz.r2017"
             android:screenOrientation="fullSensor" />
         <activity
-            android:name=".Views.Sgin.LoginActivity"
-            android:screenOrientation="fullSensor"
-            android:theme="@style/FullScreenTheme" />
-        <activity
             android:name=".ui.screens.quiz.ComposeQuizActivity"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme" />
@@ -146,23 +141,17 @@
             android:theme="@style/AppTheme" />
         <activity
             android:name=".ui.screens.splash.SplashActivity"
-            android:theme="@style/AppTheme"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".Views.SecondYear.English_4.Important_quiz.True_false.QuizActivity_True_false"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme" />
-        <activity
-            android:name=".Anim.SecondAnimationActivity"
-            android:exported="true"
-            android:screenOrientation="fullSensor">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-
-        </activity>
     </application>
 
 </manifest>
