@@ -6,7 +6,6 @@ import android.view.Window;
 import android.view.WindowManager;
 
 import com.Elkood.ling_en4.Views.SecondYear.SecondYearActivity;
-import com.Elkood.ling_en4.Views.Sgin.LoginActivity;
 import com.Elkood.ling_en4.R;
 import com.daimajia.androidanimations.library.Techniques;
 import com.viksaa.sssplash.lib.activity.AwesomeSplash;
