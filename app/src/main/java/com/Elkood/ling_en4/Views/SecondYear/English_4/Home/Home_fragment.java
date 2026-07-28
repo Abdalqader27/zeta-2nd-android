@@ -52,7 +52,10 @@ public class Home_fragment extends Fragment {
         button.setTypeface(font);
 //        result.setTypeface(font);
         button.setOnClickListener(v -> {
-            Intent intent = new Intent(v.getContext(), QuizActivity_Full_Quiz.class).setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+            Intent intent = new Intent(v.getContext(), com.Elkood.ling_en4.ui.screens.quiz.ComposeQuizActivity.class)
+                    .setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+            intent.putExtra(com.Elkood.ling_en4.ui.screens.quiz.ComposeQuizActivity.EXTRA_TOPIC,
+                    com.Elkood.ling_en4.data.model.QuizTopic.FULL_QUIZ.name());
             startActivity(intent);
 
         });

@@ -32,7 +32,9 @@ public class old_version extends AppCompatActivity {
     }
 
     private void StartQuiz() {
-        Intent intent = new Intent(getApplicationContext(), QuizActivity_Eng3.class);
+        Intent intent = new Intent(getApplicationContext(), com.Elkood.ling_en4.ui.screens.quiz.ComposeQuizActivity.class);
+        intent.putExtra(com.Elkood.ling_en4.ui.screens.quiz.ComposeQuizActivity.EXTRA_TOPIC,
+                com.Elkood.ling_en4.data.model.QuizTopic.ENG3.name());
         startActivityForResult(intent, REQUST_CODE_QUIZ);
 
     }

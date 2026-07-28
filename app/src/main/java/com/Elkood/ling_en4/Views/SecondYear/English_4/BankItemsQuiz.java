@@ -16,9 +16,6 @@ import com.Elkood.ling_en4.Adapter.AdapterHome;
 import com.Elkood.ling_en4.Constants.En4.En4HomeCardConstants;
 import com.Elkood.ling_en4.R;
 import com.Elkood.ling_en4.Utils.BuilderManager;
-import com.Elkood.ling_en4.Views.SecondYear.English_4.Important_quiz.Abbrevationss.QuizActivity_Abberv;
-import com.Elkood.ling_en4.Views.SecondYear.English_4.Important_quiz.Compound_Nouns.QuizActivity_Comp;
-import com.Elkood.ling_en4.Views.SecondYear.English_4.Important_quiz.Extinsions.QuizActivity_Extinsons;
 import com.Elkood.ling_en4.Views.SecondYear.English_4.Important_quiz.True_false.QuizActivity_True_false;
 import com.Elkood.ling_en4.Views.SecondYear.English_4.Important_quiz.Vocabulary.QuizActivity_Vocabulary;
 import com.Elkood.ling_en4.data.model.QuizTopic;
@@ -107,14 +104,17 @@ public class    BankItemsQuiz extends Fragment {
             requireView().getContext().startActivity(intent);
 
         } else if (index == 2) {
-            Intent intent = new Intent(getContext(), QuizActivity_Abberv.class);
+            Intent intent = new Intent(getContext(), ComposeQuizActivity.class);
+            intent.putExtra(ComposeQuizActivity.EXTRA_TOPIC, QuizTopic.ABBREVIATIONS.name());
             requireView().getContext().startActivity(intent);
         } else if (index == 3) {
-            Intent intent = new Intent(getContext(), QuizActivity_Comp.class);
+            Intent intent = new Intent(getContext(), ComposeQuizActivity.class);
+            intent.putExtra(ComposeQuizActivity.EXTRA_TOPIC, QuizTopic.COMPOUND_NOUNS.name());
             requireView().getContext().startActivity(intent);
 
         } else if (index == 4) {
-            Intent intent = new Intent(getContext(), QuizActivity_Extinsons.class);
+            Intent intent = new Intent(getContext(), ComposeQuizActivity.class);
+            intent.putExtra(ComposeQuizActivity.EXTRA_TOPIC, QuizTopic.EXTENSIONS.name());
             requireView().getContext().startActivity(intent);
         }
 
