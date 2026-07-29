@@ -112,7 +112,9 @@ fun ShellScreen(activity: Activity, userName: String, onExit: () -> Unit) {
                         ) { page ->
                             CompositionLocalProvider(LocalLayoutDirection provides LayoutDirection.Rtl) {
                                 when (page) {
-                                    0 -> AndroidFragment<Courses_Quiz_Screen>(Modifier.fillMaxSize())
+                                    0 -> com.Elkood.ling_en4.ui.screens.paperquiz.PaperListScreen(
+                                        onPaperClick = { com.Elkood.ling_en4.ui.screens.paperquiz.PaperQuizActivity.start(activity, it) }
+                                    )
                                     1 -> AndroidFragment<BankItemsQuiz>(Modifier.fillMaxSize())
                                     else -> AndroidFragment<Home_fragment>(Modifier.fillMaxSize())
                                 }
