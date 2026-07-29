@@ -23,13 +23,8 @@
         android:usesCleartextTraffic="true"
         tools:replace="android:icon">
 
-        <activity android:name=".Views.SecondYear.English_4.Courses_Quiz.Courses_Quiz_details"></activity>
-        <activity android:name=".Views.SecondYear.English_4.Courses_Quiz.r2017_2" /> <!-- <service -->
         <activity
             android:name=".Views.SecondYear.English_4.Important_quiz.unit_package.unit8"
-            android:screenOrientation="fullSensor" />
-        <activity
-            android:name=".Views.SecondYear.English_4.Courses_Quiz.R2016_3"
             android:screenOrientation="fullSensor" />
         <activity
             android:name=".Views.SecondYear.English_4.Important_quiz.molakas"
@@ -70,9 +65,6 @@
             android:name=".Views.SecondYear.English_4.Header_Elements.statistics"
             android:screenOrientation="fullSensor" />
         <activity
-            android:name=".Views.SecondYear.English_4.Courses_Quiz.r2018"
-            android:screenOrientation="fullSensor" />
-        <activity
             android:name=".Views.SecondYear.English_4.Header_Elements.old_version"
             android:screenOrientation="fullSensor" />
         <activity
@@ -88,25 +80,10 @@
             android:name=".Views.SecondYear.English_4.Important_quiz.True_false.True_false"
             android:screenOrientation="fullSensor" />
         <activity
-            android:name=".Views.SecondYear.English_4.Courses_Quiz.R2012"
-            android:screenOrientation="fullSensor" />
-        <activity
-            android:name=".Views.SecondYear.English_4.Courses_Quiz.R2013"
-            android:screenOrientation="fullSensor" />
-        <activity
-            android:name=".Views.SecondYear.English_4.Courses_Quiz.R2014"
-            android:screenOrientation="fullSensor" />
-        <activity
-            android:name=".Views.SecondYear.English_4.Courses_Quiz.R2015"
-            android:screenOrientation="fullSensor" />
-        <activity
             android:name=".Views.SecondYear.English_4.Important_quiz.Compound_Nouns.Compound_Nouns"
             android:screenOrientation="fullSensor" />
         <activity
             android:name=".Views.SecondYear.English_4.Important_quiz.Abbrevationss.Abbreviations"
-            android:screenOrientation="fullSensor" />
-        <activity
-            android:name=".Views.SecondYear.English_4.Courses_Quiz.r2016"
             android:screenOrientation="fullSensor" />
         <activity
             android:name=".Views.SecondYear.English_4.Important_quiz.Vocabulary.Vocabulary"
@@ -127,9 +104,6 @@
 
         <activity
             android:name=".Views.SecondYear.English_4.Header_Elements.About"
-            android:screenOrientation="fullSensor" />
-        <activity
-            android:name=".Views.SecondYear.English_4.Courses_Quiz.r2017"
             android:screenOrientation="fullSensor" />
         <activity
             android:name=".ui.screens.quiz.ComposeQuizActivity"
