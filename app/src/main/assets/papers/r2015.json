@@ -1,0 +1,607 @@
+{
+  "headerTitle": "University of Aleppo - Faculty of Informatic\nForm / A / 2015 - One Term",
+  "instruction": "1 ) Read The following Passage and answer the qustions",
+  "passage": "At the heart of the Internet Protocol portion of TCP/IP is a concept called Internet Address. This 32-bit coding system assigns a number to every node on the network. There are various types of addresses designed for networks of different sizes, but you can write every address with a series of numbers that identify the major network and the sub-networks to which a node is attached. Besides identifying a node, it provides a path that gateways can use to route information from one machine to another. Although data delivery systems like Ethernet or X-25 bring their packets to any machine electrically attached to the cable, IP modules must know each other’s internet addresses if they are to communicate.",
+  "questions": [
+    {
+      "prompt": "1.the main idea of this passage is…….",
+      "options": [
+        "A. Internet  ",
+        "B.TCP/IP       ",
+        " C. Internet Address   ",
+        "D. Ethernet"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "  2.In line 1, the abbreviation “TCP” stands for ………….…. ",
+      "options": [
+        "A.T-Commerce Protocol   ",
+        "B. Transmission Control panel",
+        "C. Test and Counting Protocol    ",
+        "D. Transmission Control Protocol"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": " …. 3.In line 1, the pronoun “This” refers to ….……",
+      "options": [
+        "A. a concept  ",
+        "B.TCP portion  ",
+        "C.   IP address   ",
+        "D. a coding system "
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "4.In line 2, the word “node” is close in meaning to………. ….",
+      "options": [
+        "A.Point",
+        "B. period   ",
+        "C. network   ",
+        " D. path"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": " 5.In line 3, the pronoun “it” refers to…………. …. ",
+      "options": [
+        "A. node     ",
+        "B. address  ",
+        "C. path    ",
+        "D. gateway"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "6.In line 4, the word “to route” is close in meaning to ………………..",
+      "options": [
+        "A. transcend    ",
+        "B. copy         ",
+        " C. move",
+        "D. direct"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "7.According to the passage, we can understand that networks are …………… ",
+      "options": [
+        "A. similar",
+        "B. equal",
+        "C. different",
+        "D. both A and B4"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": " 8.The purpose of the passage is…………. …. .",
+      "options": [
+        "A. explanation    ",
+        "B. comparison    ",
+        "C. contrast      ",
+        "D. both B and C"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "9. We can conclude from the text that IP is used for all the following EXCEPT…………. …. ",
+      "options": [
+        "A. identifying nodes",
+        "B. routing information         ",
+        "C. providing paths",
+        "D. delivering packets "
+      ],
+      "correctIndex": -1
+    },
+    {
+      "prompt": "10.In line 6, the pronoun “they” refers to………. ",
+      "options": [
+        "A. machines ",
+        "B. cables ",
+        "C. IPs  ",
+        "D.packets"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "11. We can conclude from the passage that …………. : ",
+      "options": [
+        "A. computers can communicate directly",
+        "B. computers need TCP/IP to communicate",
+        "C. computers use Ethernet to communicate ",
+        "D. Cables allow computers to communicate "
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "12. We can conclude from the passage that an address is………. : ",
+      "options": [
+        "A. a series of digits",
+        "B. a series of networks",
+        "C. a series of sub-networks",
+        "D. a series of nodes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "13.\tWeb :  ",
+      "options": [
+        "A.Name",
+        "B. Board",
+        "C. Program",
+        "D. page "
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "14) File  :  ",
+      "options": [
+        "A.Name",
+        "B. Board",
+        "C. Program",
+        "D. page "
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "15) Bulletin ",
+      "options": [
+        "A.Name",
+        "B. Board",
+        "C. Program",
+        "D. page "
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "16) Supervisor",
+      "options": [
+        "A.Name",
+        "B. Board",
+        "C. Program",
+        "D. page "
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "17) Metadata",
+      "options": [
+        "\tA.stored information used to route data through a gateway\t ",
+        "\tB.set boundaries for the beginning and end of a message",
+        "\tC.a mail transfer process in which the receiving computer initiates the connection  ",
+        "\tD.data about data "
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "18) Pull operation",
+      "options": [
+        "\tA.stored information used to route data through a gateway\t ",
+        "\tB.set boundaries for the beginning and end of a message",
+        "\tC.a mail transfer process in which the receiving computer initiates the connection  ",
+        "\tD.data about data "
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "19) Look-up table",
+      "options": [
+        "\tA.stored information used to route data through a gateway\t ",
+        "\tB.set boundaries for the beginning and end of a message",
+        "\tC.a mail transfer process in which the receiving computer initiates the connection  ",
+        "\tD.data about data "
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "20) Bracketing",
+      "options": [
+        "\tA.stored information used to route data through a gateway\t ",
+        "\tB.set boundaries for the beginning and end of a message",
+        "\tC.a mail transfer process in which the receiving computer initiates the connection  ",
+        "\tD.data about data "
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "21) Algorithm",
+      "options": [
+        "\tA.formula used for decompressing components of  a data  stream ",
+        "\tB.set boundaries for the beginning and end of a message",
+        "\tC.a mail transfer process in which the receiving computer initiates the connection  ",
+        "\tD.data about data "
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "22) A backbone",
+      "options": [
+        "\tA.stored information used to route data through a gateway\t ",
+        "\tB.Main transmission path handling major data traffic",
+        "\tC.a mail transfer process in which the receiving computer initiates the connection  ",
+        "\tD.data about data "
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "23) Checksum ",
+      "options": [
+        "\tA.stored information used to route data through a gateway\t ",
+        "\tB.set boundaries for the beginning and end of a message",
+        "\tC.Mathematical calculation based on the content of data",
+        "\tD.data about data "
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "24) Markup Language ",
+      "options": [
+        "\tA.stored information used to route data through a gateway\t ",
+        "\tB.set boundaries for the beginning and end of a message",
+        "\tC.a mail transfer process in which the receiving computer initiates the connection  ",
+        "\tD.coding system used for structuring and formatting documents"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "25)  TA  ",
+      "options": [
+        "A. Target Area",
+        "B. Technology Assessment",
+        "C. Technical Assistance",
+        "D. Terminal Adapter"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "26) DSL  ",
+      "options": [
+        "A. Digital subscriber Line ",
+        "B. Document Summary List ",
+        "C. Direct Swift Link",
+        "D. Direct Service Line"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "27) SMS   ",
+      "options": [
+        "A. Systems Management  Server",
+        "B. Short Message Service",
+        "C. School Management System",
+        "D. Stock Market Simulation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "28. POP.  ",
+      "options": [
+        "A. Point of Purchase ",
+        "B. Plenty Of Parking",
+        "C. Post Office Protocol",
+        "D. Point Of Presence"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "29. LAN .",
+      "options": [
+        "A. Live Action Network",
+        "B. Local Available Names",
+        "C. Local Access Network",
+        "D. Learners Advisory Network"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "30. A ……. Is an interface that enables dissimilar networks to communicate..",
+      "options": [
+        "A.gateway ",
+        "B. modem",
+        "C. router",
+        "D. bridge"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "31. A……. is a simple computer comprising a processor and memory, display, keyboard, mouse and hard drives only..",
+      "options": [
+        "A.client",
+        "B.LAN",
+        "C. bridge ",
+        "D. Hub"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "32.An email transfer process in which the connection is initialed by the sending computer is called…….”.",
+      "options": [
+        "A. messaging protocol",
+        "B. push operation",
+        "C. message retrieval  ",
+        "D. email transfer"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "33. Downloading a file from a server is an example of ……….",
+      "options": [
+        "\tA.User Datagram Protocol ",
+        "B. Internet Protocol",
+        "C. File Transfer Protocol ",
+        " D. Transmission Control Protocol"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "34.The checksum is calculated by the ……… layer which also reassembles the message segments.",
+      "options": [
+        "A. physical   ",
+        "B. transport",
+        "C. application",
+        "D. Session"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "35. The ……. encodes and sends the packets.",
+      "options": [
+        "A. physical layer     ",
+        "B. transport layer      ",
+        "C. session layer     ",
+        "D. presentation layer"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "36. ……. Is a simple message transfer protocol used to send messages between servers.",
+      "options": [
+        "A. ISP",
+        "B. IMAP   ",
+        "C. SMTP     ",
+        "D.POP"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "37. Search engines do a better job because of the intelligent …. content.. ",
+      "options": [
+        "A.HTML       ",
+        "B.XML  ",
+        "C. SGML    ",
+        "D.A and C"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "38.GPS was developed by the US military to……….",
+      "options": [
+        "A. design machine ",
+        "B. pinpoint locations ",
+        "C. store data      ",
+        "D.A and C"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "39. A/an ……. In a GPS receiver campares signals from at least three satellites..",
+      "options": [
+        "A. microprocessor    ",
+        "B. atomic clock    ",
+        "C. navigation system  ",
+        "D.B and C"
+      ],
+      "correctIndex": -1
+    },
+    {
+      "prompt": "40.Wap phones will …. revolutionize the way we communicate.. ",
+      "options": [
+        "A. provable        ",
+        "B. improbable      ",
+        "C. probable ",
+        "D. probably"
+      ],
+      "correctIndex": -1
+    },
+    {
+      "prompt": " 41.Once you ………on the hyperlink, you ………. for the webpage to be copied on your computer.. ",
+      "options": [
+        "A. have clicked/wait   ",
+        "B. clicked /waited",
+        "C. will click/will wait      ",
+        "D. are clicking/are waiting"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "42.The house has an electronic door-keeper ……… to recognize you …. access to family only.………...",
+      "options": [
+        "A. program/give         ",
+        "B. programmed/gave     ",
+        "C. programmed/give      ",
+        "D. programmed/giving"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "43.It is…… that taxis will be robot-controlled..",
+      "options": [
+        "A. luckily   ",
+        "B. unlike       ",
+        "C. liked       ",
+        "D. likely"
+      ],
+      "correctIndex": -1
+    },
+    {
+      "prompt": "44.You cannot save the file ……. you name it ",
+      "options": [
+        "A. while        ",
+        "B. after        ",
+        "C. when       ",
+        "D. until"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "45.If you spilled coffee on the keyboard, you ……. It",
+      "options": [
+        "A. will damage       ",
+        "B. would damage",
+        "C. would damaged",
+        "D. damaged "
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "46.If you…… Print screen, you ………. a copy of the screen",
+      "options": [
+        "A. press/can make        ",
+        "B. pressed/could make        ",
+        "C. will press/will make   ",
+        "press/would made"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "47.If there ……. A power cut while you were using the computer, you might lose unsaved data..",
+      "options": [
+        "A. is       ",
+        " B. was        ",
+        "C. were",
+        "D. has been"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "48.It is a good idea ……… a few large websites……... some ideas on designing an effective site map..",
+      "options": [
+        "A. visits/gets        ",
+        "B. will visit/will get ",
+        "C. visit/get    ",
+        "D. to visit/to get "
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "49.Avoid ……. a search function in your website as much as possible..",
+      "options": [
+        "A. using   ",
+        "B. use     ",
+        "C. used         ",
+        "D. to use "
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "50.Once the DNS server ……… the IP address, it sends it back to the browser..   ",
+      "options": [
+        "A.to find   ",
+        "B. will find  ",
+        "C. has found ",
+        "D. found"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "51.Streaming is a way of dealing with bandwidth problems ………... you download video from the Internet. ",
+      "options": [
+        "A. when       ",
+        "B. after",
+        "C. until  ",
+        "D. once"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "52.Exercise in the morning rather than …….... ",
+      "options": [
+        "A. smoke",
+        "B. smoking ",
+        "C.to smoke  ",
+        "D. smokes"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "53.A client is a network computer ……. For accessing a service on a server.",
+      "options": [
+        "A. use   ",
+        "B. to use    ",
+        "C. using   ",
+        "D. used "
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "54.A router is a special computer ………. messages when several networks are linked..",
+      "options": [
+        "A. to direct     ",
+        " B. directing   ",
+        "C. directed   ",
+        "D. directs"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "55. Each MP3 file has a tag ………... extra information to be stored on other track details.",
+      "options": [
+        "A. allows  ",
+        " B. to allow    ",
+        "C. allowing  ",
+        "D. allow"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "56. Although (A) networks allow (B) data to be shared; they (C)permit viruses to spread (D) quickly.",
+      "options": [
+        "A. to encode",
+        "B. encoding  ",
+        "C. encoded ",
+        " D. encodes"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "57.He(A) was quite @@@@ (B) when he heard (C) what had happened (D)..",
+      "options": [
+        "A. when",
+        " B. after    ",
+        "C. until    ",
+        " D. once "
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "58.The robber gave (A) the victim with (B) a (C) hard blow (D).……….",
+      "options": [
+        "A. smoke",
+        " B. smoking  ",
+        "C. to smoke ",
+        " D. smokes"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "60.The contestant hitted @@@ (A) the target(B) with (C) great accuracy (D). ..",
+      "options": [
+        "A. use",
+        "B. to use",
+        "C. using",
+        "D. used"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "60. A router is a special computer ……… messages when several networks are linked.",
+      "options": [
+        "A. to direct",
+        " B. directing",
+        "C. directed",
+        "D. directs"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

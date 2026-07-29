@@ -1,0 +1,607 @@
+{
+  "headerTitle": "University of Aleppo - Faculty of Informatic\nForm / A / 2014 - One Term",
+  "instruction": "1 ) Read The following Passage and answer the qustions",
+  "passage": "The GPS (1) was developed by the US military. It was designed to pinpoint (2) locations. The locations could be anywhere in the world. It (3) consists of 24 earth-orbiting satellites, The satellites are 17000 kms above the earth. Each satellite broadcasts (4) a coded radio signal. The signal indicates the time and satellite’s exact position. A GPS receiver contains a microprocessor. The microprocessor compares signals. The signals are from at least three satellites. The microprocessor calculates the latitude, longitude and altitude (5) of the receiver. GPS has many uses apart from military. It can be used for orienting hikers, navigating ships, tracking trucks and buses and locating stolen cars.",
+  "questions": [
+    {
+      "prompt": "1.The main idea in the paragraph is …….",
+      "options": [
+        "A. GPS satellites ",
+        "B. GPS for Military Uses",
+        "C. GPS history\t",
+        "D. GPS development "
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "2. In line 1, the word “GPS” stands for …..",
+      "options": [
+        "A.Global positioning System",
+        "B. Geographical Placement System",
+        "C. Gravity Plating System",
+        "D. Go Perfectly Straight"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "3.In Line 1 , the word “pinpoint” is close in meaning to …… ",
+      "options": [
+        "A.calculate",
+        "B. broadcast",
+        "C. locate ",
+        "D. design"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "4. The pronoun  ”it” refers to……",
+      "options": [
+        "A.earth",
+        "B. a satellites",
+        "C. GPS",
+        " D. a signal"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": " 5. In line 2, the word “broadcast” is close in meaning to…..",
+      "options": [
+        "A. transmit",
+        "B. receive",
+        "C. locate",
+        "D.calculate "
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "6. In line 4, the word “altitude” is close in meaning to …",
+      "options": [
+        "A. dimension\t",
+        "B. width",
+        "C.length",
+        "D. height"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "7. The purpose of the text is…",
+      "options": [
+        "A.explanation",
+        "B.comparison\t ",
+        "C. contrast",
+        "D. B and C"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": " 8. We can conclude from the text that GPS can be used for all the following EXCEPT …..",
+      "options": [
+        "A. tracking buses ",
+        "B. locating cars",
+        "C. finding a hotel",
+        "D. navigating ships"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "9.The microprocessor compares signals from …",
+      "options": [
+        "A. Satellites",
+        "B. The receiver ",
+        "C.The truck",
+        "D. a satellite "
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "10. According to the text , we can conclude that to use GPS service, we need…",
+      "options": [
+        "A. a location ",
+        "B.a receiver ",
+        "C.microprocessors  ",
+        "D.a satellite"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "11.According to the text, we can conclude that GPS…",
+      "options": [
+        "A.is not popular",
+        "B.is not used anymore",
+        "C.is only used by military",
+        "D. has many  user "
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "12) A …… is a hardware and software combination used to connect the same type of networks.",
+      "options": [
+        "A. gatway",
+        "B. modem",
+        "C.router",
+        "D. bridge"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "13) A …… is a powerful computer storing data shared by all the clients in the network. ",
+      "options": [
+        "A. server ",
+        "B. LAN",
+        "C.bridge",
+        "D.Hub"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "14)An email transfer process in which the connection is initiated by the sending computer is called …",
+      "options": [
+        "A.messaging protocol ",
+        "B.push operation ",
+        "C. message retrieval ",
+        "D. email "
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "15) A … is a simple message transfer protocol used to send messages between servers.",
+      "options": [
+        "A. ISP",
+        "B. IMAP",
+        "C.SMTP",
+        "D.POP"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "16)stored information that is used to route data through a gateway is .....",
+      "options": [
+        "A.internet address",
+        "B. transmission protocol.",
+        "C. resolution protocol ",
+        "D. look-up table"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "17) A 32-bit number identifying a node on an IP network is called a/an ……",
+      "options": [
+        "A. allocation ",
+        "B.. Internet address ",
+        "C. memory address",
+        "D.bus address"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "18) Downloading a file from a server is an example of ……",
+      "options": [
+        "A.. User Datagram protocol",
+        "B.Internet protocol",
+        "C.File Transfer Protocol",
+        "D.Transmission Control Protocol"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "19). The ..... is the only part of a communication process that the user sees.",
+      "options": [
+        "A.network layer",
+        "B. application layer ",
+        "C.physical layer ",
+        "D. data-link layer"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "20) The …… encodes and sends the packets.",
+      "options": [
+        "A.physical layer",
+        "B. transport layer ",
+        "C.session layer ",
+        "D.presentation layer "
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "21) …… is a compressed video frame known as a predicated frame.",
+      "options": [
+        "A. 0-frame ",
+        "B. I-frame ",
+        "C. SGML",
+        "D. P-frame"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "22) search engines do a better job because of the intelligent …… content.",
+      "options": [
+        "A. HTML ",
+        "B. XML ",
+        "C. SGML ",
+        "D. A and C"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "23) Satellite communication is an example of …… ",
+      "options": [
+        "A. Integrated networks",
+        "B. cable networks ",
+        "C. wireless connections ",
+        "D. splitter"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "24) WAP phones will ………. revolutionize the way we communicate.",
+      "options": [
+        "A. Provable ",
+        "B. importable ",
+        "C. probable ",
+        "D. probably"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "25) It is ….. that taxis will be robot- controlled. ",
+      "options": [
+        "A. luckily ",
+        "B. unlike",
+        "C. liked",
+        "D. likely "
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "26) you cannot save the file …… You save it.",
+      "options": [
+        "A. while ",
+        "B. after ",
+        "C. when",
+        "D.until"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "27)If you spilled coffee on the keyboard, you …… it. ",
+      "options": [
+        "A. Will damage ",
+        "B. would damage",
+        "C. would damaged ",
+        "D. damaged "
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "28. If you …….. print screen, you ….. a copy of the screen.",
+      "options": [
+        "A. press / can make ",
+        "B.pressed / could make ",
+        "C. will press / will make  ",
+        "D. press / would made "
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "29. If there ….. a power cut while you were using the computer, you might lose unsaved data.",
+      "options": [
+        "A. is ",
+        "B. was  ",
+        "C. were ",
+        "D. has been"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "30. It is a good idea ……. A few large websites …… some ideas on designing an effective site map.",
+      "options": [
+        "A. visit / gets  ",
+        "B. will visit / will get \t",
+        "C. visit / get ",
+        "D. to visit / to get "
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "31. Avoid …… A search function in your website as much as possible.",
+      "options": [
+        "A.using ",
+        "B. use \t",
+        "C. used ",
+        "D. to use "
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "32. Once the DNS server …… the IP address, it sends it back to the browser.",
+      "options": [
+        "A. to find  ",
+        "B. will find ",
+        "C. has found ",
+        "D. found "
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "33. Streaming is a way of dealing with bandwidth problems ……… you download video from the internet.",
+      "options": [
+        "A. when",
+        "B. after ",
+        "C. until ",
+        "D. once "
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "34- Exercise in the morning rather than ……",
+      "options": [
+        "A. smoke ",
+        "B. smoking ",
+        "C. to smoke ",
+        "D. smokes "
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "35.A olient is a network computer …… for accessing a service on a server.",
+      "options": [
+        "A. use ",
+        "B. to use ",
+        "C. using ",
+        "D. used "
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "36.A router is a special computer ….. messages when several networks are linked.",
+      "options": [
+        "A. to direct ",
+        "B. directing ",
+        "C. directed ",
+        "D. directs "
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "37. Each MP3 file has a tag ……… extra information to be stored on other track details.",
+      "options": [
+        "A. allows \t",
+        "B. to allow ",
+        "C. allowing ",
+        "D. allow "
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "IV-Choose the letter underlined word that is NOT correct. \n38.Regular programming (A) was interrupted (B) to  broadcast  (C) a special news bulletins (D).",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "IV-Choose the letter underlined word that is NOT correct. \n39.Plans (A) for both (B) the International Monetary Fund or (C) the World Bank were drawn up (D) at the Bretton Woods Conference.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "IV-Choose the letter underlined word that is NOT correct. \n40.The Colorado River reaches (A) their (B) maximum height (C) during (D) April and May.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "IV-Choose the letter underlined word that is NOT correct. \n41.Modern (A) art is on display (B) at the Guggenhein museum, a building (C) with an unusually (D) design.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "IV-Choose the letter underlined word that is NOT correct. \n42. Although (A) networks allow (B) data to be shared they (C) permit viruses to spread (D) quickly.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "43.Metadata",
+      "options": [
+        "A. Set boundaries for the beginning and end-of message.",
+        "B. Mathematical calculations based on the content of data.",
+        "C. A coding system used for structuring and formatting documents.",
+        "D. Data about data."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "44. Pull operation ",
+      "options": [
+        "A. stored information used to route data through a gateway.",
+        "B. A formula used for decompressing components of a data stream.",
+        "C. The main transmission path handling major data traffic connecting LANs together.",
+        "D. A mail transfer process in which  the receiving computer initiates the  connection."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "45.Look-up table ",
+      "options": [
+        "A. stored information used to route data through a gateway.",
+        "B. A formula used for decompressing components of a data stream.",
+        "C. The main transmission path handling major data traffic connecting LANs together.",
+        "D. A mail transfer process in which  the receiving computer initiales the  connection."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "46.Bracketing ",
+      "options": [
+        "A. Set boundaries for the beginning and end-of message.",
+        "B. Mathematical calculations based on the content of data.",
+        "C. A coding system used for structuring and formatting documents.",
+        "D. Data about data."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "47.Algorithm",
+      "options": [
+        "A. stored information used to route data through a gateway.",
+        "B. A formula used for decompressing components of a data stream.",
+        "C. The main transmission path handling major data traffic connecting LANs together.",
+        "D. A mail transfer process in which  the receiving computer initiales the  connection."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "48. A backbone ",
+      "options": [
+        "A. Set boundaries for the beginning and end-of message.",
+        "B. Mathematical calculations based on the content of data.",
+        "C. A coding system used for structuring and formatting documents.",
+        "D. Main transmission path handling major data traffic."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "49.Checksum",
+      "options": [
+        "A. Set boundaries for the beginning and end-of message.",
+        "B. Mathematical calculations based on the content of data.",
+        "C. A coding system used for structuring and formatting documents.",
+        "D. Data about data."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "50.Markup Language ",
+      "options": [
+        "A. Set boundaries for the beginning and end-of message.",
+        "B. Mathematical calculations based on the content of data.",
+        "C. A coding system used for structuring and formatting documents.",
+        "D. Data about data."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "51.TA ",
+      "options": [
+        "A.Target Area",
+        "B.Technology Assessment",
+        "C.Technical Assistance",
+        "D.Terminal Adaptor "
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "52. DSL ",
+      "options": [
+        "A. Digital Subscriber Line ",
+        "B. Document Summary List ",
+        "C.Direct Swift Link ",
+        "D.Direct Service Line "
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "53.SMS",
+      "options": [
+        "A.System Management ",
+        "B.Short Message Service ",
+        "C.School Management System ",
+        "D.Stock market Simulation "
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "54.POP ",
+      "options": [
+        "A.point Of Purchase",
+        " B.Plenty Of Parking ",
+        "C. Post Office Protocol",
+        "D. Point Of Presence"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "55.IP ",
+      "options": [
+        "A. Internet protocol",
+        " B.Intellectual Property",
+        "C. Image Processing ",
+        "D. Interaction Point "
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "56. LAN",
+      "options": [
+        "A. Live Action Network",
+        "B. Local Available Names ",
+        "C.Local Access Network ",
+        " D. Learn Advisory Network"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "57. Web",
+      "options": [
+        "A. Name",
+        " B. Board  ",
+        "C. Program  ",
+        " D. Page "
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "58.File ",
+      "options": [
+        "A. Name",
+        " B. Board  ",
+        "C. Program  ",
+        " D. Page "
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "59.Bulletin",
+      "options": [
+        "A. Name",
+        " B. Board  ",
+        "C. Program  ",
+        " D. Page "
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "60.Supervisor ",
+      "options": [
+        "A. Name",
+        " B. Board  ",
+        "C. Program  ",
+        " D. Page "
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

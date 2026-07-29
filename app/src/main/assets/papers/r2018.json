@@ -1,0 +1,589 @@
+{
+  "headerTitle": "University of Aleppo - Faculty of Informatic\nForm / A / 2018 - One Term",
+  "instruction": "1 ) Read The following Passage and answer the qustions",
+  "passage": "Streaming is a way of dealing with bandwidth problems when you download video from the internet. One key to successful steaming is the process of buffering. when you download a movie, the video player stores parts of the movie in memory before playing it. Imagine the buffer as a container filled from the top. Once the container is filled ,the player sends data on for playback from the bottom. Data keeps comping in as a clip plays. The user can view the beginning of the movie as the rest of the clip downloads. When the connection slows down or interruption occurs, the amount of data in the buffer decreases but as long as remains, playback is uninterrupted. Playback continues at a steady rate until the buffer is empty.",
+  "questions": [
+    {
+      "prompt": "1. The main idea of this paragraph is ………",
+      "options": [
+        "A. buffering data   ",
+        " B.video playback ",
+        "C. streaming videos  ",
+        "D. video player"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "2.In line 7, the word  it  refers to the",
+      "options": [
+        "A. memory ",
+        "B. internet ",
+        "C. video player ",
+        "D.movie"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "3.In line 5, the word buffering is similar in meaning to a/an ……",
+      "options": [
+        "A.file storage ",
+        "B. data storage  ",
+        "C. temporary storage        ",
+        "D. permanent storage  "
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "4. In line 15, the word  interruption  is closer in meaning to ……",
+      "options": [
+        "A. disconnection  ",
+        "B. interference",
+        "C. interaction            ",
+        "D. intervention "
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "5. In line 19, the word steady means ……",
+      "options": [
+        "A. intermittent ",
+        "B. stable ",
+        "C. slow ",
+        "D. uninterruptable"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "6.It could be inferred from the text that streaming is a/an ………downloading on the net.",
+      "options": [
+        "A. application for",
+        "B. line for  ",
+        "C. method for  ",
+        "D. solution for"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "7.According to the passage, all the following in correct EXCERT ",
+      "options": [
+        "A. playback continues even if the data level is low    ",
+        "B. the buffer sends data continuously to play the clip",
+        "C. playback stops when the connection is slow ",
+        "D. the user enjoyes the movie during downloading "
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "8.barcode …….",
+      "options": [
+        "A. .engine",
+        "B. tray",
+        "C. computer ",
+        "D. reader "
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "9. mainframe …. ",
+      "options": [
+        "A. .engine",
+        "B. tray",
+        "C. computer ",
+        "D. reader "
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "10 .system…. ",
+      "options": [
+        "A. .engine",
+        "B. tray",
+        "C. computer ",
+        "D. reader "
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "11. search  ….",
+      "options": [
+        "A. .engine",
+        "B. tray",
+        "C. computer ",
+        "D. reader "
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": " 12. “PUSH” operation  …. ",
+      "options": [
+        "A. set boundaries for beginning and end of a message  ",
+        "B. an email process in which the connection is initialized by sending computer",
+        "C. a 32-bit number identifying a node on an IP network ",
+        "D. a transmission mode in which each computer takes turns sending and receiving "
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "13. Internet address .",
+      "options": [
+        "A. set boundaries for beginning and end of a message  ",
+        "B. an email process in which the connection is initialized by sending computer",
+        "C. a 32-bit number identifying a node on an IP network ",
+        "D. a transmission mode in which each computer takes turns sending and receiving "
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "14. Full-duplex  ",
+      "options": [
+        "A. set boundaries for beginning and end of a message  ",
+        "B. an email process in which the connection is initialized by sending computer",
+        "C. a 32-bit number identifying a node on an IP network ",
+        "D. a transmission mode in which each computer takes turns sending and receiving "
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "15. bracketing .",
+      "options": [
+        "A. set boundaries for beginning and end of a message  ",
+        "B. an email process in which the connection is initialized by sending computer",
+        "C. a 32-bit number identifying a node on an IP network ",
+        "D. a transmission mode in which each computer takes turns sending and receiving "
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "16. backbone  …. ",
+      "options": [
+        "A. collection of related webpages",
+        "B. high capacity internet connection    ",
+        "C. a formal used for compressing component of a data stream",
+        "D. the main transmission path handling the major data"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "17. algorithm ",
+      "options": [
+        "A. collection of related webpages",
+        "B. high capacity internet connection    ",
+        "C. a formal used for compressing component of a data stream",
+        "D. the main transmission path handling the major data"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "18. broadband  ",
+      "options": [
+        "A. collection of related webpages",
+        "B. high capacity internet connection    ",
+        "C. a formal used for compressing component of a data stream",
+        "D. the main transmission path handling the major data"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "19. website ",
+      "options": [
+        "A. collection of related webpages",
+        "B. high capacity internet connection    ",
+        "C. a formal used for compressing component of a data stream",
+        "D. the main transmission path handling the major data"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "20) IP:  ",
+      "options": [
+        "A.  Internet Protocol",
+        "B. Image Processing",
+        "C. Interaction Point",
+        "D. Instrument Panel "
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "21) IRC :  ",
+      "options": [
+        "A. Information Resource Center",
+        "B. Internet Relay Chat",
+        "C. Innovation Relay Center",
+        "D. International Relations Center"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "22) SMTP” operation ",
+      "options": [
+        "A. Small Mail Transfer Protocol ",
+        "B. Strategic Medium Term Plan",
+        "C. Simple Mail Transfer Protocol ",
+        "D. Simple Message Transfer Protocol"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "23) FTP",
+      "options": [
+        "A. Failure To Progress",
+        "B. File Transfer Process",
+        "C. File Transfer Protocol",
+        "D. Fuel Transfer Point"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "24) ASP",
+      "options": [
+        "A. Application Service Provider ",
+        "B. Average Sales Price",
+        "C. Advanced Simple Profile ",
+        "D. Alternative School Programs"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "25) DVD",
+      "options": [
+        "A. Digital Video Disc ",
+        "B. Dual View Display",
+        "C. Digital Virus Disease ",
+        "D. Dependable Video Discus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "26) TCP",
+      "options": [
+        "A. Traffic Control Point",
+        "B. Transmission Control Protocol",
+        "C. Trusted Computer Platform",
+        "D. Terminal Control Program"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "27) .aero",
+      "options": [
+        "A. Aerobic Endurance",
+        "B. Animation Editor",
+        "C. Aviation Industry",
+        "D. Alternative Education"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "28. To find a webpage , you have to click on a hyperlink or enter a URL..  ",
+      "options": [
+        "A. True",
+        "B. false"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "29. The page travels in packets from router to router..",
+      "options": [
+        "A. True",
+        "B. false"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "30. Different mail systems transfer emails in different ways..",
+      "options": [
+        "A. True",
+        "B. false"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "31. SMTP delivers messages one at a time.",
+      "options": [
+        "A. True",
+        "B. false"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "32. To make you search for< Arsenal > more specific on google,type<football>..",
+      "options": [
+        "A. True",
+        "B. false"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "33. TCP only works with packet-switched networks.",
+      "options": [
+        "A. True",
+        "B. False"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "34. Spam is very common.",
+      "options": [
+        "A. True",
+        "B. False"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "35. Web-based email is suitable if you work in office.",
+      "options": [
+        "A. True",
+        "B. false"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "36. Analogue signals are used on ordinary telephone lines.",
+      "options": [
+        "A. True",
+        "B. false"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "37. A …… is an interface that enables dissimilar networks to communicate.",
+      "options": [
+        "A. gateway",
+        "B. modem ",
+        "C. router ",
+        "D. bridge"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "38. A …… is a simple computer comprising a processor and memory, display, keyboard, mouse and hard drives only.",
+      "options": [
+        "A. Thin client ",
+        "B. LAN ",
+        "C. bridge ",
+        "D. hub"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "39. The checksum is calculated by the …… layer which also reassembles the message segments.",
+      "options": [
+        "A. physical ",
+        "B. transport ",
+        "C. application",
+        "D. session"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "40. The encodes and sends the packet.",
+      "options": [
+        "A. physical layer ",
+        "B. transport layer",
+        "C. session layer ",
+        "D. presentation layer"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "41. ……… is logging on to your computer at a distance.",
+      "options": [
+        "A. IRC ",
+        "B. FTP  ",
+        "C. Telnet",
+        "D. MOO"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "42. A self-replicating program is a/an ……… .",
+      "options": [
+        "A. accounting system ",
+        "B. SAP",
+        "C. office suite",
+        "D. virus"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "43. MP3 files are much ….. than WAV files. Each minute can be stored in one megabyte.",
+      "options": [
+        "A. clearer ",
+        "B. larger ",
+        "C. smaller ",
+        "D. nosier"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "44. Mp3 files can provide information about itself in coded block called a …. ",
+      "options": [
+        "A.  tag    ",
+        "B. URL  ",
+        "C. layer ",
+        "D. sector  "
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "45. A program that rips songs from a CD and turns them into W A V file is a/an ……. ",
+      "options": [
+        "A. recorder",
+        "B. ripper  ",
+        "C. encoder ",
+        "D. decoder"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "46. A….. network is linked by radio waves ",
+      "options": [
+        "A. NIC ",
+        "B. LAN",
+        "C.  Wifi      ",
+        "D. cable"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "47. ……. Is used by server and PCs to send mail ",
+      "options": [
+        "A.  TCP/IP             ",
+        "B. IMAP",
+        "C. POP   ",
+        "D. SMTP"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "48. ……….. allows you to download  message headers before downloading the message ",
+      "options": [
+        "A. TCP/IP      ",
+        "B. IMAP  ",
+        "C. POP ",
+        "D. ISMTP "
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "49. Once you… on the hyperlink , you…… for the webpage to be copied on your computer",
+      "options": [
+        "A. have clicked / wait  ",
+        "B.  clicked / waited   ",
+        "C. will click / will wait         ",
+        "D. are clicking / are waiting"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "50. The house has an electronic door –keeper …….. to recognize  you …… access to family only. ",
+      "options": [
+        "A. program / give    ",
+        "B. programmed /gave   ",
+        "C. programmed / give  ",
+        "D. . programmed /giving"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "51. You cannot save the file …… you name it.",
+      "options": [
+        "A.while        ",
+        "B. after ",
+        "C. when  ",
+        "D. until "
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "52.If you spilled coffe on the keyboard, you … it.",
+      "options": [
+        "A. will damage   ",
+        "B. would damage  ",
+        "C. would damaged   ",
+        "D. damaged "
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "53.If you print …. Screen , you ….. a copy of the screen . ",
+      "options": [
+        "A. press / can make ",
+        "B. pressed/could make",
+        "C. will press/will make ",
+        "D. press/would made "
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "54..If there ……… a power cut while you were using the computer , you might lose unsaved data.  ",
+      "options": [
+        "A. is ",
+        "B. was ",
+        "C. were ",
+        "D. has been    "
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "55. .Avoid …..  search function in your website as much as possible",
+      "options": [
+        "A.using",
+        "B.use",
+        "C.used      ",
+        "D. to use "
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "56.A MIDI message ….. sound into 8-bits of digital information ",
+      "options": [
+        "A. to encode   ",
+        "B. encoding  ",
+        "C. encoded   ",
+        "D. encodes"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "57......... Ensure the machine is disconnected you repair a PC. ",
+      "options": [
+        "A. once     ",
+        "B. after  ",
+        "C. before   ",
+        "D. as "
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "58. Exercise in the morning rather than.......... ",
+      "options": [
+        "A. smoke    ",
+        "B. smoking ",
+        "C. to smoke    ",
+        "D. smokes "
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "59. A client is a network computer  ……. For accessing a service on server. ",
+      "options": [
+        "A. use     ",
+        "B. to use ",
+        "C. using    ",
+        "D. used"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "60. A router is a special computer………messages when serval networks are linked ",
+      "options": [
+        "A. to direct ",
+        "B. directing ",
+        "C. directed ",
+        "D. directs"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

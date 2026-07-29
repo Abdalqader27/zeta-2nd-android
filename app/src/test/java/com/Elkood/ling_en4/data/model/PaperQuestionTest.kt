@@ -36,4 +36,11 @@ class PaperQuestionTest {
             PaperQuestion("p", listOf("a", "b"), 2)
         }
     }
+
+    @Test
+    fun allows_no_answer_key_sentinel() {
+        // Legacy Adapter_Quiz reveals nothing for rows with no correct flag; -1 encodes that.
+        val q = PaperQuestion("p", listOf("a", "b"), PaperQuestion.NO_ANSWER_KEY)
+        assertEquals(PaperQuestion.NO_ANSWER_KEY, q.correctIndex)
+    }
 }

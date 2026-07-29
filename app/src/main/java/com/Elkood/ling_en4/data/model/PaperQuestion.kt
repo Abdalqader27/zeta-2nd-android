@@ -7,6 +7,15 @@ data class PaperQuestion(
 ) {
     init {
         require(options.size in 2..4) { "A PaperQuestion must have 2..4 options, got ${options.size}" }
-        require(correctIndex in options.indices) { "correctIndex $correctIndex out of range for ${options.size} options" }
+        // correctIndex == -1 is the "no answer key" sentinel: the legacy Adapter_Quiz reveal
+        // greens nothing and toasts for rows with no correct flag. Otherwise it must index an option.
+        require(correctIndex == NO_ANSWER_KEY || correctIndex in options.indices) {
+            "correctIndex $correctIndex out of range for ${options.size} options"
+        }
+    }
+
+    companion object {
+        /** Sentinel: this question has no correct-answer key (legacy reveals nothing). */
+        const val NO_ANSWER_KEY = -1
     }
 }

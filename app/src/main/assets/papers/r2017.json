@@ -1,0 +1,547 @@
+{
+  "headerTitle": "University of Aleppo - Faculty of Informatic\nForm / A / 2017 - One Term",
+  "instruction": "1 ) Read The following Passage and answer the qustions",
+  "passage": " The system consists of five networked PCs. Doctors use the system to access a number of databases. The most important of which holds the records of all the patients in the practice. These files contain personal details and the medical history of the patient. The doctor can call up the appointment book prior to the consultation. By clicking on the patient’s name. they have immediate access to that patient’s records. Doctors can also access a drugs database which provides prescribing information on thousands of drugs. The reception staff use a tailored software developed from a database to enter all appointment dates and times for each doctor. The manger uses a payroll package based on a spreadsheet to calculate salaries for each employee of the health center.",
+  "questions": [
+    {
+      "prompt": "1.\t The most suitable time clause to be used in the blank (1) above is ……..…….",
+      "options": [
+        " A. Once",
+        "B. when",
+        "C. before ",
+        "D. until "
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "2. The pronoun (it) in line 3 refers to………. ",
+      "options": [
+        "A. the movie",
+        "B. part of the movie",
+        "C. video player    ",
+        "D. buffering"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "3. The most suitable verb to be used in the blank (2) above is ……..…. ",
+      "options": [
+        "A. keeps ",
+        "B. are keeping ",
+        "C. keep  ",
+        "D. has kept "
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "4. The most suitable verb to be used in the blank (3) above is ……….",
+      "options": [
+        "A. slowdowns",
+        "B. is slowing down",
+        "C. slows down",
+        "D. has slowndown"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": " 5.\tThe most suitable verb to be used in the blank (4) above is  …. ",
+      "options": [
+        "A. Remained   ",
+        "B. remaining ",
+        "C. remains ",
+        "D. has remained "
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "6.\tThe main idea of the passage is ……… .",
+      "options": [
+        "A. The process of buffering is a good way for successful streaming",
+        "B.Downloading a movie",
+        "C. internet ",
+        "D. Description of buffering"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "7. The word  streaming means…..  ",
+      "options": [
+        "A.a temporary memory area used when transferring data over network",
+        "B.Firmly fixed ",
+        "C. continuous",
+        " D.a method of relaying data"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "8. ………………. Is a process of spreading data across a set of disks.",
+      "options": [
+        "A. Mirroring  ",
+        "B. Striping ",
+        "C. Parity data",
+        "D. RAID"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "9.In a virus routine, the…………….. decides when how to activate the pay load. ",
+      "options": [
+        "A. Misdirection. ",
+        "B. reproduction ",
+        "C. trigger",
+        "D. instruction"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "10.You can ………………. Data to make it secure. ",
+      "options": [
+        "A. Ensure ",
+        "B. enhance ",
+        "C. encrypt   ",
+        "D. encode"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "11. Designers can offer good ideas for ……………. Your website.  ",
+      "options": [
+        "A. Bright",
+        "B. making bright",
+        "C. brighten",
+        "D. brightening"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "12.\t……………… the technician in peak times.  ",
+      "options": [
+        "A. Never phone",
+        "B. recommend",
+        "C. avoid",
+        "D. phone"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "13. The besting to do is to ……………. The sound drivers.",
+      "options": [
+        "A.Figure out",
+        "B. note",
+        "C. reinstall ",
+        "D. describe"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "14. A computer virus is a very …………… program routine that infects a computer. ",
+      "options": [
+        "A. Complicated  ",
+        "B. small",
+        "C. biological.",
+        "D.simple "
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "15. A gateway ……………. Dissimilar networks to communicate. ",
+      "options": [
+        "A.Encrypts ",
+        "B. enables",
+        "C. enhances ",
+        "D. enlarges"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "16. A program that has a payload, but doesn't have a reproduction routine is known as a/an …………. .",
+      "options": [
+        "A. Logic bomb ",
+        "B. belling ",
+        "C. Trojan ",
+        "D. Anti EXE."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "17. The technique of writing the same information to more than one drive is known as ………………. ",
+      "options": [
+        "A.Controlling     ",
+        "B. striping ",
+        "C. spreading   ",
+        "D. mirroring"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "18.\t………………… channel is a digital channel used to carry ISDN signaling and supervisory information to the network.",
+      "options": [
+        "A. Splitter   ",
+        "B. bearer",
+        "C. data  ",
+        "D. streaming. "
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "19.\tComputers connected to a satiate system ……………….. a modem. ",
+      "options": [
+        "A.Used ",
+        "B. don't operate by.   ",
+        "C. don't need.",
+        "D. operate over."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "20.\tDSL system use ………… signals.",
+      "options": [
+        "A.Special    ",
+        "B. normal",
+        "C. digital",
+        "D. analogue"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "21.\tCompared to the downstream bandwidth the upstream bandwidth in an ADSL line is ………………. .",
+      "options": [
+        "A. Larger  ",
+        "B. wider",
+        "C. smaller",
+        "D. the same."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "22.\tThe fastest of all RAID configurations is …………………….",
+      "options": [
+        "A.RAID O ",
+        "B. RAID 1",
+        "C. RAID 2-4",
+        "D. RAID S"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "23.\t………………… can audio compress digitized sound data. ",
+      "options": [
+        "A. VOIP ",
+        "B. codecs ",
+        "C. jitter",
+        "D. A buffer"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "24.\tLatency is the …………….. Between the packets reaching the receiver and you hearing the sound. .",
+      "options": [
+        "A.  Jitter",
+        "B. delay.",
+        " C. speed.",
+        "D. loss."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "25.\tA ……….. is a network connecting computers over a small distance such as within a company.  ",
+      "options": [
+        "A. LAN ",
+        "B. wireless ",
+        "C. Bluetooth   ",
+        "D. internet."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "26.\tA ……….. is a digital channel used to carry ISDN data.s ……..",
+      "options": [
+        "A.Data channel ",
+        "B. bearer channel",
+        "C. ISNA channel",
+        "D. ADSL channel"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "27.\tThe GPS was developed by………………..  ",
+      "options": [
+        "A. Microsoft  ",
+        "B. an international organization",
+        "C. An  aviation corporation                                ",
+        "D. the US military "
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "28.\tA ………………. Is a network transmission path handing major traffic    ",
+      "options": [
+        "A.Backbone ",
+        "B.server ",
+        "C.gateway     ",
+        "D. bridge"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "29.\tA …………….. is an electronic device connecting  all the data cabling in a network",
+      "options": [
+        "A.Thin client   ",
+        "B.LAN                              ",
+        "C.hub ",
+        "D. gateway"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "30.\tHTML is an example of a page presentation…………………….. ",
+      "options": [
+        "A. Document ",
+        "B.  data",
+        "C. link",
+        "D. language"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "31.\tPOP protocol allows the user to download …………………at once in your mailbox",
+      "options": [
+        "A.One message  ",
+        "B. all messages ",
+        "C. storage devices     ",
+        "D. communication devices."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "32.\tEmail messages are stored in an SMTP system on ……….",
+      "options": [
+        "A. The receiving server",
+        "B.sending server ",
+        "C. desktop ",
+        "D.mailbox"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "33.\t……………… is a network computer used for accessing a service on a server.",
+      "options": [
+        "A.Thin client    ",
+        "B. client  ",
+        "C. bridge  ",
+        "D.minicomputer "
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "34.\tThe number of channel used by an ISDN system is ………………",
+      "options": [
+        "A.Two",
+        "B. three ",
+        "C. four",
+        "D. five"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "35.\tA device installed on a PC to allow it to receive ISDN signals is a ……………… ",
+      "options": [
+        "A.Modem",
+        "B. router",
+        "C.huh ",
+        "D. TA"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "36.\tThe wireless alternatives come in ………….forms",
+      "options": [
+        "A. Two  ",
+        "B. three ",
+        "C. four ",
+        "D. five"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "37.\tDSL based services are a …………. Option when compared to other solution offering similar bandwidth ",
+      "options": [
+        "A.High cost ",
+        "B. low cost ",
+        "C. average cost",
+        "D. reasonable "
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "38.\tThe part of the address www refers to ……..",
+      "options": [
+        "A. Web service ",
+        "B. denial  ",
+        "C. directory path  ",
+        "D. . protocol prefix"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "39.\tThe extension nom  stands for ……. ",
+      "options": [
+        "A.Informative ",
+        "B. personal",
+        "C.  firm and company ",
+        "D. non-profit organization"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "40.\t………… is a mail transfer protocol that initially only retrieves the message hander's  ",
+      "options": [
+        "A.IMAP",
+        "B. SMTP  ",
+        "C.  POP   ",
+        "D. push operation "
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "41.\tWhen you click on the Home button the ……… display your starting webpage. ",
+      "options": [
+        "A.Browser  ",
+        "B. search engine  ",
+        "C. server ",
+        "D.hyperlink  "
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "42.\t……………. Is a language from which you can create other languages    ",
+      "options": [
+        "A. Mate data ",
+        "B.  Meta language ",
+        "C. format language ",
+        "D.Markup language"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "43.\t…………… is an email transfer process in which the receiving computer initiates the connection.",
+      "options": [
+        "A. SMTP ",
+        "B. POP ",
+        "C. IMAP ",
+        "D.  pull operation "
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "44. \tXML is a …………. Markup language than HTML .",
+      "options": [
+        "A.An intelligent as  ",
+        "B. less intelligent ",
+        "C. more intelligent ",
+        "D. less flexible"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "45.\tA ………… is a special computer directing messages when several networks are linked. ………….",
+      "options": [
+        "A.Server ",
+        "B. gate way  ",
+        "C. bridge  ",
+        "D. outer "
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "46.\t…………… is a redundant array of inexpensive disk  ",
+      "options": [
+        "A. A raid controller ",
+        "B. an array     ",
+        "C. a raid ",
+        "D. a controller"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "47. If i.........time,I'd  like to bulid in new linkes  ",
+      "options": [
+        "A.Have  ",
+        "B. has",
+        "C. would have",
+        "D. had   "
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "48.\t…………….. you click on a URL, your browser sends it to a DNS servere.",
+      "options": [
+        "A. As ",
+        "B. until ",
+        "C.before ",
+        "D. when "
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "49.\tThe teacher is using new program to …… children to write stories ",
+      "options": [
+        "A. Enable",
+        "B. encourage    ",
+        "C. enhance       ",
+        "D. ensure"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "50.\tThe packets are passed from router ………..they reach the Web server       ",
+      "options": [
+        "A. as ",
+        "B. until ",
+        "C. before ",
+        "D. when "
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "51.\tI guess, I …………have better job prospects if chose the master's ",
+      "options": [
+        "A.Will",
+        "B. could",
+        "C. can ",
+        "D. should"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "52.\tBefore you call a technical support, you …… reboot your OC to see if the problem recurs.. ",
+      "options": [
+        "A. must ",
+        "B. recommend",
+        "C. should ",
+        "D. would"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "53.\tif choose the certificate, it ………… take 6 months  ",
+      "options": [
+        "A.will  ",
+        "B. would",
+        "C. could",
+        "D.might"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "54.\tif you spilled coffee on the keyboard, you …………. Damage it ",
+      "options": [
+        "A. Will ",
+        "B.are going to  ",
+        "C. would ",
+        "D. can"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

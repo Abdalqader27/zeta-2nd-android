@@ -1,0 +1,581 @@
+{
+  "headerTitle": "University of Aleppo - Faculty of Informatic\nForm / A / 2017 - Two Term",
+  "instruction": "1 ) Read The following Passage and answer the qustions",
+  "passage": "The application layer is the only part of communication process that a user sees, and even then, the user does not see most of the work that the application does to prepare a message for sending over a network. It converts a message's data from human-readable form into bits and attaches a header identifying the sending and receiving computers. The presentation layer ensures that the message is transmitted in a language that the receiver computer can interpret. This layer translates that message if necessary and then compresses and perhaps encrypts the data. It adds another header specifying the language as well as the compression and encryption schemes.",
+  "questions": [
+    {
+      "prompt": "1) The best title of this paragraph is  : ",
+      "options": [
+        "A. The application layer",
+        "B .Encoding and Encrypting Data",
+        "C.Two Layers of Network Communication ",
+        "D. Data conversion"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "2 ) In line 6, the pronoun it refers to ………….  :  ",
+      "options": [
+        "A. a network",
+        "B. the application",
+        "C. a message",
+        "D. the application layer"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "3 ) In line 11, the word interpret is similar in meaning to a/an …… ",
+      "options": [
+        "A. identify",
+        "B.transmit",
+        "C. translate ",
+        "D. receive"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "4 ) In line 13, the word  encrypts means ……",
+      "options": [
+        "A. decompress",
+        "B. encode",
+        "C. decode",
+        "D.compress"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "5 ) It could be inferred from the text that the application layer is all of the following EXCEPT",
+      "options": [
+        "A. the user sees it",
+        "B. it prepares the message",
+        "C. It attaches a header",
+        "D. It opens communication"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "6 ) According to the passage, in network communication,)",
+      "options": [
+        "A. different languages are used",
+        "B. human-readable languages are used in communication",
+        "C. data is converted into bits",
+        "D. nothing changes in the message"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "7 ) According to the passage, the receiving computer should receive the following information EXCEPT…………. : ",
+      "options": [
+        "A. The address",
+        "B. compression method",
+        "C. encryption way",
+        "D. the translated data"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "8 ) synchronous?",
+      "options": [
+        "A. board  ",
+        "B.  name ",
+        "C.button",
+        "D. transmission"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "9 ) graphical ……",
+      "options": [
+        "A.board  ",
+        "B. name ",
+        "C. button",
+        "D.transmission "
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "10 ) domain…………. : .",
+      "options": [
+        "A.board ",
+        "B.name ",
+        "C.button",
+        "D. transmission "
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "11) bulletin : ",
+      "options": [
+        "A. board",
+        "B. name",
+        "C. button",
+        "D.transmission "
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "12) Push operation : ",
+      "options": [
+        "A. set boundaries for beginning and end of a message",
+        "B. an email process in which the connection is initialized by the sending computer",
+        "C. a 32-bit number identifying a node on an IP network",
+        "D. a transmission mode in which each computer takes turns sending and receiving "
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "13) Internet address :  ",
+      "options": [
+        "A. set boundaries for beginning and end of a message",
+        "B. an email process in which the connection is initialized by the sending computer",
+        "C.  a 32-bit number identifying a node on an IP network",
+        "D. a transmission mode in which each computer takes turns sending and receiving "
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "14) Full-duplex :  ",
+      "options": [
+        "A. set boundaries for beginning and end of a message",
+        "B. an email process in which the connection is initialized by the sending computer",
+        "C. a 32-bit number identifying a node on an IP network",
+        "D. a transmission mode in which each computer takes turns sending and receiving "
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "15) Bracketing ",
+      "options": [
+        "A. set boundaries for beginning and end of a message ",
+        "B. an email process in which the connection is initialized by the sending computer",
+        "C. a 32-bit number identifying a node on an IP network ",
+        "D. a transmission mode in which each computer takes turns sending and receiving"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "16) A Gateway",
+      "options": [
+        "A. hardware and software combination to connect similar networks ",
+        "B. coding system for structuring and formatting documents",
+        "C. a formula for decompressing components of a data stream ",
+        "D. an interface enabling dissimilar networks to communicate"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "17) A bridge",
+      "options": [
+        "A. hardware and software combination to connect similar networks ",
+        "B. coding system for structuring and formatting documents",
+        "C.a formula for decompressing components of a data stream  ",
+        "D. an interface enabling dissimilar networks to communicate"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "18) Markup Language",
+      "options": [
+        "A. hardware and software combination to connect similar networks ",
+        "B.  coding system for structuring and formatting documents",
+        "C. a formula for decompressing components of a data stream ",
+        "D.an interface enabling dissimilar networks to communicate"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "19) Algorithm",
+      "options": [
+        "A.hardware and software combination to connect similar networks ",
+        "B.coding system for structuring and formatting documents ",
+        "C.a formula for decompressing components of a data stream ",
+        "D.an interface enabling dissimilar networks to communicate"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "20) DVD",
+      "options": [
+        "A. Digital Video Disc ",
+        "B. Dual View Display",
+        "C. Digital Virus Disease",
+        "D. Dependable Video Discus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "21) TCP",
+      "options": [
+        "A. Traffic Control Point ",
+        "B. Transmission Control Protocol",
+        "C. Trusted Computer Platform",
+        "D. Terminal Control Program"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "22) aero",
+      "options": [
+        "A. Aerobic Endurance ",
+        "B. Animation Editor",
+        "C.Aviation Industry ",
+        "D.Alternative Education "
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "23) DNS ",
+      "options": [
+        "A. Dow Number Service ",
+        "B. Driver Night Sight ",
+        "C.Domain Name Server ",
+        "D.Damn Network Solutions "
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "24) ASP ",
+      "options": [
+        "A. Application Service Provider ",
+        "B. Analog Signal Processing ",
+        "C.Advanced Simple Profile ",
+        "D.Active Server Page "
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "25) XML  ",
+      "options": [
+        "A.Xtra Microsoft Loopholes ",
+        "B.Xperimental Markup Language ",
+        "C.XCC Mod Launcher ",
+        "D.Extensible Markup Language "
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "26) HTML is no longer useful for creating webpages  ",
+      "options": [
+        "A.True ",
+        "B. false"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "27) Add many graphic navigation tools in the webpage to help visitors   ",
+      "options": [
+        "A. True",
+        "B. false"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "28. It is better to avoid frames when designing a website.  ",
+      "options": [
+        "A. True",
+        "B. false"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "29. The page travels in packets from router to router.",
+      "options": [
+        "A. True",
+        "B. false"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "30. Different mail systems transfer emails in different ways.",
+      "options": [
+        "A. True",
+        "B. false"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "31. POP delivers messages one at a time.",
+      "options": [
+        "A. True",
+        "B. false"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "32. To make your search for Arsenal  more specific on Google, type football .",
+      "options": [
+        "A. True",
+        "B. false"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "33. Online gaming and video require a high usage allowance",
+      "options": [
+        "A. True",
+        "B. false"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "34. Spam is very common",
+      "options": [
+        "A. True",
+        "B. false"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "35. Web-based email is suitable if you work in an office",
+      "options": [
+        "A. True",
+        "B. false"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "36. Analogue signals are used on ordinary telephone lines",
+      "options": [
+        "A. True",
+        "B. false"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "37.WiFi network is cheaper than cabling. ",
+      "options": [
+        "A. True",
+        "B. false"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "38.An e-commerce business usually provides all the required technology itself",
+      "options": [
+        "A. True",
+        "B. false"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "39. A …… is a simple computer comprising a processor and memory, display, keyboard, mouse and drives only.",
+      "options": [
+        "A.thin client ",
+        "B.LAN ",
+        "C. bridge ",
+        "D.Hub "
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "40. The checksum is calculated by the …… layer which also reassembles the message segments. ",
+      "options": [
+        "A.physical ",
+        "B.transport ",
+        "C.application ",
+        "D.session "
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "41. ………….is logging on to your computer at a distance. ",
+      "options": [
+        "A. IRC",
+        "B. FTP",
+        "C. Telnet",
+        "D. MOOs"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "42. A self-replicating program is a/an………...",
+      "options": [
+        "A. accounting system",
+        "B. SAP",
+        "C. office suite",
+        "D. virus"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "43. MP3 files are much………. than WAV files. Each minute can be stored in one megabyte.",
+      "options": [
+        "A. clearer",
+        "B. larger ",
+        "C. smaller",
+        "D. nosier"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "44. MP3 files can provide information about itself in coded block called a ………..",
+      "options": [
+        "A. tag ",
+        "B. URL",
+        "C. layer",
+        "D. sector"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "45. A program that rips songs from a CD and turns them into WAV file is a………….",
+      "options": [
+        "A. recorder",
+        "B. ripper",
+        "C. encoder ",
+        "D. decoder"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "46. A………. network is linked by radio waves",
+      "options": [
+        "A. NIC",
+        "B. LAN",
+        "C. Wifi",
+        "D. cable"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "47. …………is used by servers and PCs to send mails.",
+      "options": [
+        "A. TCP/IP",
+        "B. MAPI ",
+        "C. POP",
+        "D. SMTP"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "48. ……… allows you to download message headers before downloading the message.",
+      "options": [
+        "A. TCP/IP",
+        "B. IMAP ",
+        "C. POP",
+        "D. SMTP"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "49. Once you………. on the by perlink. You ………. for the webpage to be copied on your computer.",
+      "options": [
+        "A. have clicked / wait",
+        "B. clicked / waited",
+        "C. will click / will wait",
+        "D. are clicking / are waiting"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "50. The house has an electronic door-keeper………….to recognize you…………. access to family only.   ",
+      "options": [
+        "A. program / give",
+        "B. programmed / gave",
+        "C. programmed / give",
+        "D. programmed / giving"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "51. You cannot save the file……. you name it. ",
+      "options": [
+        "A. while",
+        "B. after",
+        "C. when",
+        "D. until"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "52. If you spilled coffee on the keyboard. you…….it. ",
+      "options": [
+        "A. will damage",
+        "B. would damage",
+        "C. would damaged",
+        "D. damaged"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "53. If you……. Print Screen. You……. a copy of the screen",
+      "options": [
+        "A. press/can make",
+        "B. pressed/could make   ",
+        "C. will press/will make",
+        "D. press/would made"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "54. If there………. a power cut while you were using the computer. you might lose unsaved data.",
+      "options": [
+        "A. is ",
+        " B. was ",
+        "C. were ",
+        "D. has been"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "prompt": "55. Avoid……… a search function in your website as much as possible.",
+      "options": [
+        "A. using",
+        " B. use ",
+        "C. used ",
+        "D. to use"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "56. A MIDI message ………sound into 8 bite of digital information.",
+      "options": [
+        "A. to encode",
+        "B. encoding  ",
+        "C. encoded ",
+        " D. encodes"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "57. Streaming is a way of dealing with bandwidth problems ……… you download video from the Internet.",
+      "options": [
+        "A. when",
+        " B. after    ",
+        "C. until    ",
+        " D. once "
+      ],
+      "correctIndex": 0
+    },
+    {
+      "prompt": "58. Exercise in the morning rather than……….",
+      "options": [
+        "A. smoke",
+        " B. smoking  ",
+        "C. to smoke ",
+        " D. smokes"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "prompt": "59. A server is a powerful computer …… data shared by all the clients in the network.",
+      "options": [
+        "A.store",
+        "B.to store ",
+        "C.stored ",
+        "D. storing"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "prompt": "60. A router is a special computer ……… messages when several networks are linked.",
+      "options": [
+        "A. to direct",
+        " B. directing",
+        "C. directed",
+        "D. directs"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}
