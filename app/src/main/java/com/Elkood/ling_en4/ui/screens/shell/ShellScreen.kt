@@ -1,6 +1,7 @@
 package com.Elkood.ling_en4.ui.screens.shell
 
 import android.app.Activity
+import android.content.Intent
 import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Box
@@ -40,7 +41,9 @@ import androidx.compose.ui.unit.dp
 import androidx.fragment.compose.AndroidFragment
 import com.Elkood.ling_en4.R
 import com.Elkood.ling_en4.Views.SecondYear.English_4.BankItemsQuiz
-import com.Elkood.ling_en4.Views.SecondYear.English_4.Home.Home_fragment
+import com.Elkood.ling_en4.data.model.QuizTopic
+import com.Elkood.ling_en4.ui.screens.home.HomeScreen
+import com.Elkood.ling_en4.ui.screens.quiz.ComposeQuizActivity
 import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -115,7 +118,20 @@ fun ShellScreen(activity: Activity, userName: String, onExit: () -> Unit) {
                                         onPaperClick = { com.Elkood.ling_en4.ui.screens.paperquiz.PaperQuizActivity.start(activity, it) }
                                     )
                                     1 -> AndroidFragment<BankItemsQuiz>(Modifier.fillMaxSize())
-                                    else -> AndroidFragment<Home_fragment>(Modifier.fillMaxSize())
+                                    else -> HomeScreen(
+                                        onStartExam = {
+                                            val intent = Intent(
+                                                activity,
+                                                ComposeQuizActivity::class.java,
+                                            ).setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP)
+                                            intent.putExtra(
+                                                ComposeQuizActivity.EXTRA_TOPIC,
+                                                QuizTopic.FULL_QUIZ.name,
+                                            )
+                                            activity.startActivity(intent)
+                                        },
+                                        modifier = Modifier.fillMaxSize(),
+                                    )
                                 }
                             }
                         }
