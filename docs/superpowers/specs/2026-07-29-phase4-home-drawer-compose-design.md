@@ -63,8 +63,9 @@ Key legacy facts to reproduce faithfully:
 - **old_version** (`activity_old_version.xml`): button `eng3_quiz` → `ComposeQuizActivity`
   with `EXTRA_TOPIC = QuizTopic.ENG3.name()` via `startActivityForResult(REQUST_CODE_QUIZ=1)`;
   on result reads `EXTRA_SCORE`. High score store `sharedprefs` / key `keyhighscore`,
-  shown as "High Score :N". Custom back: `AlertDialog` title "Quiz", message
-  "Do You Want To Close Your App?", No / Yes(finish).
+  shown as "High Score :N" (no space after the colon). Custom back: `AlertDialog`
+  title "Quiz", message "Do You Want To Close Your App ?" (space before `?`),
+  No / Yes(finish).
 - **About** (`activity_about.xml`): `CollapsingToolbar` hero + `CardView`s. Privacy link
   `https://www.freeprivacypolicy.com/privacy/view/25844dc6eb5275b8022df849a23f1ca6`;
   telegram `https://t.me/AbdalqaderNajjaR`; facebook via `newFacebookIntent`
@@ -148,8 +149,14 @@ Each `*Activity` follows the `ShellActivity` shape: `AppCompatActivity` →
    `rememberLauncherForActivityResult`, reading back `EXTRA_SCORE`; high score from
    `sharedprefs`/`keyhighscore` shown "High Score :N"; custom back `AlertDialog`
    "Do You Want To Close Your App?" No / Yes(finish).
-6. **`StudyMemberScreen`** — the 14 names as a `LazyColumn` of `row_member`-style cards.
-7. **`LicensesScreen`** — the static licenses text.
+6. **`StudyMemberScreen`** — the 14 names (verbatim, order and trailing spaces/diacritics
+   preserved) as a `LazyColumn` of `row_member`-style cards: header `student` image (176dp,
+   centerCrop), the "شكرا خاص للزملاء على المساعدة  " line, a 2dp black separator, then cards
+   (8dp corner, `stroke` background, name 20sp centered + `ic_tab_bar_plus_gray` 100×60dp).
+   Long-press Toast "Ite 20"; normal tap inert. No toolbar/title/back override (plain screen).
+7. **`LicensesScreen`** — the static licenses text (LTR), verbatim including its quirks
+   (leading blank line, run-on lines, misspellings, double blank lines). Title "licenses"
+   30sp; body on `grey_Light` background, 20sp, 1.5 line spacing, LTR. No toolbar/back override.
 
 ### Rewiring & manifest
 
