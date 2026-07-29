@@ -62,18 +62,6 @@
             android:name=".Views.SecondYear.English_4.Important_quiz.word"
             android:screenOrientation="fullSensor" />
         <activity
-            android:name=".Views.SecondYear.English_4.Header_Elements.statistics"
-            android:screenOrientation="fullSensor" />
-        <activity
-            android:name=".Views.SecondYear.English_4.Header_Elements.old_version"
-            android:screenOrientation="fullSensor" />
-        <activity
-            android:name=".Views.SecondYear.English_4.Header_Elements.licenses"
-            android:screenOrientation="fullSensor" />
-        <activity
-            android:name=".Views.SecondYear.English_4.Header_Elements.study_member"
-            android:screenOrientation="fullSensor" />
-        <activity
             android:name=".Views.SecondYear.English_4.Important_quiz.Extinsions.Extinsions"
             android:screenOrientation="fullSensor" />
         <activity
@@ -88,10 +76,6 @@
         <activity
             android:name=".Views.SecondYear.English_4.Important_quiz.Vocabulary.Vocabulary"
             android:screenOrientation="fullSensor" />
-        <activity
-            android:name=".Views.SecondYear.English_4.Header_Elements.Settings"
-            android:screenOrientation="fullSensor" />
-
         <provider
             android:name="androidx.core.content.FileProvider"
             android:authorities="${applicationId}"
@@ -103,15 +87,30 @@
         </provider>
 
         <activity
-            android:name=".Views.SecondYear.English_4.Header_Elements.About"
-            android:screenOrientation="fullSensor" />
-        <activity
             android:name=".ui.screens.quiz.ComposeQuizActivity"
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme" />
         <activity
             android:name=".ui.screens.paperquiz.PaperQuizActivity"
             android:screenOrientation="fullSensor"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.screens.settings.SettingsActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.screens.about.AboutActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.screens.statistics.StatisticsActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.screens.eng3.Eng3Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.screens.member.StudyMemberActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.screens.licenses.LicensesActivity"
             android:theme="@style/AppTheme" />
         <activity
             android:name=".ui.screens.shell.ShellActivity"
