@@ -11,6 +11,13 @@ val MuliFontFamily = FontFamily(
     Font(R.font.muli_light, FontWeight.Light),
 )
 
+val TajawalFontFamily = FontFamily(
+    Font(R.font.tajawal_regular, FontWeight.Normal),
+    Font(R.font.tajawal_light, FontWeight.Light),
+    Font(R.font.tajawal_medium, FontWeight.Medium),
+    Font(R.font.tajawal_bold, FontWeight.Bold),
+)
+
 val ZetaTypography = Typography().let { base ->
     base.copy(
         bodyLarge = base.bodyLarge.copy(fontFamily = MuliFontFamily),
