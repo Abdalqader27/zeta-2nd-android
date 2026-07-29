@@ -4,26 +4,26 @@ import android.app.Activity
 import android.content.Intent
 import androidx.core.content.FileProvider
 import com.Elkood.ling_en4.R
-import com.Elkood.ling_en4.Views.SecondYear.English_4.Header_Elements.About
-import com.Elkood.ling_en4.Views.SecondYear.English_4.Header_Elements.Settings
-import com.Elkood.ling_en4.Views.SecondYear.English_4.Header_Elements.old_version
-import com.Elkood.ling_en4.Views.SecondYear.English_4.Header_Elements.statistics
+import com.Elkood.ling_en4.ui.screens.about.AboutActivity
+import com.Elkood.ling_en4.ui.screens.eng3.Eng3Activity
+import com.Elkood.ling_en4.ui.screens.settings.SettingsActivity
+import com.Elkood.ling_en4.ui.screens.statistics.StatisticsActivity
 import java.io.File
 import java.io.FileInputStream
 import java.io.FileOutputStream
 
 fun handleDrawerAction(activity: Activity, action: DrawerAction) {
     when (action) {
-        DrawerAction.SCORES -> openLegacy(activity, statistics::class.java)
+        DrawerAction.SCORES -> openScreen(activity, StatisticsActivity::class.java)
         DrawerAction.HELP -> Unit // inert today — parity with legacy (no handler)
         DrawerAction.SHARE -> shareApk(activity)
-        DrawerAction.SETTINGS -> openLegacy(activity, Settings::class.java)
-        DrawerAction.ABOUT -> openLegacy(activity, About::class.java)
-        DrawerAction.ENG3 -> openLegacy(activity, old_version::class.java)
+        DrawerAction.SETTINGS -> openScreen(activity, SettingsActivity::class.java)
+        DrawerAction.ABOUT -> openScreen(activity, AboutActivity::class.java)
+        DrawerAction.ENG3 -> openScreen(activity, Eng3Activity::class.java)
     }
 }
 
-private fun openLegacy(activity: Activity, target: Class<*>) {
+private fun openScreen(activity: Activity, target: Class<*>) {
     activity.startActivity(Intent(activity.applicationContext, target))
     activity.overridePendingTransition(R.anim.fade_in, R.anim.fade_out)
 }
