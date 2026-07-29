@@ -21,7 +21,6 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.ColorFilter
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
@@ -59,7 +58,7 @@ fun AboutScreen(
                 Icon(
                     painter = painterResource(R.drawable.ic_arrow_back_black_24dp),
                     contentDescription = "back",
-                    tint = Color.White,
+                    tint = colorResource(R.color.white),
                 )
             }
         }
@@ -103,7 +102,7 @@ fun AboutScreen(
                         colorFilter = ColorFilter.tint(colorResource(R.color.colorPrimary)),
                         modifier = Modifier.size(32.dp),
                     )
-                    Text(text = "أنقر هنا للتعرف", modifier = Modifier.padding(start = 8.dp))
+                    Text(text = "أنقر هنا للتعرف", fontWeight = FontWeight.Bold, modifier = Modifier.padding(start = 8.dp))
                 }
                 LinkRow(text = "سياسة الخصوصية", onClick = { onOpenUrl(ABOUT_PRIVACY_URL) })
                 LinkRow(text = "الشهادات", onClick = onOpenLicenses)
@@ -142,7 +141,7 @@ private fun LinkRow(text: String, onClick: () -> Unit) {
     Text(
         text = text,
         fontSize = 14.sp,
-        color = Color.Black,
+        color = colorResource(R.color.black),
         modifier = Modifier
             .fillMaxWidth()
             .padding(vertical = 6.dp)
