@@ -13,7 +13,6 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -34,13 +33,13 @@ fun StatisticsScreen(state: StatisticsUiState) {
                 .height(200.dp)
                 .padding(16.dp),
         )
-        SectionHeader(icon = R.drawable.ic_058_bunny, title = "الشامل")
+        SectionHeader(icon = R.drawable.ic_058_bunny, title = "الشامل ")
         StatRow(label = "الإجابات الصحيحة", value = "${state.fullTrue}", outOf = "421")
         StatRow(label = "الإجابات الخاطئة", value = "${state.fullFalse}", outOf = "421")
         StatRow(label = " مرات اللعب", value = "${state.numberPlay}", outOf = null)
         StatRow(label = " علاماتك ", value = state.mark.toString(), outOf = "100")
 
-        SectionHeader(icon = R.drawable.triviafinal, title = "الجزئي")
+        SectionHeader(icon = R.drawable.triviafinal, title = "الجزئي ")
         StatRow(label = "المردفات", value = "${state.voc}", outOf = "46")
         StatRow(label = "صح أو خطأ ", value = "${state.tf}", outOf = "36")
         StatRow(label = "الاختصارات", value = "${state.abber}", outOf = "23")
