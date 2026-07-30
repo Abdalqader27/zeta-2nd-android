@@ -23,13 +23,6 @@
         android:usesCleartextTraffic="true"
         tools:replace="android:icon">
 
-        <activity
-            android:name=".Views.SecondYear.English_4.Important_quiz.unit_package.unit8"
-            android:screenOrientation="fullSensor" />
-        <activity
-            android:name=".Views.SecondYear.English_4.Important_quiz.molakas"
-            android:screenOrientation="fullSensor" />
-
         <meta-data
             android:name="com.parse.SERVER_URL"
             android:value="@string/back4app_server_url" />
@@ -40,42 +33,6 @@
             android:name="com.parse.CLIENT_KEY"
             android:value="@string/back4app_client_key" />
 
-        <activity
-            android:name=".Views.SecondYear.English_4.Important_quiz.unit_package.unit14"
-            android:screenOrientation="fullSensor" />
-        <activity
-            android:name=".Views.SecondYear.English_4.Important_quiz.unit_package.unit13"
-            android:screenOrientation="fullSensor" />
-        <activity
-            android:name=".Views.SecondYear.English_4.Important_quiz.unit_package.unit12"
-            android:screenOrientation="fullSensor" />
-        <activity
-            android:name=".Views.SecondYear.English_4.Important_quiz.unit_package.unit11"
-            android:screenOrientation="fullSensor" />
-        <activity
-            android:name=".Views.SecondYear.English_4.Important_quiz.unit_package.unit10"
-            android:screenOrientation="fullSensor" />
-        <activity
-            android:name=".Views.SecondYear.English_4.Important_quiz.unit_package.unit9"
-            android:screenOrientation="fullSensor" />
-        <activity
-            android:name=".Views.SecondYear.English_4.Important_quiz.word"
-            android:screenOrientation="fullSensor" />
-        <activity
-            android:name=".Views.SecondYear.English_4.Important_quiz.Extinsions.Extinsions"
-            android:screenOrientation="fullSensor" />
-        <activity
-            android:name=".Views.SecondYear.English_4.Important_quiz.True_false.True_false"
-            android:screenOrientation="fullSensor" />
-        <activity
-            android:name=".Views.SecondYear.English_4.Important_quiz.Compound_Nouns.Compound_Nouns"
-            android:screenOrientation="fullSensor" />
-        <activity
-            android:name=".Views.SecondYear.English_4.Important_quiz.Abbrevationss.Abbreviations"
-            android:screenOrientation="fullSensor" />
-        <activity
-            android:name=".Views.SecondYear.English_4.Important_quiz.Vocabulary.Vocabulary"
-            android:screenOrientation="fullSensor" />
         <provider
             android:name="androidx.core.content.FileProvider"
             android:authorities="${applicationId}"
@@ -137,10 +94,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".Views.SecondYear.English_4.Important_quiz.True_false.QuizActivity_True_false"
-            android:screenOrientation="fullSensor"
-            android:theme="@style/AppTheme" />
     </application>
 
 </manifest>
