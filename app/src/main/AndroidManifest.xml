@@ -95,6 +95,14 @@
             android:screenOrientation="fullSensor"
             android:theme="@style/AppTheme" />
         <activity
+            android:name=".ui.screens.wordlist.WordIndexActivity"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.screens.wordlist.UnitWordsActivity"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppTheme" />
+        <activity
             android:name=".ui.screens.settings.SettingsActivity"
             android:theme="@style/AppTheme" />
         <activity
