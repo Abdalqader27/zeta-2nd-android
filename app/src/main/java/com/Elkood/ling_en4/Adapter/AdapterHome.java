@@ -9,19 +9,15 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.Elkood.ling_en4.Models.CardHome;
-import com.Elkood.ling_en4.Views.SecondYear.English_4.Important_quiz.Abbrevationss.Abbreviations;
-import com.Elkood.ling_en4.Views.SecondYear.English_4.Important_quiz.Compound_Nouns.Compound_Nouns;
-import com.Elkood.ling_en4.Views.SecondYear.English_4.Important_quiz.Extinsions.Extinsions;
-import com.Elkood.ling_en4.Views.SecondYear.English_4.Important_quiz.True_false.True_false;
-import com.Elkood.ling_en4.Views.SecondYear.English_4.Important_quiz.Vocabulary.Vocabulary;
-import com.Elkood.ling_en4.Views.SecondYear.English_4.Important_quiz.molakas;
-import com.Elkood.ling_en4.Views.SecondYear.English_4.Important_quiz.word;
+import com.Elkood.ling_en4.ui.screens.wordlist.WordIndexActivity;
+import com.Elkood.ling_en4.ui.screens.reference.ReferenceAccordionActivity;
+import com.Elkood.ling_en4.ui.screens.truefalse.TrueFalseListActivity;
+import com.Elkood.ling_en4.ui.screens.molakhs.MolakhsActivity;
 import com.Elkood.ling_en4.Utils.ItemClickListener;
 import com.Elkood.ling_en4.R;
 
@@ -92,60 +88,38 @@ public class AdapterHome extends RecyclerView.Adapter<AdapterHome.Recycle_Adapte
         holder.date.setText(cureentItem.getDate());
         holder.pico.setImageResource(cureentItem.getImage());
         holder.setItemClickListener((view, position1, isLongClick) -> {
-            if (isLongClick) {
-                Toast.makeText(context, "Ite 20", Toast.LENGTH_SHORT).show();
-
-            } else {
-                switch (position1) {
-                    case 0: {
-                        Intent intent = new Intent(view.getContext(), word.class);
-                        intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
-
-                        view.getContext().startActivity(intent);
-                        break;
-                    }
-                    case 1: {
-                        Intent intent = new Intent(view.getContext(), Vocabulary.class);
-                        intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
-
-                        view.getContext().startActivity(intent);
-                        break;
-                    }
-                    case 2: {
-                        Intent intent = new Intent(view.getContext(), True_false.class);
-                        intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
-                        view.getContext().startActivity(intent);
-                        break;
-                    }
-                    case 3: {
-                        Intent intent = new Intent(view.getContext(), Abbreviations.class);
-                        intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
-                        view.getContext().startActivity(intent);
-
-                        break;
-                    }
-                    case 4: {
-                        Intent intent = new Intent(view.getContext(), Compound_Nouns.class);
-                        intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
-                        view.getContext().startActivity(intent);
-                        break;
-                    }
-                    case 5: {
-                        Intent intent = new Intent(view.getContext(), Extinsions.class);
-                        intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
-                        view.getContext().startActivity(intent);
-                        break;
-                    }
-                    case 6: {
-                        Intent intent = new Intent(view.getContext(), molakas.class);
-                        intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
-                        view.getContext().startActivity(intent);
-                        break;
-                    }
-                }
-
-
+            Context ctx = view.getContext();
+            Intent intent;
+            switch (position1) {
+                case 0: // word
+                    intent = new Intent(ctx, WordIndexActivity.class);
+                    break;
+                case 1: // Vocabulary
+                    intent = new Intent(ctx, ReferenceAccordionActivity.class);
+                    intent.putExtra("extra_topic", "VOCABULARY");
+                    break;
+                case 2: // True_false
+                    intent = new Intent(ctx, TrueFalseListActivity.class);
+                    break;
+                case 3: // Abbreviations
+                    intent = new Intent(ctx, ReferenceAccordionActivity.class);
+                    intent.putExtra("extra_topic", "ABBREVIATIONS");
+                    break;
+                case 4: // Compound_Nouns
+                    intent = new Intent(ctx, ReferenceAccordionActivity.class);
+                    intent.putExtra("extra_topic", "COMPOUND_NOUNS");
+                    break;
+                case 5: // Extinsions
+                    intent = new Intent(ctx, ReferenceAccordionActivity.class);
+                    intent.putExtra("extra_topic", "EXTENSIONS");
+                    break;
+                case 6: // molakas
+                default:
+                    intent = new Intent(ctx, MolakhsActivity.class);
+                    break;
             }
+            intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+            ctx.startActivity(intent);
         });
         if (position > lastPosition) {
 

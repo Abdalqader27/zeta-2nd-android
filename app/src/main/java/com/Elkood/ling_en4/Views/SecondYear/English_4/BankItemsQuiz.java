@@ -16,7 +16,6 @@ import com.Elkood.ling_en4.Adapter.AdapterHome;
 import com.Elkood.ling_en4.Constants.En4.En4HomeCardConstants;
 import com.Elkood.ling_en4.R;
 import com.Elkood.ling_en4.Utils.BuilderManager;
-import com.Elkood.ling_en4.Views.SecondYear.English_4.Important_quiz.True_false.QuizActivity_True_false;
 import com.Elkood.ling_en4.data.model.QuizTopic;
 import com.Elkood.ling_en4.ui.screens.quiz.ComposeQuizActivity;
 import com.nightonke.boommenu.BoomButtons.BoomButton;
@@ -99,7 +98,7 @@ public class    BankItemsQuiz extends Fragment {
             intent.putExtra(ComposeQuizActivity.EXTRA_TOPIC, QuizTopic.VOCABULARY.name());
             requireView().getContext().startActivity(intent);
         } else if (index == 1) {
-            Intent intent = new Intent(getContext(), QuizActivity_True_false.class);
+            Intent intent = new Intent(getContext(), com.Elkood.ling_en4.ui.screens.truefalse.TrueFalseQuizActivity.class);
             requireView().getContext().startActivity(intent);
 
         } else if (index == 2) {
